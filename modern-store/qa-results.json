@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-16",
+  "browser": "Chromium",
+  "method": "same-origin iframe",
+  "route": "/modern-catalog/",
+  "checks": [
+    {
+      "frameWidth": 320,
+      "clientWidth": 305,
+      "scrollWidth": 305,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 375,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 480,
+      "clientWidth": 465,
+      "scrollWidth": 465,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 768,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 1024,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 1280,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 1440,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    },
+    {
+      "frameWidth": 1920,
+      "clientWidth": 1905,
+      "scrollWidth": 1905,
+      "cards": 24,
+      "h1": 1,
+      "mode": "CSS1Compat"
+    }
+  ],
+  "functional": {
+    "allPublicItems": 4622,
+    "balluResults": 144,
+    "balluBetween30000And40000": 24,
+    "paginationPage1Page2Overlap": 0,
+    "ballu7715Price": 39990,
+    "cartQuantity2Total": 79980,
+    "cartCleaned": true,
+    "orderSubmitted": false
+  }
+}
