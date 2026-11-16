@@ -11,7 +11,7 @@
 +  var backdrop = document.querySelector('.ks-backdrop');
 +  var search = header.querySelector('.ks-search-toggle');
 +  var contact = header.querySelector('.ks-contact-toggle');
-+  var mobile = window.matchMedia('(max-width: 1180px)');
++  var mobile = window.matchMedia('(max-width: 1289.98px)');
 +  function closePanels(returnFocus) {
 +    [search, contact].forEach(function (button) {
 +      var opened = button.getAttribute('aria-expanded') === 'true';
@@ -84,12 +84,12 @@
 +})();
 --- /dev/null
 +++ b/assets/header-20261116/style.css
-@@ -0,0 +1,114 @@
+@@ -0,0 +1,115 @@
 +/* Shared header and gently rounded components. Loaded after the original theme. */
 +:root{--ks-blue:#0089c9;--ks-ink:#142634;--ks-line:#dfe8ed;--ks-radius:16px}
 +html{scroll-padding-top:100px}
 +.main-header.ks-header{position:sticky;top:0;z-index:1000;padding:0;background:#fff;border-bottom:1px solid #e7edf1;box-shadow:0 4px 20px #12364a08}
-+.ks-header>.ks-header-row{display:flex;align-items:center;gap:18px;min-height:84px;width:100%;max-width:1280px;padding:0 15px}
++.ks-header>.ks-header-row{display:flex;align-items:center;gap:18px;min-height:84px;width:100%;padding:0 15px}
 +.ks-brand{display:flex;align-items:center;gap:10px;flex-shrink:0;color:var(--ks-ink);text-decoration:none}
 +.ks-brand img{width:42px;height:36px;object-fit:contain}
 +.ks-brand span{display:block;white-space:nowrap}
@@ -157,10 +157,10 @@
 +.sidebar__filter_extendedfilters fieldset{border-color:#e0e6ea;padding:10px 12px 12px}
 +.sidebar__filter_extendedfilters select{min-height:42px}
 +.tabs__controls,.tabs__links{border-radius:12px}
-+@media(min-width:1181px){
++@media(min-width:1290px){
 + .ks-header .main-nav__item:hover>.main-nav__dropdown,.ks-header .main-nav__item:focus-within>.main-nav__dropdown{display:block}
 +}
-+@media(max-width:1180px){
++@media(max-width:1289.98px){
 + .ks-header>.ks-header-row{min-height:76px;gap:14px}
 + .ks-tools{margin-left:auto}
 + .ks-menu-toggle{display:inline-flex;margin-left:4px;background:#edf7fb}
@@ -177,8 +177,9 @@
 + .ks-backdrop{top:76px}
 + html{scroll-padding-top:90px}
 +}
++@media(min-width:601px) and (max-width:767px){.ks-header .header-actions__item--favorites{display:none}}
 +@media(max-width:600px){
-+ .ks-header>.ks-header-row{min-height:70px;padding:0 12px;gap:8px}
++ .ks-header>.ks-header-row{min-height:70px;padding:0 15px;gap:8px}
 + .ks-brand{gap:7px}.ks-brand img{width:29px;height:29px}
 + .ks-brand strong{font-size:13px;letter-spacing:-.3px}.ks-brand small{font-size:9px;letter-spacing:0}
 + .ks-tools{gap:4px}.ks-messengers{gap:5px;padding:0}.ks-messengers a{min-width:30px;min-height:42px}.ks-messengers img{width:30px;height:30px}
@@ -196,7 +197,7 @@
 +}
 +@media(max-width:359px){
 + .ks-brand{gap:5px}.ks-brand img{width:25px;height:26px}.ks-brand strong{font-size:11px}.ks-brand small{font-size:8px}
-+ .ks-header>.ks-header-row{gap:5px;padding:0 10px}.ks-tools{gap:3px}.ks-messengers{gap:4px}.ks-messengers img{width:28px;height:28px}
++ .ks-header>.ks-header-row{gap:5px;padding:0 15px}.ks-tools{gap:3px}.ks-messengers{gap:4px}.ks-messengers img{width:28px;height:28px}
 +}
 +@media(prefers-reduced-motion:reduce){.ks-header *,.product-item{transition:none!important}}
 --- /dev/null
@@ -224,7 +225,7 @@
  
  <?php } ?>
 +<?php klimat_inline_css('/assets/header-20261116/style.css'); ?>
-+<script defer src="/assets/header-20261116/header.js?v=2"></script>
++<script defer src="/assets/header-20261116/header.js?v=3"></script>
  </head>
  <body>
  
