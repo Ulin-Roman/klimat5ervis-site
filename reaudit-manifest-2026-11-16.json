@@ -1,0 +1,27 @@
+[
+  {
+    "path": "assets/audit-20261116/fixes.css",
+    "bytes": 1933,
+    "sha256": "642a390c6f17dd76e8bcd2fe9a5ee1de387cb54cf5ca50d0b4ef72ca2c3c8c0e"
+  },
+  {
+    "path": "assets/audit-20261116/images.json",
+    "bytes": 7081,
+    "sha256": "9aecc38a4964edab1b374585d5949a9dbe269f539550e70998d35c80462019d5"
+  },
+  {
+    "path": "assets/audit-20261116/render.php",
+    "bytes": 8066,
+    "sha256": "843eebd1ae897b958bed2396627eb5573af95cdef2dd6fd4d21a02e1edf955fa"
+  },
+  {
+    "path": "assets/reaudit-20261116/ishimatsu-certificate.webp",
+    "bytes": 170678,
+    "sha256": "16effd8b82f4907c504324890d93bcde59db150b9b682b59bc8e359fca2feaf7"
+  },
+  {
+    "path": "templates/template3/template.htm",
+    "bytes": 15440,
+    "sha256": "a2295c4783fbc5cfd622bc89b08b18e3a800909077087a4f787506351ad05430"
+  }
+]

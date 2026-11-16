@@ -1,0 +1,289 @@
+--- a/assets/audit-20261116/fixes.css
++++ b/assets/audit-20261116/fixes.css
+@@ -9,3 +9,25 @@
+   .product-tabs__content { overflow-wrap: anywhere; }
+   .product-tabs__content table { max-width: 100%; }
+ }
++
++/* Keep the intrinsic proportions when fixed-height containers constrain an image. */
++.stock-slider__img img[width], .catalog__img img[width] {
++  width: auto;
++  height: auto;
++  max-width: 100%;
++  max-height: 100%;
++  object-fit: contain;
++}
++/* Improve text contrast without changing the site's layout or brand icons. */
++.ks-header .ks-brand small, .page .advantages p, .page .stock-slider__article,
++.main-footer .logo__text span, .main-footer .main-footer__agreement,
++.main-footer .main-footer__bottom p { color: #5d6570; }
++.page .product-item__tag--new { background-color: #207b0b; color: #fff; }
++.page .product-item__button, .page .feedback > a:last-child { background-color: #0076ac; color: #fff; }
++.main-footer .user__item-text a[href^="https://t.me/"] { color: #075b87 !important; }
++.main-footer .user__item-text a[href^="https://wa.me/"] { color: #176b3e !important; }
++/* Separate quantity inputs and buttons, keeping every target at least 24px. */
++.page .product-item__add-to-cart { height: 50px; }
++.page .product-item__add-to-cart .nice-number { display: block; flex: 0 0 72px; width: 72px; padding-right: 26px; margin-right: 6px; }
++.page .product-item__add-to-cart .nice-number input { box-sizing: border-box; width: 46px !important; height: 50px; padding: 0; text-align: center; }
++.page .product-item__add-to-cart .nice-number button { width: 24px; height: 24px; }
+--- a/assets/audit-20261116/images.json
++++ b/assets/audit-20261116/images.json
+@@ -1 +1,214 @@
+-{"/images/t8903001/img/logo.png":{"src":"/assets/audit-20261116/22a35fd77b155587.webp","width":100,"height":86},"/upload/information_system_2/1/6/8/item_168/item_168.png":{"src":"/assets/audit-20261116/da55b465b856bad8.webp","width":1170,"height":470},"/upload/information_system_2/1/8/0/item_180/item_180.gif":{"src":"/assets/audit-20261116/fd7bd66d791e8ce2.webp","width":1200,"height":454},"/upload/information_system_2/1/6/4/item_164/item_164.png":{"src":"/assets/audit-20261116/49b3ffa6aceced11.webp","width":800,"height":322},"/upload/information_system_9/1/9/5/item_195/small_item_195.png":{"src":"/assets/audit-20261116/a59b3d6a7043ae77.webp","width":500,"height":262},"/upload/information_system_9/1/9/7/item_197/small_item_197.png":{"src":"/assets/audit-20261116/a018533502875bca.webp","width":500,"height":262},"/upload/information_system_9/2/0/4/item_204/small_item_204.png":{"src":"/assets/audit-20261116/0b80bfbf00b17eab.webp","width":500,"height":262},"/upload/shop_1/1/1/0/item_11018/small_item_image11018.jpg":{"src":"/assets/audit-20261116/e18329aefd247669.webp","width":600,"height":525},"/upload/shop_1/1/0/2/item_10265/small_item_image10265.jpg":{"src":"/assets/audit-20261116/1cc24070e1a19691.webp","width":529,"height":167},"/upload/shop_1/1/0/9/item_10911/small_item_image10911.jpg":{"src":"/assets/audit-20261116/7d0cf19a33be71ac.webp","width":600,"height":600},"/upload/shop_1/7/7/1/item_7715/small_item_image7715.png":{"src":"/assets/audit-20261116/88522b614cb1170b.webp","width":600,"height":449},"/upload/shop_1/7/9/7/item_7972/small_item_image7972.jpg":{"src":"/assets/audit-20261116/c313277f0a96d935.webp","width":600,"height":253},"/upload/shop_1/8/3/7/item_8375/small_item_image8375.jpg":{"src":"/assets/audit-20261116/6158b7c6fef51ff6.webp","width":600,"height":600},"/upload/shop_1/0/0/5/group_5/small_group_5.jpg":{"src":"/assets/audit-20261116/6bba6fa5520467b0.webp","width":300,"height":200},"/upload/shop_1/0/0/4/group_4/small_group_4.png":{"src":"/assets/audit-20261116/0afb2e9975f20c30.webp","width":300,"height":200},"/upload/shop_1/0/0/3/group_3/small_group_3.png":{"src":"/assets/audit-20261116/419794dd7d8bdee1.webp","width":300,"height":300},"/upload/shop_1/0/0/2/group_2/small_group_2.jpeg":{"src":"/assets/audit-20261116/c9e3ba34a2a67fad.webp","width":300,"height":293},"/upload/shop_1/0/0/1/group_1/small_group_1.png":{"src":"/assets/audit-20261116/de57cd119b3617f4.webp","width":300,"height":300},"/upload/shop_1/0/0/6/group_6/small_group_6.jpeg":{"src":"/assets/audit-20261116/1dfe869fb831ab7a.webp","width":300,"height":300},"data:7ddea2cbc22769d7641fa96fb1d3542b983ac1d789a9a75f27aa7ef240b47c77":{"src":"/assets/audit-20261116/350309136c45383d.jpg","width":2320,"height":3281,"alt":"Сертификат дилера"},"/upload/shop_1/1/1/7/item_11749/small_item_image11749.png":{"src":"/assets/audit-20261116/c05728c5efaf204d.webp","width":600,"height":567},"/upload/shop_1/1/1/7/item_11751/small_item_image11751.png":{"src":"/assets/audit-20261116/a8cf7aeb14aaddaf.webp","width":600,"height":450},"/upload/shop_1/1/1/7/item_11752/small_item_image11752.jpg":{"src":"/assets/audit-20261116/33a6256e4afec4b8.webp","width":600,"height":600},"/upload/shop_1/1/1/7/item_11753/small_item_image11753.png":{"src":"/assets/audit-20261116/a8cf7aeb14aaddaf.webp","width":600,"height":450},"/upload/shop_1/1/1/7/item_11754/small_item_image11754.jpg":{"src":"/assets/audit-20261116/33a6256e4afec4b8.webp","width":600,"height":600},"/upload/shop_1/1/1/7/item_11755/small_item_image11755.png":{"src":"/assets/audit-20261116/a8cf7aeb14aaddaf.webp","width":600,"height":450},"/upload/shop_1/1/1/7/item_11756/small_item_image11756.jpg":{"src":"/assets/audit-20261116/33a6256e4afec4b8.webp","width":600,"height":600},"/upload/shop_1/1/1/7/item_11757/small_item_image11757.jpg":{"src":"/assets/audit-20261116/b09e1e885790d4a7.webp","width":600,"height":595},"/upload/shop_1/1/1/7/item_11758/small_item_image11758.jpg":{"src":"/assets/audit-20261116/b09e1e885790d4a7.webp","width":600,"height":595},"/upload/shop_1/1/1/7/item_11759/small_item_image11759.jpg":{"src":"/assets/audit-20261116/40ff837554f02765.webp","width":400,"height":400},"/upload/shop_1/1/1/7/item_11760/small_item_image11760.jpg":{"src":"/assets/audit-20261116/46e13c180f060937.webp","width":250,"height":250},"/upload/shop_1/1/1/7/item_11761/small_item_image11761.jpg":{"src":"/assets/audit-20261116/46e13c180f060937.webp","width":250,"height":250},"/upload/shop_1/1/1/7/item_11762/small_item_image11762.jpg":{"src":"/assets/audit-20261116/46e13c180f060937.webp","width":250,"height":250},"/upload/shop_1/1/1/7/item_11763/small_item_image11763.jpg":{"src":"/assets/audit-20261116/46e13c180f060937.webp","width":250,"height":250},"/upload/shop_1/1/1/7/item_11764/small_item_image11764.jpg":{"src":"/assets/audit-20261116/46e13c180f060937.webp","width":250,"height":250},"/upload/shop_1/1/1/7/item_11765/small_item_image11765.jpg":{"src":"/assets/audit-20261116/21313b8e5738b9f6.webp","width":600,"height":451},"/upload/shop_1/1/1/7/item_11766/small_item_image11766.jpg":{"src":"/assets/audit-20261116/21313b8e5738b9f6.webp","width":600,"height":451},"/upload/shop_1/1/1/7/item_11768/small_item_image11768.png":{"src":"/assets/audit-20261116/8fc5408fba0b3cc2.webp","width":600,"height":256},"/upload/shop_1/7/7/1/item_7715/small_shop_property_file_7715_21038.png":{"src":"/assets/audit-20261116/88d6c842ec396640.webp","width":600,"height":449},"/upload/shop_1/7/7/1/item_7715/small_shop_property_file_7715_21039.png":{"src":"/assets/audit-20261116/9a2feba05103256e.webp","width":600,"height":449},"/upload/shop_1/7/7/1/item_7715/item_image7715.png":{"src":"/assets/audit-20261116/88522b614cb1170b.webp","width":600,"height":449}}+{
++  "/images/t8903001/img/logo.png": {
++    "src": "/assets/audit-20261116/22a35fd77b155587.webp",
++    "width": 100,
++    "height": 86
++  },
++  "/upload/information_system_2/1/6/8/item_168/item_168.png": {
++    "src": "/assets/audit-20261116/da55b465b856bad8.webp",
++    "width": 1170,
++    "height": 470
++  },
++  "/upload/information_system_2/1/8/0/item_180/item_180.gif": {
++    "src": "/assets/audit-20261116/fd7bd66d791e8ce2.webp",
++    "width": 1200,
++    "height": 454
++  },
++  "/upload/information_system_2/1/6/4/item_164/item_164.png": {
++    "src": "/assets/audit-20261116/49b3ffa6aceced11.webp",
++    "width": 800,
++    "height": 322
++  },
++  "/upload/information_system_9/1/9/5/item_195/small_item_195.png": {
++    "src": "/assets/audit-20261116/a59b3d6a7043ae77.webp",
++    "width": 500,
++    "height": 262
++  },
++  "/upload/information_system_9/1/9/7/item_197/small_item_197.png": {
++    "src": "/assets/audit-20261116/a018533502875bca.webp",
++    "width": 500,
++    "height": 262
++  },
++  "/upload/information_system_9/2/0/4/item_204/small_item_204.png": {
++    "src": "/assets/audit-20261116/0b80bfbf00b17eab.webp",
++    "width": 500,
++    "height": 262
++  },
++  "/upload/shop_1/1/1/0/item_11018/small_item_image11018.jpg": {
++    "src": "/assets/audit-20261116/e18329aefd247669.webp",
++    "width": 600,
++    "height": 525
++  },
++  "/upload/shop_1/1/0/2/item_10265/small_item_image10265.jpg": {
++    "src": "/assets/audit-20261116/1cc24070e1a19691.webp",
++    "width": 529,
++    "height": 167
++  },
++  "/upload/shop_1/1/0/9/item_10911/small_item_image10911.jpg": {
++    "src": "/assets/audit-20261116/7d0cf19a33be71ac.webp",
++    "width": 600,
++    "height": 600
++  },
++  "/upload/shop_1/7/7/1/item_7715/small_item_image7715.png": {
++    "src": "/assets/audit-20261116/88522b614cb1170b.webp",
++    "width": 600,
++    "height": 449
++  },
++  "/upload/shop_1/7/9/7/item_7972/small_item_image7972.jpg": {
++    "src": "/assets/audit-20261116/c313277f0a96d935.webp",
++    "width": 600,
++    "height": 253
++  },
++  "/upload/shop_1/8/3/7/item_8375/small_item_image8375.jpg": {
++    "src": "/assets/audit-20261116/6158b7c6fef51ff6.webp",
++    "width": 600,
++    "height": 600
++  },
++  "/upload/shop_1/0/0/5/group_5/small_group_5.jpg": {
++    "src": "/assets/audit-20261116/6bba6fa5520467b0.webp",
++    "width": 300,
++    "height": 200
++  },
++  "/upload/shop_1/0/0/4/group_4/small_group_4.png": {
++    "src": "/assets/audit-20261116/0afb2e9975f20c30.webp",
++    "width": 300,
++    "height": 200
++  },
++  "/upload/shop_1/0/0/3/group_3/small_group_3.png": {
++    "src": "/assets/audit-20261116/419794dd7d8bdee1.webp",
++    "width": 300,
++    "height": 300
++  },
++  "/upload/shop_1/0/0/2/group_2/small_group_2.jpeg": {
++    "src": "/assets/audit-20261116/c9e3ba34a2a67fad.webp",
++    "width": 300,
++    "height": 293
++  },
++  "/upload/shop_1/0/0/1/group_1/small_group_1.png": {
++    "src": "/assets/audit-20261116/de57cd119b3617f4.webp",
++    "width": 300,
++    "height": 300
++  },
++  "/upload/shop_1/0/0/6/group_6/small_group_6.jpeg": {
++    "src": "/assets/audit-20261116/1dfe869fb831ab7a.webp",
++    "width": 300,
++    "height": 300
++  },
++  "data:7ddea2cbc22769d7641fa96fb1d3542b983ac1d789a9a75f27aa7ef240b47c77": {
++    "src": "/assets/audit-20261116/350309136c45383d.jpg",
++    "width": 2320,
++    "height": 3281,
++    "alt": "Сертификат дилера"
++  },
++  "/upload/shop_1/1/1/7/item_11749/small_item_image11749.png": {
++    "src": "/assets/audit-20261116/c05728c5efaf204d.webp",
++    "width": 600,
++    "height": 567
++  },
++  "/upload/shop_1/1/1/7/item_11751/small_item_image11751.png": {
++    "src": "/assets/audit-20261116/a8cf7aeb14aaddaf.webp",
++    "width": 600,
++    "height": 450
++  },
++  "/upload/shop_1/1/1/7/item_11752/small_item_image11752.jpg": {
++    "src": "/assets/audit-20261116/33a6256e4afec4b8.webp",
++    "width": 600,
++    "height": 600
++  },
++  "/upload/shop_1/1/1/7/item_11753/small_item_image11753.png": {
++    "src": "/assets/audit-20261116/a8cf7aeb14aaddaf.webp",
++    "width": 600,
++    "height": 450
++  },
++  "/upload/shop_1/1/1/7/item_11754/small_item_image11754.jpg": {
++    "src": "/assets/audit-20261116/33a6256e4afec4b8.webp",
++    "width": 600,
++    "height": 600
++  },
++  "/upload/shop_1/1/1/7/item_11755/small_item_image11755.png": {
++    "src": "/assets/audit-20261116/a8cf7aeb14aaddaf.webp",
++    "width": 600,
++    "height": 450
++  },
++  "/upload/shop_1/1/1/7/item_11756/small_item_image11756.jpg": {
++    "src": "/assets/audit-20261116/33a6256e4afec4b8.webp",
++    "width": 600,
++    "height": 600
++  },
++  "/upload/shop_1/1/1/7/item_11757/small_item_image11757.jpg": {
++    "src": "/assets/audit-20261116/b09e1e885790d4a7.webp",
++    "width": 600,
++    "height": 595
++  },
++  "/upload/shop_1/1/1/7/item_11758/small_item_image11758.jpg": {
++    "src": "/assets/audit-20261116/b09e1e885790d4a7.webp",
++    "width": 600,
++    "height": 595
++  },
++  "/upload/shop_1/1/1/7/item_11759/small_item_image11759.jpg": {
++    "src": "/assets/audit-20261116/40ff837554f02765.webp",
++    "width": 400,
++    "height": 400
++  },
++  "/upload/shop_1/1/1/7/item_11760/small_item_image11760.jpg": {
++    "src": "/assets/audit-20261116/46e13c180f060937.webp",
++    "width": 250,
++    "height": 250
++  },
++  "/upload/shop_1/1/1/7/item_11761/small_item_image11761.jpg": {
++    "src": "/assets/audit-20261116/46e13c180f060937.webp",
++    "width": 250,
++    "height": 250
++  },
++  "/upload/shop_1/1/1/7/item_11762/small_item_image11762.jpg": {
++    "src": "/assets/audit-20261116/46e13c180f060937.webp",
++    "width": 250,
++    "height": 250
++  },
++  "/upload/shop_1/1/1/7/item_11763/small_item_image11763.jpg": {
++    "src": "/assets/audit-20261116/46e13c180f060937.webp",
++    "width": 250,
++    "height": 250
++  },
++  "/upload/shop_1/1/1/7/item_11764/small_item_image11764.jpg": {
++    "src": "/assets/audit-20261116/46e13c180f060937.webp",
++    "width": 250,
++    "height": 250
++  },
++  "/upload/shop_1/1/1/7/item_11765/small_item_image11765.jpg": {
++    "src": "/assets/audit-20261116/21313b8e5738b9f6.webp",
++    "width": 600,
++    "height": 451
++  },
++  "/upload/shop_1/1/1/7/item_11766/small_item_image11766.jpg": {
++    "src": "/assets/audit-20261116/21313b8e5738b9f6.webp",
++    "width": 600,
++    "height": 451
++  },
++  "/upload/shop_1/1/1/7/item_11768/small_item_image11768.png": {
++    "src": "/assets/audit-20261116/8fc5408fba0b3cc2.webp",
++    "width": 600,
++    "height": 256
++  },
++  "/upload/shop_1/7/7/1/item_7715/small_shop_property_file_7715_21038.png": {
++    "src": "/assets/audit-20261116/88d6c842ec396640.webp",
++    "width": 600,
++    "height": 449
++  },
++  "/upload/shop_1/7/7/1/item_7715/small_shop_property_file_7715_21039.png": {
++    "src": "/assets/audit-20261116/9a2feba05103256e.webp",
++    "width": 600,
++    "height": 449
++  },
++  "/upload/shop_1/7/7/1/item_7715/item_image7715.png": {
++    "src": "/assets/audit-20261116/88522b614cb1170b.webp",
++    "width": 600,
++    "height": 449
++  },
++  "data:5cab5eca64647b8eb3c2985bf82502d88a97c87effe571a91a3cc4ed1307ef4d": {
++    "src": "/assets/reaudit-20261116/ishimatsu-certificate.webp",
++    "width": 1160,
++    "height": 1641,
++    "alt": "Сертификат официального дилера ISHIMATSU, VITELLI и LANKORA — Климат Сервис"
++  }
++}
+--- a/assets/audit-20261116/render.php
++++ b/assets/audit-20261116/render.php
+@@ -44,6 +44,14 @@
+ {
+     ob_start(); Core_Page::instance()->showTitle(); $title = html_entity_decode(strip_tags(ob_get_clean()), ENT_QUOTES, 'UTF-8');
+     ob_start(); Core_Page::instance()->showDescription(); $description = html_entity_decode(strip_tags(ob_get_clean()), ENT_QUOTES, 'UTF-8');
++    // Explicit metadata for pages whose CMS values repeat the heading only.
++    $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
++    $metadata = array(
++        '/category/sale/' => array('Специальные предложения на кондиционеры — Климат-Сервис', 'Специальные предложения на кондиционеры и сплит-системы в интернет-магазине «Климат-Сервис». Модели, цены и характеристики. Доставка и установка в Москве и Московской области.'),
++        '/company/' => array('О компании «Климат-Сервис» — кондиционеры в Москве', 'Информация об интернет-магазине «Климат-Сервис»: продажа кондиционеров и сплит-систем, доставка и установка в Москве и Московской области.'),
++        '/kontakty/' => array('Контакты «Климат-Сервис» — Москва, Перовская, 20', 'Свяжитесь с «Климат-Сервис»: 8 (905) 411-39-48, klimat5ervis@yandex.ru. Адрес: Москва, ул. Перовская, дом 20. Telegram, WhatsApp и форма обратной связи.')
++    );
++    if (isset($metadata[$path])) { list($title, $description) = $metadata[$path]; }
+     if (trim($description) === '' || preg_match('/^Каталог(?: товаров)?[.!]?$/u', trim($description))) {
+         $description = $title . ' — характеристики, фотографии и цена в интернет-магазине «Климат-Сервис». Доставка и установка в Москве и Московской области.';
+     }
+@@ -65,7 +73,7 @@
+     $hero = false;
+     $html = preg_replace_callback('~<img\b[^>]*>~i', function ($match) use ($images, &$hero) {
+         $tag = $match[0];
+-        if (!preg_match('~\bsrc\s*=\s*([\x22\x27])(.*?)\1~is', $tag, $source)) { return $tag; }
++        if (!preg_match('~\bsrc\s*=\s*([\x22\x27])([^\x22\x27]*)\1~is', $tag, $source)) { return $tag; }
+         $src = html_entity_decode($source[2], ENT_QUOTES, 'UTF-8');
+         $key = strpos($src, 'data:image/') === 0 ? 'data:' . hash('sha256', $src) : preg_replace('~^https://klimat5ervis\.ru~', '', $src);
+         if (isset($images[$key])) {
+--- a/templates/template3/template.htm
++++ b/templates/template3/template.htm
+@@ -26,11 +26,13 @@
+ 
+ 
+ 
++<?php $klimat_defer_home = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) === '/' ? ' defer' : ''; ?>
++<!-- On the homepage, dependencies keep execution order without blocking HTML parsing. -->
+ <!-- jQuery -->
+-<script src="/images/t8903001/js/jquery-3.4.1.min.js?v=clean-20261116"></script>
++<script<?php echo $klimat_defer_home; ?> src="/images/t8903001/js/jquery-3.4.1.min.js?v=clean-20261116"></script>
+ 
+ <!-- jQuery Nice Number -->
+-<script src="/images/t8903001/js/jquery.nice-number.min.js"></script>
++<script<?php echo $klimat_defer_home; ?> src="/images/t8903001/js/jquery.nice-number.min.js"></script>
+ 
+  
+ <?php if (strpos(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/category/') === 0) { ?>
