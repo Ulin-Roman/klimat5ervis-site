@@ -1,0 +1,126 @@
+--- /dev/null
++++ b/assets/footer-20261116/cookie-notice.js
+@@ -0,0 +1,19 @@
++(function(){
++  'use strict';
++  var notice=document.getElementById('ks-cookie-notice');
++  if(!notice)return;
++  var key='ks-cookie-notice-v1', dismissed=false, returnFocus=null;
++  try{dismissed=Number(localStorage.getItem(key))>Date.now();}catch(e){}
++  notice.hidden=dismissed;
++  var close=notice.querySelector('[data-cookie-dismiss]');
++  close.addEventListener('click',function(){
++    try{localStorage.setItem(key,String(Date.now()+31536000000));}catch(e){}
++    notice.hidden=true;
++    if(returnFocus){returnFocus.focus();returnFocus=null;}
++  });
++  document.querySelectorAll('[data-cookie-open]').forEach(function(button){
++    button.addEventListener('click',function(){returnFocus=button;notice.hidden=false;close.focus();});
++  });
++  var toggle=notice.querySelector('.ks-cookie-details-toggle'),details=document.getElementById('ks-cookie-details');
++  toggle.addEventListener('click',function(){var open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));details.hidden=!open;});
++})();
+--- /dev/null
++++ b/assets/footer-20261116/style.css
+@@ -0,0 +1,37 @@
++/* Shared footer messenger links and neutral feedback panel. */
++.main-footer .ks-footer-messengers{display:flex;align-items:center;gap:8px;margin-top:10px}
++.main-footer .ks-footer-messengers>a{display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;border-radius:12px;line-height:1;text-decoration:none}
++.main-footer .ks-footer-messengers>a::after{display:none}
++.main-footer .ks-footer-messengers>a:hover{background:#dfe7ec}
++.main-footer .ks-footer-messengers>a:focus-visible{outline:2px solid #0076ac;outline-offset:2px}
++.main-footer .ks-footer-messengers img{display:block;width:36px;height:36px}
++.page .feedback{background:#f1f4f6;border:1px solid #dde4e8;color:#263642}
++.main-footer .user__item:last-child::before{background-image:url("/assets/footer-20261116/support-neutral.svg")}
++
++/* Consistent controls and rounded product/blog surfaces. */
++.product-card__buttons .product-card__button{font-family:inherit;font-size:18px;font-weight:600;line-height:1.3;border-radius:12px}
++.product-card__buttons .product-card__button--buy{background:#e9eef2;color:#263642;box-shadow:inset 0 0 0 1px #d6e0e6}
++.product-card__buttons .product-card__button--buy:hover,.product-card__buttons .product-card__button--buy:focus{background:#dce5eb;color:#172d3b}
++.nice-number{border-radius:10px;overflow:hidden}
++.gallery-side__item img,.gallery__item{border-radius:12px}
++.product-tabs .product-tabs__head{gap:8px;margin:0 0 14px;padding:0;background:transparent;border:0}
++.product-tabs .product-tabs__head li{margin:0;border:0;border-radius:12px;overflow:hidden}
++.product-tabs .product-tabs__head a{padding:14px 24px;border-radius:12px;font-family:inherit;font-size:16px;font-weight:600;line-height:1.4;background:#edf2f5;color:#263642}
++.product-tabs .product-tabs__head .ui-tabs-active a{background:#0076ac;color:#fff}
++.product-tabs .product-tabs__head a:focus-visible{outline:2px solid #173b52;outline-offset:-4px}
++.product-tabs .product-tabs__content{border:1px solid #dce5eb;border-radius:16px;padding:28px 32px}
++.news__img-box{border-radius:16px;overflow:hidden}
++.news__img{border-radius:16px}
++.news__date{border-radius:12px;background:#edf2f5;color:#263642;box-shadow:0 2px 10px #17384c12}
++.ks-cookie-notice[hidden],#ks-cookie-details[hidden]{display:none!important}
++.ks-cookie-notice{position:fixed;z-index:1200;left:20px;bottom:20px;width:min(480px,calc(100% - 40px));display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;padding:14px 16px;background:#fff;color:#263642;border:1px solid #dce5eb;border-radius:14px;box-shadow:0 8px 32px #17384c26;font:14px/1.5 "Open Sans",Tahoma,sans-serif}
++.ks-cookie-copy{flex:1 1 240px;min-width:0}
++.ks-cookie-copy p,.ks-cookie-notice #ks-cookie-details{margin:0}
++.ks-cookie-details-toggle,.ks-cookie-settings{font:inherit;color:#0076ac;background:transparent;border:0;text-decoration:underline;cursor:pointer;padding:0;min-height:24px}
++.ks-cookie-notice .ks-cookie-dismiss{flex:0 0 auto;min-height:44px;padding:10px 16px;border:0;border-radius:10px;background:#0076ac;color:#fff;font:600 14px/1.4 "Open Sans",Tahoma,sans-serif;cursor:pointer}
++.ks-cookie-notice .ks-cookie-dismiss:hover{background:#005e89}
++.ks-cookie-notice button:focus-visible,.ks-cookie-settings:focus-visible{outline:2px solid #0076ac;outline-offset:3px}
++.main-footer .ks-cookie-settings{display:block;margin:8px 0 0 64px;font-size:12px;line-height:1.5}
++.main-footer .ks-cookie-settings.main-footer__agreement--mobile{display:none}
++#ks-cookie-details{flex:1 0 100%;border-top:1px solid #e4eaee;padding-top:10px;font-size:12px}
++@media(max-width:767px){.product-tabs .product-tabs__head a{padding:12px 14px;font-size:15px}.product-tabs .product-tabs__content{padding:20px 16px}.ks-cookie-notice{left:12px;bottom:12px;width:calc(100% - 24px);padding:12px;gap:8px 12px}.ks-cookie-copy{flex-basis:180px}.ks-cookie-notice .ks-cookie-dismiss{margin-left:auto}.main-footer .ks-cookie-settings.main-footer__agreement--desktop{display:none}.main-footer .ks-cookie-settings.main-footer__agreement--mobile{display:block;margin:8px auto 0}}
+--- /dev/null
++++ b/assets/footer-20261116/support-neutral.svg
+@@ -0,0 +1 @@
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 512" width="43" height="48" fill="#52616b"><path d="M340 396c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10z"/><path d="M364.6 363.7l-47.5-15.8-17.1-34.2c15.4-15.6 26-36.3 29.6-57.9l2.1-12.8H350c16.5 0 30-13.5 30-30v-63C380 67.3 312.7 0 230 0 147.1 0 80 67.1 80 150v63c0 13 8.4 24.2 20 28.3V253c0 16.5 13.5 30 30 30h8.8c4.3 9.4 10 18.2 16.8 26 1.4 1.6 2.9 3.2 4.4 4.7l-17.1 34.1-47.5 15.8C40.1 382.1 0 440.3 0 502c0 5.5 4.5 10 10 10h440c5.5 0 10-4.5 10-10 0-61.7-40.1-119.9-95.4-138.3zM360 213c0 5.5-4.5 10-10 10h-15.3c2.5-19.7 4.2-40.6 4.9-61.3 0-.6 0-1.1.1-1.7H360v53zm-250 10c-5.5 0-10-4.5-10-10v-53h20.3c0 1 .1 2.1.1 3.1v.1c.7 20.1 2.4 40.5 4.9 59.7l-15.3.1zm20 40c-5.5 0-10-4.5-10-10v-10h8.2l2.1 12.8c.4 2.4.9 4.8 1.5 7.2H130zm-10-123h-19.6c5.1-67 61-120 129.6-120 68.3 0 124.5 53 129.6 120H340c-.7-55.2-45.7-100-101-100h-17.9C165.7 40 120.7 84.8 120 140zm101.1-80H239c44.8 0 81.1 36.7 81 81.4 0 3.1 0 5.9-.1 8.4v.1l-12.5-1.8c-34-4.9-66.1-20.9-90.3-45.2-1.9-1.9-4.4-2.9-7.1-2.9-26.9 0-52.6 12.2-69.6 32.9 4.2-40.7 38.7-72.9 80.7-72.9zm-68.6 203c-5-16.7-10.7-65.7-12-97.1L154 148c12.4-16.5 31.6-26.7 52-27.9 26.9 25.6 61.7 42.5 98.5 47.8l14.7 2.1c-1 20.9-3 41.8-5.9 61.1-.9 6.2-1.6 10.2-3.5 21.3-5.3 31.8-29 60.5-60.3 68.3-12.9 3.2-26.4 3.2-39.3 0-19.5-4.9-37.5-18.4-49-37.8h20.4c4.1 11.6 15.2 20 28.3 20h20c16.6 0 30-13.4 30-30 0-16.5-13.5-30-30-30h-20c-13.3 0-24.3 8.6-28.3 20h-29.1v.1zm56.7 78c6.9 1.4 13.8 2.2 20.8 2.2 5.5 0 10.9-.5 16.4-1.3l-17.7 18.7-19.5-19.6zm5.7 34.1l-31.7 33.5c-8.7-16.7-16.2-34.1-22.4-51.9l11.9-23.8 42.2 42.2zm70.7-45.6l13.6 27.2c-6.2 17.8-13.7 35.2-22.4 51.9l-33.9-33.9 42.7-45.2zM200 273c0-5.5 4.5-10 10-10h20c5.5 0 10 4.5 10 10s-4.5 10-10 10h-20c-5.5 0-10-4.5-10-10zM20.4 492c4-49.5 36.9-94.6 81.3-109.4l42.1-14c7.7 21.3 17.2 42 28.5 61.7l.1.1c8.2 14.5 17.4 28.4 27.4 41.8L212 492H20.4zm209.6-8.9l-13.6-21.8c-.2-.2-.3-.5-.5-.7-8.1-10.8-15.6-22.1-22.5-33.7l35.7-37.7 37.6 37.6c-6.9 11.7-14.5 22.9-22.6 33.8-.5.7.2-.4-14.1 22.5zm18 8.9l12.3-19.7c10.1-13.5 19.3-27.5 27.6-42.1 0-.1.1-.2.1-.3 11.1-19.6 20.5-40.1 28.2-61.2l42.1 14c44.4 14.8 77.3 59.8 81.3 109.4L248 492z"/><path d="M409.5 451.5c-6.7-13.4-16.5-25.3-28.3-34.4-4.4-3.4-10.7-2.5-14 1.8-3.4 4.4-2.5 10.7 1.8 14 9.5 7.3 17.3 16.8 22.6 27.5 2.5 4.9 8.5 6.9 13.4 4.5 5-2.4 7-8.4 4.5-13.4z"/></svg>--- a/templates/template3/template.htm
++++ b/templates/template3/template.htm
+@@ -46,7 +46,9 @@
+ 
+ <?php } ?>
+ <?php klimat_inline_css('/assets/header-20261116/style.css'); ?>
++<?php klimat_inline_css('/assets/footer-20261116/style.css'); ?>
+ <script defer src="/assets/header-20261116/header.js?v=3"></script>
++<script defer src="/assets/footer-20261116/cookie-notice.js?v=1"></script>
+ </head>
+ <body>
+ 
+@@ -81,7 +83,7 @@
+           <button class="ks-icon ks-contact-toggle" type="button" aria-label="Телефон и обратный звонок" aria-expanded="false" aria-controls="ks-contact-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 3 3 5-2.5 2.5a17 17 0 0 0 6 6L16 14l5 3-1 4C11 22 2 13 3 4Z"/></svg></button>
+           <div class="ks-messengers" aria-label="Связаться с нами">
+             <a href="https://t.me/klimat5servis" aria-label="Написать в Telegram" title="Telegram"><img src="/assets/header-20261116/telegram.svg" width="36" height="36" alt=""></a>
+-            <a href="https://wa.me/79054113948" aria-label="Написать в WhatsApp" title="WhatsApp"><img src="/assets/header-20261116/whatsapp.svg" width="36" height="36" alt=""></a>
++            <a href="https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg" aria-label="Написать в MAX" title="MAX"><img src="/assets/footer-20261116/max.webp" width="36" height="36" alt=""></a>
+           </div>
+                           <ul class="header-actions">
+ 
+@@ -197,6 +199,7 @@
+                     </a>
+                     <p class="main-footer__copyright main-footer__copyright--desktop">© 2005-<? echo date("Y"); ?>, «Климат-Сервис» </p>
+                     <a class="main-footer__agreement main-footer__agreement--desktop" href="/politics/">Пользовательское соглашение</a>
++<button class="ks-cookie-settings main-footer__agreement--desktop" type="button" data-cookie-open>О файлах cookie</button>
+                 </div>
+ 
+ 
+@@ -257,8 +260,10 @@
+                             <a href="mailto:klimat5ervis@yandex.ru">klimat5ervis@yandex.ru</a><br/>
+                        
+ 
+-<a href="https://t.me/klimat5servis" style="color: rgb(53, 152, 219);">Написать в Telegram</a><br/>
+-<a href="https://wa.me/79054113948" style="color: rgb(45, 194, 107);">Написать в WhatsApp</a>
++<span class="ks-footer-messengers" role="group" aria-label="Мессенджеры">
++  <a href="https://t.me/klimat5servis" aria-label="Написать в Telegram" title="Telegram"><img src="/assets/header-20261116/telegram.svg" width="36" height="36" alt="" loading="lazy" decoding="async"></a>
++  <a href="https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg" aria-label="Написать в MAX" title="MAX"><img src="/assets/footer-20261116/max.webp" width="36" height="36" alt="" loading="lazy" decoding="async"></a>
++</span>
+ 
+  </p>
+ 
+@@ -273,6 +278,7 @@
+                 </ul>
+                 <p class="main-footer__copyright main-footer__copyright--mobile">© 2005-<? echo date("Y"); ?>, «Климат-Сервис» </p>
+                 <a class="main-footer__agreement main-footer__agreement--mobile" href="/politics/">Пользовательское соглашение</a>
++<button class="ks-cookie-settings main-footer__agreement--mobile" type="button" data-cookie-open>О файлах cookie</button>
+             </div>
+         </div>
+         <div class="main-footer__bottom">
+@@ -329,5 +335,10 @@
+ 
+ 
+ 
++<section class="ks-cookie-notice" id="ks-cookie-notice" aria-label="Информация о файлах cookie" hidden>
++  <div class="ks-cookie-copy"><p>Используем cookie для работы корзины и статистики посещений.</p><button type="button" class="ks-cookie-details-toggle" aria-expanded="false" aria-controls="ks-cookie-details">Подробнее</button></div>
++  <button type="button" class="ks-cookie-dismiss" data-cookie-dismiss>Понятно</button>
++  <p id="ks-cookie-details" hidden>Технические cookie помогают сохранять товары в корзине. Яндекс Метрика собирает статистику посещений. Управлять сохранением cookie можно в настройках браузера.</p>
++</section>
+ </body>
+ </html>

@@ -1,0 +1,27 @@
+[
+  {
+    "path": "assets/footer-20261116/cookie-notice.js",
+    "bytes": 1030,
+    "sha256": "bc19c0d80a0d231638d9e32a7ab40ff575dc8ebd0ccf795887b1b6028f91facf"
+  },
+  {
+    "path": "assets/footer-20261116/max.webp",
+    "bytes": 10444,
+    "sha256": "3084c9255b9d09deff56311cf99ac3816b227bace875e62a8da4f8e4966997f5"
+  },
+  {
+    "path": "assets/footer-20261116/style.css",
+    "bytes": 4076,
+    "sha256": "5cb21c86e68d30e1bcd89f11fc159b9b58be04f3d5cb498667e40d09d0e45ec0"
+  },
+  {
+    "path": "assets/footer-20261116/support-neutral.svg",
+    "bytes": 2357,
+    "sha256": "4b98997b846a53ffa4cfeb74f76acc61d0cf92c74239d7e6ebe470aad3fa4019"
+  },
+  {
+    "path": "templates/template3/template.htm",
+    "bytes": 17058,
+    "sha256": "f06f7a49f0fc9d2b9f4e84d5f3af43d9be26b26c40b5737a86a1f4fc7c24d0e4"
+  }
+]

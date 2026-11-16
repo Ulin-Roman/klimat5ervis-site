@@ -1,0 +1,470 @@
+{
+  "home": [
+    {
+      "width": 320,
+      "viewport": 305,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 281
+      },
+      "feedback": "rgb(241, 244, 246)"
+    },
+    {
+      "width": 390,
+      "viewport": 375,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 351
+      },
+      "feedback": "rgb(241, 244, 246)"
+    },
+    {
+      "width": 768,
+      "viewport": 753,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 480
+      },
+      "feedback": "rgb(241, 244, 246)"
+    },
+    {
+      "width": 1440,
+      "viewport": 1425,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "news__img-box",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "news__date",
+          "radius": "12px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 480
+      },
+      "feedback": "rgb(241, 244, 246)"
+    }
+  ],
+  "product": [
+    {
+      "width": 320,
+      "viewport": 305,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "product-card__button button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 137, 201)"
+        },
+        {
+          "class": "product-card__button product-card__button--buy button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(233, 238, 242)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 15px / 21px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 118, 172)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 15px / 21px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 281
+      },
+      "feedback": "rgb(241, 244, 246)"
+    },
+    {
+      "width": 390,
+      "viewport": 375,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "product-card__button button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 137, 201)"
+        },
+        {
+          "class": "product-card__button product-card__button--buy button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(233, 238, 242)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 15px / 21px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 118, 172)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 15px / 21px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 351
+      },
+      "feedback": "rgb(241, 244, 246)"
+    },
+    {
+      "width": 768,
+      "viewport": 753,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "product-card__button button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 137, 201)"
+        },
+        {
+          "class": "product-card__button product-card__button--buy button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(233, 238, 242)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 16px / 22.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 118, 172)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 16px / 22.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 480
+      },
+      "feedback": "rgb(241, 244, 246)"
+    },
+    {
+      "width": 1440,
+      "viewport": 1425,
+      "overflow": false,
+      "max": [
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        },
+        {
+          "href": "https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg",
+          "loaded": true
+        }
+      ],
+      "controls": [
+        {
+          "class": "product-card__button button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 137, 201)"
+        },
+        {
+          "class": "product-card__button product-card__button--buy button button--common",
+          "radius": "12px",
+          "font": "600 18px / 23.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(233, 238, 242)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 16px / 22.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(0, 118, 172)"
+        },
+        {
+          "class": "ui-tabs-anchor",
+          "radius": "12px",
+          "font": "600 16px / 22.4px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgb(237, 242, 245)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "class": "product-tabs__content ui-tabs-panel ui-corner-bottom ui-widget-content",
+          "radius": "16px",
+          "font": "14px / 16.1px \"Open Sans\", Tahoma, sans-serif",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ],
+      "cookie": {
+        "visible": true,
+        "width": 480
+      },
+      "feedback": "rgb(241, 244, 246)"
+    }
+  ]
+}
