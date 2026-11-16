@@ -1,0 +1,77 @@
+[
+  {
+    "path": "assets/audit-20261116/images.json",
+    "bytes": 10009,
+    "sha256": "f87216fc11bec6c787f4732ef69ee866685e196839517b3bbc27612342f6713c"
+  },
+  {
+    "path": "assets/product-speed-20261116/1df73faafef6beaf.webp",
+    "bytes": 22932,
+    "sha256": "1df73faafef6beaf3de704b79170535e0ef8419a8d8dcfeba219c3719a78b94c"
+  },
+  {
+    "path": "assets/product-speed-20261116/215a61818c7ac918.webp",
+    "bytes": 39262,
+    "sha256": "215a61818c7ac9189932b5a469264f9dd2b96a6329a0d9885625c2d9b0e2a2cd"
+  },
+  {
+    "path": "assets/product-speed-20261116/7e7572631839905b.webp",
+    "bytes": 15642,
+    "sha256": "7e7572631839905b2b5da1070986250e366772be97bd88827b0855bf438562f9"
+  },
+  {
+    "path": "assets/product-speed-20261116/9fc3ace8940c9e30.webp",
+    "bytes": 23976,
+    "sha256": "9fc3ace8940c9e30b055a47df8ccaf1c9420c295dd36f90ef5b03b14db173c28"
+  },
+  {
+    "path": "assets/product-speed-20261116/a86d95382d161e71.webp",
+    "bytes": 7940,
+    "sha256": "a86d95382d161e71c038c60f4d27ddbb0f47bc78db86f7774155cdc711eec865"
+  },
+  {
+    "path": "assets/product-speed-20261116/cafe13ac7a9661b8.webp",
+    "bytes": 14960,
+    "sha256": "cafe13ac7a9661b83f883e3c3459ed77798fbd6ff1c38b4ea48913d05e39893d"
+  },
+  {
+    "path": "assets/sitewide-20261116/delivery-600.webp",
+    "bytes": 46958,
+    "sha256": "3e4aebc16d140218666a3918808dfd46665464120a6a9406adc0275615620473"
+  },
+  {
+    "path": "assets/sitewide-20261116/delivery.webp",
+    "bytes": 151944,
+    "sha256": "4d8dc9784c6db0478cb11987c359170d98076a3a8409dd31e0aa3ca22bd0862f"
+  },
+  {
+    "path": "assets/sitewide-20261116/office-600.webp",
+    "bytes": 37260,
+    "sha256": "9b921f2b7a81335e5816aa8f916e8323c449474a1ceaba05ccdc5dad43b21698"
+  },
+  {
+    "path": "assets/sitewide-20261116/office.webp",
+    "bytes": 109002,
+    "sha256": "0580dc29e360303a4e49f060f9fc8780eaf6d60f5bab96cd511bca7b5d30e307"
+  },
+  {
+    "path": "assets/sitewide-20261116/trends-600.webp",
+    "bytes": 25534,
+    "sha256": "dabd33bd6708bd458587cef64fe6e2c6f03933a7c8ba75052d340b4385911b68"
+  },
+  {
+    "path": "assets/sitewide-20261116/trends.webp",
+    "bytes": 81320,
+    "sha256": "39f3c7c1f495fcc9438461ce0e0a54bf9152763a38b916b709307956ad843fd0"
+  },
+  {
+    "path": "assets/sitewide-20261116/typography.css",
+    "bytes": 1847,
+    "sha256": "270c667fe3ed802a786dc2c35ed5d4d4cc9cd9492a12a4781556d1efb25ec13f"
+  },
+  {
+    "path": "templates/template3/template.htm",
+    "bytes": 17343,
+    "sha256": "215853afe512a00f4aee7b6cdf496638154765562eb5817a238a0681da241e67"
+  }
+]
