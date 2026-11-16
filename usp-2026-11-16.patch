@@ -1,0 +1,53 @@
+--- a/templates/template34/template.htm
++++ b/templates/template34/template.htm
+@@ -1,23 +1,4 @@
+-<div class="advantages">
+-
+-<?
+- $Informationsystem_Controller_Show = new Informationsystem_Controller_Show(
+-    Core_Entity::factory('Informationsystem', 10)
+-  );
+-
+- $Informationsystem_Controller_Show
+-      ->xsl(Core_Entity::factory('Xsl')->getByName('ПреимуществаНаГлавнойСайт3'))
+-      ->groupsMode('none')
+-      ->group(FALSE)
+-      ->itemsProperties(TRUE)
+-      ->limit(4);
+-
+- $Informationsystem_Controller_Show->show();
+-?>
+-
+-</div>
+-
+-            <div class="index-wrapper">
++            <div class="index-wrapper" style="margin:23px 0 24px">
+ 
+ <?php
+ 
+@@ -77,6 +58,25 @@
+                     </div>
+                 </div>
+             </div>
++
++<div class="advantages" style="margin:0 0 40px">
++
++<?
++ $Informationsystem_Controller_Show = new Informationsystem_Controller_Show(
++    Core_Entity::factory('Informationsystem', 10)
++  );
++
++ $Informationsystem_Controller_Show
++      ->xsl(Core_Entity::factory('Xsl')->getByName('ПреимуществаНаГлавнойСайт3'))
++      ->groupsMode('none')
++      ->group(FALSE)
++      ->itemsProperties(TRUE)
++      ->limit(4);
++
++ $Informationsystem_Controller_Show->show();
++?>
++
++</div>
+ 
+             <div class="stock">
+                 
