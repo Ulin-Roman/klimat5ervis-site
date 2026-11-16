@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-17",
+  "engine": "Chromium iframe QA; 15px scrollbar",
+  "responsive": [
+    {
+      "button": {
+        "bottom": 804,
+        "height": 56,
+        "left": 233,
+        "right": 289,
+        "top": 748,
+        "width": 56,
+        "x": 233,
+        "y": 748
+      },
+      "headerMessengers": 0,
+      "page": "home",
+      "panel": {
+        "bottom": 746,
+        "height": 172,
+        "left": 111,
+        "right": 289,
+        "top": 574,
+        "width": 178,
+        "x": 111,
+        "y": 574
+      },
+      "scroll": 305,
+      "up": true,
+      "width": 305
+    },
+    {
+      "button": {
+        "bottom": 804,
+        "height": 56,
+        "left": 303,
+        "right": 359,
+        "top": 748,
+        "width": 56,
+        "x": 303,
+        "y": 748
+      },
+      "headerMessengers": 0,
+      "page": "home",
+      "panel": {
+        "bottom": 746,
+        "height": 172,
+        "left": 181,
+        "right": 359,
+        "top": 574,
+        "width": 178,
+        "x": 181,
+        "y": 574
+      },
+      "scroll": 375,
+      "up": true,
+      "width": 375
+    },
+    {
+      "button": {
+        "bottom": 796,
+        "height": 60,
+        "left": 669,
+        "right": 729,
+        "top": 736,
+        "width": 60,
+        "x": 669,
+        "y": 736
+      },
+      "headerMessengers": 0,
+      "page": "home",
+      "panel": {
+        "bottom": 732,
+        "height": 172,
+        "left": 551,
+        "right": 729,
+        "top": 560,
+        "width": 178,
+        "x": 551,
+        "y": 560
+      },
+      "scroll": 753,
+      "up": true,
+      "width": 753
+    },
+    {
+      "button": {
+        "bottom": 796,
+        "height": 60,
+        "left": 1181,
+        "right": 1241,
+        "top": 736,
+        "width": 60,
+        "x": 1181,
+        "y": 736
+      },
+      "headerMessengers": 0,
+      "page": "home",
+      "panel": {
+        "bottom": 732,
+        "height": 172,
+        "left": 1063,
+        "right": 1241,
+        "top": 560,
+        "width": 178,
+        "x": 1063,
+        "y": 560
+      },
+      "scroll": 1265,
+      "up": true,
+      "width": 1265
+    },
+    {
+      "buttonSize": 56,
+      "page": "live-product",
+      "panelInViewport": true,
+      "scroll": 305,
+      "up": true,
+      "width": 305
+    },
+    {
+      "buttonSize": 56,
+      "page": "live-product",
+      "panelInViewport": true,
+      "scroll": 375,
+      "up": true,
+      "width": 375
+    },
+    {
+      "buttonSize": 60,
+      "page": "live-product",
+      "panelInViewport": true,
+      "scroll": 753,
+      "up": true,
+      "width": 753
+    },
+    {
+      "buttonSize": 60,
+      "page": "live-product",
+      "panelInViewport": true,
+      "scroll": 1265,
+      "up": true,
+      "width": 1265
+    },
+    {
+      "buttonSize": 56,
+      "page": "cart-empty",
+      "panelInViewport": true,
+      "scroll": 305,
+      "up": true,
+      "width": 305
+    },
+    {
+      "buttonSize": 56,
+      "page": "cart-empty",
+      "panelInViewport": true,
+      "scroll": 375,
+      "up": true,
+      "width": 375
+    },
+    {
+      "buttonSize": 60,
+      "page": "cart-empty",
+      "panelInViewport": true,
+      "scroll": 753,
+      "up": true,
+      "width": 753
+    },
+    {
+      "buttonSize": 60,
+      "page": "cart-empty",
+      "panelInViewport": true,
+      "scroll": 1265,
+      "up": true,
+      "width": 1265
+    }
+  ],
+  "preview320": {
+    "button": {
+      "bottom": 802,
+      "height": 56,
+      "left": 233,
+      "right": 289,
+      "top": 746,
+      "width": 56,
+      "x": 233,
+      "y": 746
+    },
+    "hidden": false,
+    "overflow": false,
+    "panel": {
+      "bottom": 736,
+      "height": 172,
+      "left": 111,
+      "right": 289,
+      "top": 564,
+      "width": 178,
+      "x": 111,
+      "y": 564
+    },
+    "up": true,
+    "width": 305
+  },
+  "keyboard": [
+    "Написать в Telegram",
+    "Написать в MAX",
+    "Написать в WhatsApp"
+  ],
+  "escapeReturnsFocus": true,
+  "desktopCookieOffsetPx": 108,
+  "notes": [
+    "WhatsApp URL uses public business phone +79054113948; no message sent, account availability not independently confirmed.",
+    "Low viewport height 480px: 3 links x48px fit above launcher.",
+    "No new external script or font library."
+  ]
+}

@@ -1,0 +1,79 @@
+<style>
+/* Messenger launcher — isolated from the header and checkout controls. */
+#ks-messenger-widget{--ks-chat-offset:0px;position:fixed;right:calc(24px + env(safe-area-inset-right,0px));bottom:calc(24px + env(safe-area-inset-bottom,0px) + var(--ks-chat-offset));z-index:998;font:600 14px/1.3 "Open Sans",Arial,sans-serif}
+#ks-messenger-widget *{box-sizing:border-box}
+#ks-messenger-widget .ks-chat-toggle{display:flex;align-items:center;justify-content:center;width:60px;height:60px;padding:0;border:0;border-radius:50%;color:#fff;background:#0089c9;box-shadow:0 6px 24px #036b9b40;cursor:pointer;transition:background .18s,transform .18s}
+#ks-messenger-widget .ks-chat-toggle:hover{background:#0373a7;transform:translateY(-2px)}
+#ks-messenger-widget .ks-chat-toggle svg{width:40px;height:40px;display:block}
+#ks-messenger-widget .ks-chat-close{display:none}
+#ks-messenger-widget .ks-chat-toggle[aria-expanded="true"] .ks-chat-bubble{display:none}
+#ks-messenger-widget .ks-chat-toggle[aria-expanded="true"] .ks-chat-close{display:block}
+#ks-messenger-widget .ks-chat-panel{position:absolute;right:0;bottom:74px;display:flex;flex-direction:column;gap:10px;width:60px;max-width:calc(100vw - 32px);max-height:calc(100vh - 120px - var(--ks-chat-offset));max-height:calc(100dvh - 120px - var(--ks-chat-offset));overflow:auto;padding:4px;animation:ks-chat-in .18s ease-out}
+#ks-messenger-widget .ks-chat-panel[hidden]{display:none!important}
+#ks-messenger-widget .ks-chat-link{display:flex;align-items:center;justify-content:center;gap:0;min-height:48px;color:#183342;text-decoration:none;flex-shrink:0;border-radius:26px;outline-offset:0}
+#ks-messenger-widget .ks-chat-logo{display:flex;align-items:center;justify-content:center;flex:0 0 48px;width:48px;height:48px;border-radius:0;background:transparent;box-shadow:none}
+#ks-messenger-widget .ks-chat-logo img,#ks-messenger-widget .ks-chat-logo svg{display:block;width:44px;height:44px;max-width:none}
+#ks-messenger-widget .ks-chat-toggle:focus-visible,#ks-messenger-widget .ks-chat-link:focus-visible{outline:3px solid #f5bd27;outline-offset:3px}
+@keyframes ks-chat-in{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:600px){#ks-messenger-widget{right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px) + var(--ks-chat-offset))}#ks-messenger-widget .ks-chat-toggle{width:56px;height:56px}#ks-messenger-widget .ks-chat-panel{bottom:68px}}
+@media(prefers-reduced-motion:reduce){#ks-messenger-widget .ks-chat-panel{animation:none}#ks-messenger-widget .ks-chat-toggle{transition:none}}
+</style>
+<div id="ks-messenger-widget">
+  <button type="button" class="ks-chat-toggle" aria-label="Открыть мессенджеры" title="Написать нам" aria-expanded="false" aria-controls="ks-chat-panel">
+    <svg viewBox="0 0 64 60" aria-hidden="true" focusable="false"><g class="ks-chat-bubble"><path d="M32 4C17.1 4 5 14.1 5 26.5C5 33.1 8.5 39 14.4 43.1L10 55L24.3 48.1C26.8 48.7 29.4 49 32 49C46.9 49 59 38.9 59 26.5C59 14.1 46.9 4 32 4Z" fill="white"/><g fill="#0089c9"><circle cx="23" cy="26.5" r="3"/><circle cx="32" cy="26.5" r="3"/><circle cx="41" cy="26.5" r="3"/></g></g><path class="ks-chat-close" d="m21 19 22 22m0-22L21 41" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/></svg>
+  </button>
+  <div id="ks-chat-panel" class="ks-chat-panel" role="group" aria-label="Написать в мессенджере" hidden="hidden">
+    <a class="ks-chat-link" href="https://t.me/klimat5servis" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram"><span class="ks-chat-logo"><img src="/assets/header-20261116/telegram.svg" width="38" height="38" alt=""/></span></a>
+    <a class="ks-chat-link" href="https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg" target="_blank" rel="noopener noreferrer" aria-label="Написать в MAX"><span class="ks-chat-logo"><img src="/assets/footer-20261116/max.webp" width="38" height="38" alt=""/></span></a>
+    <a class="ks-chat-link" href="https://wa.me/79054113948" target="_blank" rel="noopener noreferrer" aria-label="Написать в WhatsApp"><span class="ks-chat-logo"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="16" fill="#25d366"/><path d="M23.3 8.7a10.2 10.2 0 0 0-16 12.2L6 26l5.2-1.4A10.2 10.2 0 0 0 23.3 8.7ZM16 24a8.4 8.4 0 0 1-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.3 8.3 0 1 1 16 24Z" fill="#fff"/><path d="M12.4 10.8c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.6.1-.8.4-.3.3-1.1 1-1.1 2.4s1.1 2.8 1.3 3c.1.2 2.1 3.2 5.2 4.4 2.6 1 3.1.8 3.6.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4l-2.1-1c-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6l-.8-1.8Z" fill="#fff"/></svg></span></a>
+  </div>
+</div>
+<script>
+(function () {
+  'use strict';
+  var root = document.getElementById('ks-messenger-widget');
+  if (!root) return;
+  var toggle = root.querySelector('.ks-chat-toggle');
+  var panel = root.querySelector('.ks-chat-panel');
+  function close(restoreFocus) {
+    panel.hidden = true;
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Открыть мессенджеры');
+    if (restoreFocus) toggle.focus();
+  }
+  toggle.addEventListener('click', function () {
+    var open = panel.hidden;
+    panel.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Закрыть мессенджеры' : 'Открыть мессенджеры');
+  });
+  document.addEventListener('click', function (event) {
+    if (!root.contains(event.target)) close(false);
+  });
+  document.addEventListener('keydown', function (event) {
+    if (panel.hidden) return;
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      close(root.contains(document.activeElement));
+    }
+  });
+  root.addEventListener('focusout', function (event) {
+    if (event.relatedTarget) {
+      if (!root.contains(event.relatedTarget)) close(false);
+    }
+  });
+  var notice = document.getElementById('ks-cookie-notice');
+  function position() {
+    var offset = 0;
+    if (notice) {
+      if (!notice.hidden) offset = notice.getBoundingClientRect().height + 12;
+    }
+    root.style.setProperty('--ks-chat-offset', offset + 'px');
+  }
+  if (notice) {
+    new MutationObserver(position).observe(notice, {attributes:true, subtree:true, attributeFilter:['hidden','class']});
+  }
+  window.addEventListener('resize', position);
+  position();
+}());
+</script>
