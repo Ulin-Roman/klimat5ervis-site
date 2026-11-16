@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-17",
+  "responsive": [
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "135.5px 135.5px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "159px 159px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 360,
+      "width": 360
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "166.5px 166.5px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "211.5px 211.5px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 465,
+      "width": 465
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "224.328px 224.328px 224.328px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "309.656px 309.672px 309.656px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 1009,
+      "width": 1009
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "292.25px 292.25px 292.25px 292.25px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 1265,
+      "width": 1265
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "295.5px 295.5px 295.5px 295.5px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "cards": 8,
+      "categories": 6,
+      "grid": "328px 328px 328px 328px",
+      "h1": 1,
+      "heroImage": true,
+      "heroPrice": "39 990 ₽",
+      "scroll": 1905,
+      "width": 1905
+    }
+  ],
+  "nativeItems": [
+    7715,
+    7972,
+    8375,
+    7195,
+    7531,
+    8103,
+    8104,
+    9356
+  ],
+  "checks": {
+    "searchBallu144": true,
+    "returnLogoToModernHome": true,
+    "heroImageLoaded": true,
+    "robots": "noindex,nofollow",
+    "mode": "CSS1Compat",
+    "thirdPartyScripts": 0,
+    "widgetIconsOnly": true,
+    "widgetWhiteBackground": false
+  },
+  "notes": [
+    "Selection comes from prior homepage; no popularity claim.",
+    "Catalog4622 native visible items.",
+    "Main production homepage not replaced."
+  ]
+}

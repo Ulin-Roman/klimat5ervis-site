@@ -1,3 +1,5 @@
+> Historical messenger stage: commit b9d1f23. Its exact rollback pair is preserved in that commit; current rollback files refer to the later storefront stage. See STATUS-2026-11-17.md for current rollback instructions.
+
 # Messenger widget — 17 November 2026
 
 Published to the main HostCMS template 3 and ModernCatalog2026 XSL390. Header Telegram/MAX block removed. Fixed blue chat launcher in the bottom-right opens Telegram, MAX and WhatsApp upward on click. Existing business Telegram and MAX URLs preserved; WhatsApp uses the public business phone +79054113948. No messages sent.

@@ -1,0 +1,305 @@
+{
+  "date": "2026-11-17",
+  "engine": "Chromium iframe: scrollbar15px; not physical device test",
+  "catalog": [
+    {
+      "cards": 24,
+      "filtersDisplay": "none",
+      "grid": "135.5px 135.5px",
+      "h1": 1,
+      "scroll": 305,
+      "searchVisible": true,
+      "width": 305
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "none",
+      "grid": "159px 159px",
+      "h1": 1,
+      "scroll": 360,
+      "searchVisible": true,
+      "width": 360
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "none",
+      "grid": "166.5px 166.5px",
+      "h1": 1,
+      "scroll": 375,
+      "searchVisible": true,
+      "width": 375
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "none",
+      "grid": "211.5px 211.5px",
+      "h1": 1,
+      "scroll": 465,
+      "searchVisible": true,
+      "width": 465
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "none",
+      "grid": "344.5px 344.5px",
+      "h1": 1,
+      "scroll": 753,
+      "searchVisible": true,
+      "width": 753
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "block",
+      "grid": "355.5px 355.5px",
+      "h1": 1,
+      "scroll": 1009,
+      "searchVisible": true,
+      "width": 1009
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "block",
+      "grid": "310.328px 310.328px 310.344px",
+      "h1": 1,
+      "scroll": 1265,
+      "searchVisible": true,
+      "width": 1265
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "block",
+      "grid": "314.656px 314.672px 314.656px",
+      "h1": 1,
+      "scroll": 1425,
+      "searchVisible": true,
+      "width": 1425
+    },
+    {
+      "cards": 24,
+      "filtersDisplay": "block",
+      "grid": "264.5px 264.5px 264.5px 264.5px",
+      "h1": 1,
+      "scroll": 1905,
+      "searchVisible": true,
+      "width": 1905
+    }
+  ],
+  "category": [
+    {
+      "cards": 24,
+      "formDisplay": "none",
+      "h1": 1,
+      "scroll": 305,
+      "total": "571",
+      "width": 305
+    },
+    {
+      "cards": 24,
+      "formDisplay": "none",
+      "h1": 1,
+      "scroll": 360,
+      "total": "571",
+      "width": 360
+    },
+    {
+      "cards": 24,
+      "formDisplay": "none",
+      "h1": 1,
+      "scroll": 375,
+      "total": "571",
+      "width": 375
+    },
+    {
+      "cards": 24,
+      "formDisplay": "none",
+      "h1": 1,
+      "scroll": 465,
+      "total": "571",
+      "width": 465
+    },
+    {
+      "cards": 24,
+      "formDisplay": "none",
+      "h1": 1,
+      "scroll": 753,
+      "total": "571",
+      "width": 753
+    },
+    {
+      "cards": 24,
+      "formDisplay": "block",
+      "h1": 1,
+      "scroll": 1009,
+      "total": "571",
+      "width": 1009
+    },
+    {
+      "cards": 24,
+      "formDisplay": "block",
+      "h1": 1,
+      "scroll": 1265,
+      "total": "571",
+      "width": 1265
+    },
+    {
+      "cards": 24,
+      "formDisplay": "block",
+      "h1": 1,
+      "scroll": 1425,
+      "total": "571",
+      "width": 1425
+    },
+    {
+      "cards": 24,
+      "formDisplay": "block",
+      "h1": 1,
+      "scroll": 1905,
+      "total": "571",
+      "width": 1905
+    }
+  ],
+  "product": [
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 305,
+      "width": 305
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 360,
+      "width": 360
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 465,
+      "width": 465
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 753,
+      "width": 753
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 1009,
+      "width": 1009
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 1265,
+      "width": 1265
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 1425,
+      "width": 1425
+    },
+    {
+      "cartAction": "/modern-cart/",
+      "facts": 30,
+      "gallery": 3,
+      "h1": 1,
+      "scroll": 1905,
+      "width": 1905
+    }
+  ],
+  "checks": [
+    {
+      "allBallu": true,
+      "cards": 24,
+      "chips": "\n            Ballu ×\n          ",
+      "count": "144",
+      "name": "Ballu"
+    },
+    {
+      "allYes": true,
+      "cards": 24,
+      "chips": "\n            Ballu ×\n            Инвертор: Да ×\n          ",
+      "count": "105",
+      "name": "Ballu+inverter"
+    },
+    {
+      "allYes": true,
+      "cards": 10,
+      "chips": "\n            Ballu ×\n            Инвертор: Да ×\n            Wi-Fi: Да ×\n          ",
+      "count": "10",
+      "name": "Ballu+inverter+WiFi"
+    },
+    {
+      "cards": 2,
+      "count": "2",
+      "facts": [
+        "Инвертор Да Мощность (BTU) 9 (25-30 м.кв) Wi-Fi Да",
+        "Инвертор Да Мощность (BTU) 9 (25-30 м.кв) Wi-Fi Да"
+      ],
+      "name": "Ballu+inverter+WiFi+9kBTU"
+    },
+    {
+      "cards": 0,
+      "count": "0",
+      "empty": "Модели не найдены Измените запрос или выбранные фильтры. Показать все модели",
+      "name": "empty result"
+    },
+    {
+      "name": "pagination with brand+inverter",
+      "page1": 24,
+      "page2": 24,
+      "overlap": 0,
+      "url": "https://klimat5ervis.ru/modern-catalog/?sort=name&brand=9&inverter=%D0%94%D0%B0&page=2"
+    }
+  ],
+  "mobileFilterToggle": {
+    "open": "grid",
+    "closed": "none",
+    "searchAlwaysVisible": true
+  },
+  "sourceData": {
+    "inverter": {
+      "property": 22,
+      "type": 1
+    },
+    "capacity": {
+      "property": 28,
+      "type": 1
+    },
+    "wifi": {
+      "property": 39,
+      "type": 1
+    },
+    "producerBallu": 9
+  },
+  "notes": [
+    "Price, public visibility and paging remain native.",
+    "String options DISTINCT restricted to the3allowlisted property IDs; hidden-product option labels can appear, actual results still use native restrictions.",
+    "No order or payment submitted."
+  ]
+}

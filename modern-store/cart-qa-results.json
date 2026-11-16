@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-17",
+  "responsive": [
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 305,
+      "total": "79 980 ₽",
+      "width": 305
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 360,
+      "total": "79 980 ₽",
+      "width": 360
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 375,
+      "total": "79 980 ₽",
+      "width": 375
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 465,
+      "total": "79 980 ₽",
+      "width": 465
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 753,
+      "total": "79 980 ₽",
+      "width": 753
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 1009,
+      "total": "79 980 ₽",
+      "width": 1009
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 1265,
+      "total": "79 980 ₽",
+      "width": 1265
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 1425,
+      "total": "79 980 ₽",
+      "width": 1425
+    },
+    {
+      "cssMode": "ru",
+      "h1": 1,
+      "images": true,
+      "quantity": "2",
+      "scroll": 1905,
+      "total": "79 980 ₽",
+      "width": 1905
+    }
+  ],
+  "operations": {
+    "addCanonicalOneThenPreviewOne": 2,
+    "totalFor2": 79980,
+    "totalFor3": 119970,
+    "backTo2": 79980,
+    "canonicalCheckoutStep1": "Opened contacts and native delivery choices; no order submitted",
+    "remove": "Empty basket restored",
+    "getRedirect": "303 to clean /modern-cart/",
+    "zeroQuantity": "Removed item; empty basket restored"
+  },
+  "limitations": [
+    "Same real cart session as canonical shop.",
+    "Order/payment/notification creation not tested.",
+    "Coupon field delegates to native controller; no valid coupon supplied for discount QA."
+  ]
+}
