@@ -1,0 +1,16 @@
+--- a/assets/footer-20261116/style.css
++++ b/assets/footer-20261116/style.css
+@@ -35,3 +35,13 @@
+ .main-footer .ks-cookie-settings.main-footer__agreement--mobile{display:none}
+ #ks-cookie-details{flex:1 0 100%;border-top:1px solid #e4eaee;padding-top:10px;font-size:12px}
+ @media(max-width:767px){.product-tabs .product-tabs__head a{padding:12px 14px;font-size:15px}.product-tabs .product-tabs__content{padding:20px 16px}.ks-cookie-notice{left:12px;bottom:12px;width:calc(100% - 24px);padding:12px;gap:8px 12px}.ks-cookie-copy{flex-basis:180px}.ks-cookie-notice .ks-cookie-dismiss{margin-left:auto}.main-footer .ks-cookie-settings.main-footer__agreement--desktop{display:none}.main-footer .ks-cookie-settings.main-footer__agreement--mobile{display:block;margin:8px auto 0}}
++
++/* Normalize imported rich-text excerpts without changing article content. */
++.news__item .news__content{font:400 15px/1.6 "Open Sans",Tahoma,sans-serif;color:#52616b}
++.news__item .news__content>:not(a),.news__item .news__content>:not(a) *{font:inherit!important;color:inherit!important;letter-spacing:normal!important;text-transform:none!important}
++.news__item .news__content>:not(a){margin:0!important}
++.news__item .news__content>:not(a) p,.news__item .news__content>:not(a) div{margin:0!important}
++.news__item .news__content>p:empty{display:none}
++.news__item .news__content>a:first-child{display:block;margin-bottom:10px}
++.news__item .news__content h2,.news__item .news__content h3{margin:0;font:700 17px/1.4 "Open Sans",Tahoma,sans-serif;color:#222}
++.main-footer,.main-footer .main-footer__bottom{background-color:#eee}
