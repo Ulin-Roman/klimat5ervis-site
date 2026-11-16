@@ -1,0 +1,323 @@
+{
+  "date": "2026-11-16",
+  "browser": "Chromium",
+  "method": "same-origin iframe",
+  "responsive": [
+    {
+      "view": "catalog",
+      "frameWidth": 320,
+      "cards": 24,
+      "clientWidth": 305,
+      "h1": 1,
+      "scrollWidth": 305,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 375,
+      "cards": 24,
+      "clientWidth": 360,
+      "h1": 1,
+      "scrollWidth": 360,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 390,
+      "cards": 24,
+      "clientWidth": 375,
+      "h1": 1,
+      "scrollWidth": 375,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 480,
+      "cards": 24,
+      "clientWidth": 465,
+      "h1": 1,
+      "scrollWidth": 465,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 768,
+      "cards": 24,
+      "clientWidth": 753,
+      "h1": 1,
+      "scrollWidth": 753,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 1024,
+      "cards": 24,
+      "clientWidth": 1009,
+      "h1": 1,
+      "scrollWidth": 1009,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 1280,
+      "cards": 24,
+      "clientWidth": 1265,
+      "h1": 1,
+      "scrollWidth": 1265,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 1440,
+      "cards": 24,
+      "clientWidth": 1425,
+      "h1": 1,
+      "scrollWidth": 1425,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "catalog",
+      "frameWidth": 1920,
+      "cards": 24,
+      "clientWidth": 1905,
+      "h1": 1,
+      "scrollWidth": 1905,
+      "visibleCategories": 7,
+      "visiblePages": 0,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 320,
+      "cards": 24,
+      "clientWidth": 305,
+      "h1": 1,
+      "scrollWidth": 305,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 375,
+      "cards": 24,
+      "clientWidth": 360,
+      "h1": 1,
+      "scrollWidth": 360,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 390,
+      "cards": 24,
+      "clientWidth": 375,
+      "h1": 1,
+      "scrollWidth": 375,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 480,
+      "cards": 24,
+      "clientWidth": 465,
+      "h1": 1,
+      "scrollWidth": 465,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 768,
+      "cards": 24,
+      "clientWidth": 753,
+      "h1": 1,
+      "scrollWidth": 753,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 1024,
+      "cards": 24,
+      "clientWidth": 1009,
+      "h1": 1,
+      "scrollWidth": 1009,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 1280,
+      "cards": 24,
+      "clientWidth": 1265,
+      "h1": 1,
+      "scrollWidth": 1265,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 1440,
+      "cards": 24,
+      "clientWidth": 1425,
+      "h1": 1,
+      "scrollWidth": 1425,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "category",
+      "frameWidth": 1920,
+      "cards": 24,
+      "clientWidth": 1905,
+      "h1": 1,
+      "scrollWidth": 1905,
+      "visibleCategories": 7,
+      "visiblePages": 1,
+      "visibleProductTabs": 0
+    },
+    {
+      "view": "product",
+      "frameWidth": 320,
+      "cards": 0,
+      "clientWidth": 305,
+      "h1": 1,
+      "scrollWidth": 305,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 375,
+      "cards": 0,
+      "clientWidth": 360,
+      "h1": 1,
+      "scrollWidth": 360,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 390,
+      "cards": 0,
+      "clientWidth": 375,
+      "h1": 1,
+      "scrollWidth": 375,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 480,
+      "cards": 0,
+      "clientWidth": 465,
+      "h1": 1,
+      "scrollWidth": 465,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 768,
+      "cards": 0,
+      "clientWidth": 753,
+      "h1": 1,
+      "scrollWidth": 753,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 1024,
+      "cards": 0,
+      "clientWidth": 1009,
+      "h1": 1,
+      "scrollWidth": 1009,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 1280,
+      "cards": 0,
+      "clientWidth": 1265,
+      "h1": 1,
+      "scrollWidth": 1265,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 1440,
+      "cards": 0,
+      "clientWidth": 1425,
+      "h1": 1,
+      "scrollWidth": 1425,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    },
+    {
+      "view": "product",
+      "frameWidth": 1920,
+      "cards": 0,
+      "clientWidth": 1905,
+      "h1": 1,
+      "scrollWidth": 1905,
+      "visibleCategories": 0,
+      "visiblePages": 0,
+      "visibleProductTabs": 2
+    }
+  ],
+  "pagination": {
+    "pageOne": 24,
+    "pageTwo": 24,
+    "overlap": 0,
+    "label": "Предыдущая\nСтраница 2\nСледующая"
+  },
+  "functional": {
+    "balluPrice": 39990,
+    "balluQuantity": 2,
+    "basketTotal": 79980,
+    "basketRestoredEmpty": true,
+    "orderSubmitted": false,
+    "balluPhotos": 3,
+    "balluFactsIncludingProducer": 30,
+    "gallerySwitch": true,
+    "breeonPrice": 130960,
+    "breeonFacts": 30,
+    "missingItemNative404Only": true
+  }
+}

@@ -5,7 +5,7 @@ $getScalar = static function ($key) {
 };
 if ($getScalar('view') === 'responsive') {
     echo <<<'RESPONSIVE_HTML'
-<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Проверка адаптивности нового каталога</title><style>body{margin:0;font:14px Arial,sans-serif;background:#edf2f5;color:#182c37}header{padding:14px 20px;background:white;border-bottom:1px solid #ccd8df;display:flex;gap:18px;align-items:center;flex-wrap:wrap}label{display:flex;gap:10px;align-items:center}select{padding:8px}a{color:#007d9f}#stage{overflow:auto;padding:20px}iframe{display:block;width:390px;height:820px;border:1px solid #cbd8df;background:#fff}output{font-size:12px}</style></head><body><header><strong>Проверка адаптивности каталога</strong><label>Ширина<select id="width" aria-label="Ширина экрана"><option>320</option><option>375</option><option selected>390</option><option>480</option><option>768</option><option>1024</option><option>1280</option><option>1440</option><option>1920</option></select></label><output id="result" role="status">Загрузка…</output><a href="/modern-catalog/">Открыть каталог</a></header><div id="stage"><iframe id="frame" title="Новый каталог" src="/modern-catalog/?q=Ballu&amp;min=30000&amp;max=40000&amp;sort=price-up"></iframe></div><script>const f=document.getElementById('frame'),w=document.getElementById('width'),r=document.getElementById('result');function report(){const d=f.contentDocument;if(!d)return;const html=d.documentElement;r.textContent='Видимая ширина: '+html.clientWidth+' · ширина страницы: '+html.scrollWidth+' · карточек: '+d.querySelectorAll('.product').length+' · H1: '+d.querySelectorAll('h1').length+(html.scrollWidth<=html.clientWidth?' · без горизонтальной прокрутки':' · есть переполнение')}w.addEventListener('change',()=>{f.style.width=w.value+'px';requestAnimationFrame(report)});f.addEventListener('load',report);</script></body></html>
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Проверка адаптивности нового каталога</title><style>body{margin:0;font:14px Arial,sans-serif;background:#edf2f5;color:#182c37}header{padding:14px 20px;background:white;border-bottom:1px solid #ccd8df;display:flex;gap:18px;align-items:center;flex-wrap:wrap}label{display:flex;gap:10px;align-items:center}select{padding:8px}a{color:#007d9f}#stage{overflow:auto;padding:20px}iframe{display:block;width:390px;height:820px;border:1px solid #cbd8df;background:#fff}output{font-size:12px}</style></head><body><header><strong>Проверка адаптивности каталога</strong><label>Ширина<select id="width" aria-label="Ширина экрана"><option>320</option><option>375</option><option selected>390</option><option>480</option><option>768</option><option>1024</option><option>1280</option><option>1440</option><option>1920</option></select></label><label>Страница<select id="page" aria-label="Тип страницы"><option value="catalog">Каталог</option><option value="category">Категория</option><option value="product">Товар</option></select></label><output id="result" role="status">Загрузка…</output><a href="/modern-catalog/">Открыть каталог</a></header><div id="stage"><iframe id="frame" title="Новый каталог" src="/modern-catalog/?q=Ballu&amp;min=30000&amp;max=40000&amp;sort=price-up"></iframe></div><script>const f=document.getElementById('frame'),w=document.getElementById('width'),r=document.getElementById('result'),p=document.getElementById('page');const paths={catalog:'/modern-catalog/?q=Ballu&min=30000&max=40000&sort=price-up',category:'/modern-catalog/kassetnye-split-sistemy/',product:'/modern-catalog/nastennye-split-sistemy/7715/'};p.addEventListener('change',()=>{r.textContent='Загрузка…';f.src=paths[p.value]});function report(){const d=f.contentDocument;if(!d)return;const html=d.documentElement;r.textContent='Видимая ширина: '+html.clientWidth+' · ширина страницы: '+html.scrollWidth+' · карточек: '+d.querySelectorAll('.product').length+' · H1: '+d.querySelectorAll('h1').length+(html.scrollWidth<=html.clientWidth?' · без горизонтальной прокрутки':' · есть переполнение')}w.addEventListener('change',()=>{f.style.width=w.value+'px';requestAnimationFrame(report)});f.addEventListener('load',report);</script></body></html>
 RESPONSIVE_HTML;
     return;
 }
@@ -21,10 +21,16 @@ $max = $priceValue($getScalar('max'));
 $page = min(1000, max(1, (int) $getScalar('page')));
 $shop = Core_Entity::factory('Shop', 1);
 $c = new Shop_Controller_Show($shop);
-$c->group(FALSE)->limit(24)->page($page - 1)->offset(($page - 1) * 24)
-    ->groupsMode('none')->itemsProperties(FALSE)->comments(FALSE)->tags(FALSE)
+$base = Core_Page::instance()->structure->getPath();
+$c->pattern(rawurldecode(Core_Str::rtrimUri($base)) . '({path}/)(page-{page}/)')->limit(24)->parseUrl();
+if (Core_Page::instance()->response->getStatus() >= 400) return;
+if (!$c->item && !$c->group) $c->group(FALSE);
+if (!$c->item && $getScalar('page') !== '') $c->page($page - 1)->offset(($page - 1) * 24);
+$c
+    ->cache(FALSE)->showPanel(FALSE)->groupsMode('none')->itemsProperties(FALSE)->comments(FALSE)->tags(FALSE)
     ->associatedItems(FALSE)->modifications(TRUE)->specialprices(TRUE)
     ->viewed(FALSE)->favorite(FALSE);
+if (!$c->item) {
 if ($q !== '') {
     $c->shopItems()->queryBuilder()->where('shop_items.name', 'LIKE', '%' . addcslashes($q, '\\%_') . '%');
 }
@@ -34,8 +40,29 @@ if ($max !== '') $prices['price_to'] = (float) $max;
 if ($prices) $c->setFilterPricesConditions($prices);
 if ($sort === 'name') $c->orderBy('shop_items.name', 'ASC');
 else $c->orderBy('absolute_price', $sort === 'price-up' ? 'ASC' : 'DESC');
-$query = '/modern-catalog/?' . http_build_query(array('q' => $q, 'min' => $min, 'max' => $max, 'sort' => $sort)) . '&page=';
-foreach (array('modern_q' => $q, 'modern_min' => $min, 'modern_max' => $max, 'modern_sort' => $sort, 'modern_query' => $query) as $name => $value) {
+$c->shopItems()->queryBuilder()->orderBy('shop_items.id', 'ASC');
+}
+if ($c->item) {
+    $publicNames = json_decode('["Максимальная длина трассы","Расход воздуха, м³/час","Класс энергоэффективности (охлаждение/обогрев)","Гарантийный срок","Wi-fi управление","Пульт дистанционного управления","Тип внутреннего блока","Диаметр жидкой магистрали, мм","Диаметр газовой магистрали, мм","Диапазон t наружного воздуха (обогрев), °c","Перепад высот","Хладагент","Электропитание","Габаритный размер (внутреннего блока)","Габаритный размер (внешнего блока)","Вес (внешний блок)","Вес (внутренний блок)","Страна сборки","Цвет","Инверторное управление","Уровень шума в/б, дб","Режим работы","Страна бренда","Охлаждающая способность, тыс. btu","Потребляемая мощность (охлаждение)","Потребляемая мощность (обогрев)","Завод","Марка компрессора","Диапазон t наружного воздуха (холод), °c","Мощность охлаждения","Мощность обогрева","Обслуживаемая площадь","Уровень шума","Инвертор","Площадь помещения","Мощность (охлаждение)","Мощность (обогрев)","Площадь","Холодопроизводительность","Теплопроизводительность","Изображения товаров"]', TRUE);
+    $publicPropertyIds = array();
+    $definitions = Core_Entity::factory('Shop_Item_Property_List', (int) $shop->id)->Properties;
+    foreach ($definitions->findAll() as $definition) {
+        if (in_array($definition->name, $publicNames, TRUE)
+            || in_array($definition->tag_name, array('img', 'dopimg', 'description'), TRUE)) {
+            $publicPropertyIds[] = (int) $definition->id;
+        }
+    }
+    $c->itemsProperties($publicPropertyIds ?: FALSE)->itemsPropertiesList($publicPropertyIds ?: FALSE);
+}
+$formPath = $base;
+$groupName = '';
+if (!$c->item && $c->group) {
+    $group = Core_Entity::factory('Shop_Group', $c->group);
+    $formPath .= $group->getPath();
+    $groupName = $group->name;
+}
+$query = $formPath . '?' . http_build_query(array('q' => $q, 'min' => $min, 'max' => $max, 'sort' => $sort)) . '&page=';
+foreach (array('modern_item_id' => (int) $c->item, 'modern_group_name' => $groupName, 'modern_form_action' => $formPath, 'modern_q' => $q, 'modern_min' => $min, 'modern_max' => $max, 'modern_sort' => $sort, 'modern_query' => $query) as $name => $value) {
     $c->addEntity(Core::factory('Core_Xml_Entity')->name($name)->value($value));
 }
 echo '<!doctype html>';
