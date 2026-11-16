@@ -1,0 +1,408 @@
+--- /dev/null
++++ b/assets/header-20261116/header.js
+@@ -0,0 +1,81 @@
++/* No dependencies: the existing shop's AJAX handlers and counters remain unchanged. */
++(function () {
++  'use strict';
++  var header = document.querySelector('.ks-header');
++  if (!header) return;
++  var menu = header.querySelector('.ks-menu-toggle');
++  var nav = header.querySelector('.ks-navigation');
++  var backdrop = document.querySelector('.ks-backdrop');
++  var search = header.querySelector('.ks-search-toggle');
++  var contact = header.querySelector('.ks-contact-toggle');
++  var mobile = window.matchMedia('(max-width: 1180px)');
++  function closePanels(returnFocus) {
++    [search, contact].forEach(function (button) {
++      var opened = button.getAttribute('aria-expanded') === 'true';
++      button.setAttribute('aria-expanded', 'false');
++      document.getElementById(button.getAttribute('aria-controls')).hidden = true;
++      if (opened && returnFocus) button.focus();
++    });
++  }
++  function closeMenu(returnFocus) {
++    var opened = header.classList.contains('ks-menu-open');
++    header.classList.remove('ks-menu-open');
++    menu.setAttribute('aria-expanded', 'false');
++    menu.setAttribute('aria-label', 'Открыть меню');
++    backdrop.hidden = true;
++    header.querySelectorAll('.ks-submenu-toggle').forEach(function (button) {
++      button.setAttribute('aria-expanded', 'false');
++      button.closest('.main-nav__item').classList.remove('ks-submenu-open');
++    });
++    if (opened && returnFocus) menu.focus();
++  }
++  menu.addEventListener('click', function () {
++    var open = !header.classList.contains('ks-menu-open');
++    closePanels(false);
++    header.classList.toggle('ks-menu-open', open);
++    menu.setAttribute('aria-expanded', String(open));
++    menu.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
++    backdrop.hidden = !open;
++    if (open) { var first = Array.from(nav.querySelectorAll('input, a, button')).find(function (item) { return item.getClientRects().length; }); if (first) first.focus(); }
++  });
++  [search, contact].forEach(function (button) {
++    button.addEventListener('click', function () {
++      var open = button.getAttribute('aria-expanded') !== 'true';
++      closePanels(false); closeMenu(false);
++      button.setAttribute('aria-expanded', String(open));
++      var panel = document.getElementById(button.getAttribute('aria-controls'));
++      panel.hidden = !open;
++      if (open) panel.querySelector('input, a').focus();
++    });
++  });
++  header.querySelectorAll('.ks-submenu-toggle').forEach(function (button) {
++    button.addEventListener('click', function () {
++      var open = button.getAttribute('aria-expanded') !== 'true';
++      button.setAttribute('aria-expanded', String(open));
++      button.closest('.main-nav__item').classList.toggle('ks-submenu-open', open);
++    });
++  });
++  backdrop.addEventListener('click', function () { closeMenu(true); });
++  document.addEventListener('click', function (event) {
++    if (!header.contains(event.target)) { closePanels(false); closeMenu(false); }
++  });
++  document.addEventListener('keydown', function (event) {
++    if (event.key !== 'Escape') return;
++    closePanels(true); closeMenu(true);
++    header.querySelectorAll('.ks-submenu-toggle').forEach(function (button) {
++      if (button.getAttribute('aria-expanded') === 'true') {
++        button.setAttribute('aria-expanded', 'false');
++        button.closest('.main-nav__item').classList.remove('ks-submenu-open');
++        if (button.closest('.main-nav__item').contains(document.activeElement)) button.blur();
++      }
++    });
++  });
++  header.addEventListener('focusout', function () {
++    window.setTimeout(function () {
++      if (!header.contains(document.activeElement)) { closePanels(false); closeMenu(false); }
++    }, 0);
++  });
++  mobile.addEventListener('change', function () { closeMenu(false); closePanels(false); });
++  // Avoid leaving a hidden panel open when moving between compact and wide phone layouts.
++  window.matchMedia('(max-width: 600px)').addEventListener('change', function () { closePanels(false); });
++})();
+--- /dev/null
++++ b/assets/header-20261116/style.css
+@@ -0,0 +1,114 @@
++/* Shared header and gently rounded components. Loaded after the original theme. */
++:root{--ks-blue:#0089c9;--ks-ink:#142634;--ks-line:#dfe8ed;--ks-radius:16px}
++html{scroll-padding-top:100px}
++.main-header.ks-header{position:sticky;top:0;z-index:1000;padding:0;background:#fff;border-bottom:1px solid #e7edf1;box-shadow:0 4px 20px #12364a08}
++.ks-header>.ks-header-row{display:flex;align-items:center;gap:18px;min-height:84px;width:100%;max-width:1280px;padding:0 15px}
++.ks-brand{display:flex;align-items:center;gap:10px;flex-shrink:0;color:var(--ks-ink);text-decoration:none}
++.ks-brand img{width:42px;height:36px;object-fit:contain}
++.ks-brand span{display:block;white-space:nowrap}
++.ks-brand strong{display:block;font-size:19px;font-weight:800;line-height:1.25;text-transform:uppercase;color:#142634}
++.ks-brand small{display:block;font-size:10px;line-height:1.5;letter-spacing:.05em;color:#73808b}
++.ks-navigation{margin-left:auto;min-width:0}
++.ks-header .main-nav{display:flex;align-items:center;flex-wrap:nowrap;gap:1px;margin:0;padding:0;list-style:none}
++.ks-header .main-nav__link,.ks-header .main-nav__item:first-child .main-nav__link{display:block;padding:12px 10px;font-size:14px;line-height:20px;white-space:nowrap;font-weight:600;color:var(--ks-ink);background:transparent;border-radius:10px}
++.ks-header .main-nav__item:hover>.main-nav__link-box>.main-nav__link,.ks-header .main-nav__item:focus-within>.main-nav__link-box>.main-nav__link,.ks-header .main-nav__item--current>.main-nav__link-box>.main-nav__link{color:#006d9e;background:#eef8fc}
++.ks-header .main-nav__item:first-child .main-nav__link{padding-right:31px}
++.ks-submenu-toggle{position:absolute;right:0;top:0;width:29px;height:44px;border:0;background:transparent;color:#147ba4;border-radius:10px;cursor:pointer;padding:6px}
++.ks-submenu-toggle svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
++.ks-header .main-nav__dropdown{display:none;position:absolute;top:100%;left:0;width:280px;max-width:calc(100vw - 30px);margin:0;padding:10px;opacity:1;visibility:visible;background:#fff;border:1px solid var(--ks-line);border-radius:16px;box-shadow:0 12px 32px #17384c20;transition:none}
++.ks-header .main-nav__dropdown a{padding:11px 12px;color:var(--ks-ink);font-size:14px;line-height:1.4;background:transparent;border-radius:9px}
++.ks-header .main-nav__dropdown a:hover,.ks-header .main-nav__dropdown a:focus-visible{background:#eef8fc;color:#006d9e}
++.ks-header .ks-submenu-open>.main-nav__dropdown{display:block}
++.ks-tools{display:flex;align-items:center;flex-shrink:0;gap:6px}
++.ks-icon{display:inline-flex;align-items:center;justify-content:center;width:38px;height:42px;flex-shrink:0;padding:8px;border:0;border-radius:11px;background:transparent;color:#264454;cursor:pointer;line-height:1}
++.ks-icon:hover,.ks-icon[aria-expanded="true"]{background:#edf7fb;color:#007cb6}
++.ks-icon>svg{display:block;width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
++.ks-messengers{display:flex;align-items:center;gap:8px;padding:0 4px}
++.ks-messengers a{display:flex;align-items:center;justify-content:center;min-width:38px;min-height:44px;border-radius:12px;transition:transform .15s}
++.ks-messengers a:hover{transform:translateY(-2px)}
++.ks-messengers img{display:block;width:34px;height:34px;object-fit:contain}
++.ks-header .header-actions{display:flex;align-items:center;gap:6px;margin:0;padding:0}
++.ks-header .header-actions__link{width:40px;height:42px;min-width:0;padding:7px;border-radius:11px;background:#f1f7fa}
++.ks-header .header-actions__item--basket .header-actions__link{background:#fff2a6;width:44px}
++.ks-header .header-actions__link:hover{background:#ddecf4}
++.ks-header .header-actions__item--basket .header-actions__link:hover{background:#ffe974}
++.ks-header .header-actions__icon-box{margin:0!important;display:flex}
++.ks-header .header-actions__icon{width:23px;height:23px;fill:#264454}
++.ks-header .header-actions__counter{top:-9px;right:-9px;width:17px;height:17px;font-size:10px;line-height:1;color:#fff;background:#007db5}
++.ks-header .header-actions__item--favorites .header-actions__counter{background:#d7e8f1;color:#264454}
++.ks-header .header-actions__item{height:auto;align-items:center}
++.ks-header .header-actions__text{display:block;position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
++.ks-menu-toggle,.ks-menu-cross,.ks-mobile-search,.ks-mobile-contact{display:none}
++.ks-popover{position:absolute;right:15px;top:calc(100% + 10px);padding:18px;background:#fff;border:1px solid var(--ks-line);border-radius:16px;box-shadow:0 12px 36px #17384c22;max-width:calc(100vw - 30px)}
++.ks-popover[hidden],.ks-backdrop[hidden]{display:none!important}
++.ks-search-panel{width:540px}
++.ks-search-form{display:flex;align-items:center;width:100%;border:1px solid #cbdfe9;border-radius:12px;background:#f7fbfd;overflow:hidden}
++.ks-search-form input{min-width:0;width:100%;height:46px;padding:10px 14px;border:0;border-radius:0;background:transparent;font-size:15px;color:var(--ks-ink);outline-offset:-3px}
++.ks-search-form .ks-icon{width:46px;height:46px;background:#0089c9;color:white;border-radius:0}
++.ks-contact-panel{display:flex;flex-direction:column;gap:10px;min-width:250px}
++.ks-phone-number{font-weight:700;font-size:18px;color:var(--ks-ink);white-space:nowrap}
++.ks-callback{color:#007db5;text-decoration:underline;text-underline-offset:3px;font-size:14px}
++.ks-header a:focus-visible,.ks-header button:focus-visible{outline:2px solid #007db5;outline-offset:3px}
++.ks-backdrop{position:fixed;inset:84px 0 0;background:#102c4040;z-index:999}
++/* Unified corner rhythm. Keep native checkboxes, radio controls and quantity steppers intact. */
++.shop-menu,.shop-menu__level-2,.catalog__link,.about-index__content img,.product-item,.stock-slider,.advantages,.sidebar__shop-menu,.sidebar__filter_extendedfilters fieldset,.catalog-info,.feedback,.banners-stock__link,.quick-view,.fancybox-content,.offer-slider,.offer-slider .slick-list,.offer-slider__item,.news-item,.blog-item{border-radius:var(--ks-radius)}
++.product-item{border-color:#e0e6ea;background:#fff}
++.product-item:hover{box-shadow:0 8px 24px #17384c0d}
++.product-item__top{padding:7px 7px 0}
++.product-item__tag,.product-item__article span{border-radius:7px}
++.product-item__img,.banners-stock__img{border-radius:12px}
++.head-section{border-radius:12px;overflow:hidden}
++.head-section::before{border-radius:12px 0 0 12px}
++.button,.buttonmedium,.buttonlarge,.filter_enable,.filter_reset,.filter-search,.product-item__button,.product-card__buttons>a,.offer-slider__button,.head-section a,.feedback>a,.pagination__link,.pagination__current{border-radius:10px;overflow:hidden}
++input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="hidden"]),select,textarea{border-radius:10px}
++.product-item__add-to-cart,.product-card__buttons .nice-number{border-radius:10px}
++.product-item__add-to-cart{overflow:hidden}
++.product-item__add-to-cart .product-item__button{border-radius:0 10px 10px 0}
++.nice-number .quantity{border-radius:10px 0 0 10px}
++.nice-number button{border-radius:0}
++.sidebar__shop-menu{border-color:#e0e6ea}
++.sidebar__filter_extendedfilters fieldset{border-color:#e0e6ea;padding:10px 12px 12px}
++.sidebar__filter_extendedfilters select{min-height:42px}
++.tabs__controls,.tabs__links{border-radius:12px}
++@media(min-width:1181px){
++ .ks-header .main-nav__item:hover>.main-nav__dropdown,.ks-header .main-nav__item:focus-within>.main-nav__dropdown{display:block}
++}
++@media(max-width:1180px){
++ .ks-header>.ks-header-row{min-height:76px;gap:14px}
++ .ks-tools{margin-left:auto}
++ .ks-menu-toggle{display:inline-flex;margin-left:4px;background:#edf7fb}
++ .ks-navigation{display:none;position:absolute;top:100%;left:15px;right:15px;margin:8px 0 0;background:#fff;border:1px solid var(--ks-line);border-radius:18px;padding:16px;max-height:calc(100dvh - 96px);overflow-y:auto;box-shadow:0 14px 36px #17384c24}
++ .ks-menu-open .ks-navigation{display:block}
++ .ks-menu-open .ks-menu-lines{display:none}.ks-menu-open .ks-menu-cross{display:block}
++ .ks-header .main-nav{display:block;padding:0}
++ .ks-header .main-nav__link,.ks-header .main-nav__item:first-child .main-nav__link{padding:12px 46px 12px 12px;font-size:16px;line-height:22px}
++ .ks-submenu-toggle{width:46px;height:46px;pointer-events:auto}
++ .ks-header .main-nav__dropdown{position:static;width:100%;max-width:none;box-shadow:none;border:0;border-radius:12px;padding:5px 8px;background:#f4f9fc}
++ .ks-header .main-nav__dropdown a{font-size:14px;padding:10px 12px}
++ .ks-mobile-contact{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;margin-top:12px;padding:18px 12px 2px;border-top:1px solid #e7edf1}
++ .ks-mobile-contact>a:last-child{color:#007db5;font-size:14px}
++ .ks-backdrop{top:76px}
++ html{scroll-padding-top:90px}
++}
++@media(max-width:600px){
++ .ks-header>.ks-header-row{min-height:70px;padding:0 12px;gap:8px}
++ .ks-brand{gap:7px}.ks-brand img{width:29px;height:29px}
++ .ks-brand strong{font-size:13px;letter-spacing:-.3px}.ks-brand small{font-size:9px;letter-spacing:0}
++ .ks-tools{gap:4px}.ks-messengers{gap:5px;padding:0}.ks-messengers a{min-width:30px;min-height:42px}.ks-messengers img{width:30px;height:30px}
++ .ks-search-toggle,.ks-contact-toggle,.ks-header .header-actions__item--favorites{display:none}
++ .ks-header .header-actions__item--basket .header-actions__link{width:34px;height:38px;padding:6px}
++ .ks-header .header-actions__icon{width:21px;height:21px}
++ .ks-header .header-actions__counter{top:-7px;right:-7px;width:15px;height:15px;font-size:9px}
++ .ks-menu-toggle{width:34px;height:38px;padding:6px;margin-left:2px}
++ .ks-navigation{left:10px;right:10px;padding:12px;max-height:calc(100dvh - 88px)}
++ .ks-mobile-search{display:block;margin-bottom:10px}
++ .ks-mobile-contact{align-items:flex-start;flex-direction:column;gap:12px;padding:16px 12px 5px}
++ .ks-backdrop{top:70px}
++ html{scroll-padding-top:84px}
++ :root{--ks-radius:14px}
++}
++@media(max-width:359px){
++ .ks-brand{gap:5px}.ks-brand img{width:25px;height:26px}.ks-brand strong{font-size:11px}.ks-brand small{font-size:8px}
++ .ks-header>.ks-header-row{gap:5px;padding:0 10px}.ks-tools{gap:3px}.ks-messengers{gap:4px}.ks-messengers img{width:28px;height:28px}
++}
++@media(prefers-reduced-motion:reduce){.ks-header *,.product-item{transition:none!important}}
+--- /dev/null
++++ b/assets/header-20261116/telegram.svg
+@@ -0,0 +1,12 @@
++<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
++  <defs>
++    <linearGradient id="tlogo-a" x1="50%" x2="50%" y1="0%" y2="99.258%">
++      <stop offset="0%" stop-color="#2AABEE"/>
++      <stop offset="100%" stop-color="#229ED9"/>
++    </linearGradient>
++  </defs>
++  <g fill="none" fill-rule="evenodd">
++    <circle cx="64" cy="64" r="64" fill="url(#tlogo-a)" fill-rule="nonzero"/>
++    <path fill="#FFF" fill-rule="nonzero" d="M28.9700376,63.3244248 C47.6273373,55.1957357 60.0684594,49.8368063 66.2934036,47.2476366 C84.0668845,39.855031 87.7600616,38.5708563 90.1672227,38.528 C90.6966555,38.5191258 91.8804274,38.6503351 92.6472251,39.2725385 C93.294694,39.7979149 93.4728387,40.5076237 93.5580865,41.0057381 C93.6433345,41.5038525 93.7494885,42.63857 93.6651041,43.5252052 C92.7019529,53.6451182 88.5344133,78.2034783 86.4142057,89.5379542 C85.5170662,94.3339958 83.750571,95.9420841 82.0403991,96.0994568 C78.3237996,96.4414641 75.5015827,93.6432685 71.9018743,91.2836143 C66.2690414,87.5912212 63.0868492,85.2926952 57.6192095,81.6896017 C51.3004058,77.5256038 55.3966232,75.2369981 58.9976911,71.4967761 C59.9401076,70.5179421 76.3155302,55.6232293 76.6324771,54.2720454 C76.6721165,54.1030573 76.7089039,53.4731496 76.3346867,53.1405352 C75.9604695,52.8079208 75.4081573,52.921662 75.0095933,53.0121213 C74.444641,53.1403447 65.4461175,59.0880351 48.0140228,70.8551922 C45.4598218,72.6091037 43.1463059,73.4636682 41.0734751,73.4188859 C38.7883453,73.3695169 34.3926725,72.1268388 31.1249416,71.0646282 C27.1169366,69.7617838 23.931454,69.0729605 24.208838,66.8603276 C24.3533167,65.7078514 25.9403832,64.5292172 28.9700376,63.3244248 Z"/>
++  </g>
++</svg>
+--- /dev/null
++++ b/assets/header-20261116/whatsapp.svg
+@@ -0,0 +1 @@
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="wa" x2="0" y2="1"><stop stop-color="#60d66a"/><stop offset="1" stop-color="#20b955"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#wa)"/><path fill="#fff" d="M24.07 7.88A11.18 11.18 0 0 0 16.12 4.6C9.93 4.6 4.9 9.63 4.9 15.81c0 1.98.52 3.91 1.5 5.61l-1.59 5.81 5.95-1.56a11.2 11.2 0 0 0 5.36 1.36h.01c6.18 0 11.22-5.03 11.22-11.21 0-3-1.17-5.81-3.28-7.94Zm-7.95 17.26a9.27 9.27 0 0 1-4.74-1.3l-.34-.2-3.53.92.94-3.44-.22-.35a9.3 9.3 0 0 1-1.43-4.96c0-5.15 4.19-9.34 9.34-9.34a9.3 9.3 0 0 1 6.61 2.74 9.28 9.28 0 0 1 2.73 6.61c0 5.14-4.2 9.32-9.36 9.32Zm5.12-6.98c-.28-.14-1.66-.82-1.92-.91-.26-.1-.45-.14-.63.14-.19.28-.72.91-.89 1.1-.16.19-.32.21-.6.07-.28-.14-1.18-.44-2.25-1.39-.83-.74-1.39-1.66-1.55-1.94-.17-.28-.02-.43.12-.57.13-.13.28-.33.42-.49.14-.17.19-.28.28-.47.1-.18.05-.35-.02-.49-.07-.14-.63-1.52-.86-2.08-.23-.55-.46-.48-.63-.49h-.53c-.19 0-.49.07-.75.35-.25.28-.98.96-.98 2.34s1.01 2.71 1.15 2.9c.14.18 1.98 3.02 4.8 4.23.67.29 1.19.46 1.6.59.67.21 1.29.18 1.77.11.54-.08 1.66-.68 1.9-1.34.23-.65.23-1.21.16-1.33-.07-.12-.26-.19-.54-.33Z"/></svg>--- a/templates/template3/template.htm
++++ b/templates/template3/template.htm
+@@ -43,103 +43,23 @@
+ <script src="/hostcmsfiles/asmp_filter/js/filters401888562.js" type="text/javascript"></script>
+ 
+ <?php } ?>
++<?php klimat_inline_css('/assets/header-20261116/style.css'); ?>
++<script defer src="/assets/header-20261116/header.js?v=2"></script>
+ </head>
+ <body>
+ 
+ 
+-    <header class="main-header">
+-        <div class="container">
+-            <?php if (parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) === '/') { ?><h1 class="visually-hidden">Кондиционеры и сплит-системы с установкой в Москве</h1><?php } ?>
+-            <div class="main-header__top">
+-                <a href="/" class="main-header__logo logo" title="Климат-Сервис">
+-                    <img class="logo__img" src="/assets/audit-20261116/22a35fd77b155587.webp" width="50" height="43" alt="Климат-Сервис">
+-                    <p class="logo__text">
+-                         <strong>Климат-Сервис</strong>
+-                        <span>Интернет-магазин</span> 
+-                    </p>
+-                </a>
+-                <div class="main-header__user-box">
+-                    <div class="main-header__search search">
+-
+-
+-                        <form class="search__form" action="/search/" method="GET">
+-                            <label class="visually-hidden" for="s">Поиск</label>
+-                            <input class="search__field" id="s" type="text" name="text" placeholder="Поиск по товарам">
+-                            <button class="search__button">
+-                                <span class="visually-hidden">Поиск</span>
+-                            </button>
+-                        </form>
+-                    </div>
+-                    <ul class="main-header__user user">
+-<?php
+-// Если модуль пользователей сайта доступен
+-if (Core::moduleIsActive('siteuser')) { ?>
+- <li class="user__item">
+-  <p class="user__item-text">
+-<?php
+-				if (is_null(Core_Entity::factory('Siteuser')->getCurrent()))
+-				{
+-					?>
+-
+-                       
+-                          
+-                                <a data-fancybox data-type="ajax" data-src="/users/?AjaxАuthorization" href="javascript:;">Личный кабинет</a><br/>
+-                                <a href="/users/registration/">Регистрация</a>
+-                          
+-                       
+-					<?php
+-				}
+-				else
+-				{?>
+-
+-                                <a href="/users/">Личный кабинет</a><br>
+-                                <a href="/users/?action=exit">Выход</a>
+-
+-<? } ?>
+-</p></li>
+-<? } 	?>
+-
+-
+-
+-                        <li class="user__item">
+-                            <p class="user__item-text">
+-                                <a href="tel:89054113948">8 (905) 411-39-48</a><br>
+-
+-<?php
+-// Если модуль формы доступен
+-if (Core::moduleIsActive('form'))
+-{
+-?>
+-
+-<a data-fancybox data-type="ajax" data-src="/kontakty/callback/" href="javascript:;">Обратный звонок</a><br/>
+-<a href="https://t.me/klimat5servis" style="color: rgb(53, 152, 219);">Telegram</a> / 
+-<a href="https://wa.me/79054113948" style="color: rgb(45, 194, 107);">WhatsApp</a>
+-
+-<? } ?> 
+-                            </p>
+-                        </li>
+-                    </ul>
+-                </div>
+-            </div>
+-            <nav class="main-header__nav">
+-                <button class="main-header__hamburger" type="button" title="Главное меню">
+-                    <span>Меню</span>
+-                </button>
+-                <button class="main-header__menu-close main-header__menu-close--on-overlay" type="button" aria-label="Закрыть меню"></button>
+-                <div class="main-header__menu">
+-                    <div class="main-header__mobile-logo">
+-                        <a class="logo" title="Климат-Сервис">
+-                            <img class="logo__img" src="/assets/audit-20261116/22a35fd77b155587.webp" width="50" height="43" alt="Климат-Сервис">
+-                            <p class="logo__text">
+-                                <strong>Климат-Сервис</strong>
+-                                <span>Интернет-магазин</span>
+-                            </p>
+-                        </a>
+-                        <button class="main-header__menu-close main-header__menu-close--on-menu" type="button" aria-label="Закрыть меню"></button>
+-                    </div>
+-
+-
+-	<?php
++    <header class="main-header ks-header">
++      <div class="container ks-header-row">
++        <?php if (parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) === '/') { ?><h1 class="visually-hidden">Кондиционеры и сплит-системы с установкой в Москве</h1><?php } ?>
++        <a href="/" class="ks-brand" title="Климат-Сервис — на главную">
++          <img src="/assets/audit-20261116/22a35fd77b155587.webp" width="42" height="36" alt="">
++          <span><strong>Климат-Сервис</strong><small>Интернет-магазин</small></span>
++        </a>
++        <nav class="ks-navigation" id="ks-navigation" aria-label="Основное меню">
++          <div class="ks-mobile-search"><form class="ks-search-form" action="/search/" method="get" role="search"><label class="visually-hidden" for="ks-mobile-search">Поиск по товарам</label><input id="ks-mobile-search" type="search" name="text" placeholder="Поиск по товарам" required><button class="ks-icon" type="submit" aria-label="Найти"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg></button></form></div>
++          	<?php
++	ob_start();
+ 	$Structure_Controller_Show = new Structure_Controller_Show(
+ 		Core_Entity::factory('Site', CURRENT_SITE));
+ 
+@@ -149,10 +69,19 @@
+ 	->menu(2)
+        ->showShopGroups(TRUE)
+ 	->show();
++	$klimat_header_menu = ob_get_clean();
++	echo str_replace('<span class="main-nav__caret"></span>', '<button class="ks-submenu-toggle" type="button" aria-label="Разделы каталога" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></button>', $klimat_header_menu);
+ 	?>
+-
+-                </div>
+-                <ul class="header-actions">
++          <div class="ks-mobile-contact"><a class="ks-phone-number" href="tel:89054113948">8 (905) 411-39-48</a><?php if (Core::moduleIsActive('form')) { ?><a class="ks-callback" data-fancybox data-type="ajax" data-src="/kontakty/callback/" href="javascript:;">Обратный звонок</a><?php } ?><a href="/category/favorite/">Избранное</a></div>
++        </nav>
++        <div class="ks-tools">
++          <button class="ks-icon ks-search-toggle" type="button" aria-label="Открыть поиск" aria-expanded="false" aria-controls="ks-search-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg></button>
++          <button class="ks-icon ks-contact-toggle" type="button" aria-label="Телефон и обратный звонок" aria-expanded="false" aria-controls="ks-contact-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 3 3 5-2.5 2.5a17 17 0 0 0 6 6L16 14l5 3-1 4C11 22 2 13 3 4Z"/></svg></button>
++          <div class="ks-messengers" aria-label="Связаться с нами">
++            <a href="https://t.me/klimat5servis" aria-label="Написать в Telegram" title="Telegram"><img src="/assets/header-20261116/telegram.svg" width="36" height="36" alt=""></a>
++            <a href="https://wa.me/79054113948" aria-label="Написать в WhatsApp" title="WhatsApp"><img src="/assets/header-20261116/whatsapp.svg" width="36" height="36" alt=""></a>
++          </div>
++                          <ul class="header-actions">
+ 
+ 								<?php
+ 								if (Core::moduleIsActive('shop'))
+@@ -193,10 +122,44 @@
+                        
+                     </li>
+                 </ul>
+-                <div class="drawer-backdrop"></div>
+-            </nav>
++
++          <button class="ks-icon ks-menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="ks-navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="ks-menu-lines" d="M4 7h16M4 12h16M4 17h16"/><path class="ks-menu-cross" d="m6 6 12 12M18 6 6 18"/></svg></button>
+         </div>
++        <div class="ks-popover ks-search-panel" id="ks-search-panel" hidden><form class="ks-search-form" action="/search/" method="get" role="search"><label class="visually-hidden" for="s">Поиск по товарам</label><input id="s" type="search" name="text" placeholder="Поиск по товарам" required><button class="ks-icon" type="submit" aria-label="Найти"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg></button></form></div>
++        <div class="ks-popover ks-contact-panel" id="ks-contact-panel" hidden><a class="ks-phone-number" href="tel:89054113948">8 (905) 411-39-48</a><?php if (Core::moduleIsActive('form')) { ?><a class="ks-callback" data-fancybox data-type="ajax" data-src="/kontakty/callback/" href="javascript:;">Обратный звонок</a><?php } ?><?php
++// Если модуль пользователей сайта доступен
++if (Core::moduleIsActive('siteuser')) { ?>
++ <div class="ks-account">
++  <p>
++<?php
++				if (is_null(Core_Entity::factory('Siteuser')->getCurrent()))
++				{
++					?>
++
++                       
++                          
++                                <a data-fancybox data-type="ajax" data-src="/users/?AjaxАuthorization" href="javascript:;">Личный кабинет</a><br/>
++                                <a href="/users/registration/">Регистрация</a>
++                          
++                       
++					<?php
++				}
++				else
++				{?>
++
++                                <a href="/users/">Личный кабинет</a><br>
++                                <a href="/users/?action=exit">Выход</a>
++
++<? } ?>
++</p></div>
++<? } 	?>
++
++
++
++</div>
++      </div>
+     </header>
++    <div class="ks-backdrop" hidden></div>
+ 
+     <div class="page" role="main" id="main-content">
+         <div class="container">

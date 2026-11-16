@@ -1,0 +1,27 @@
+[
+  {
+    "path": "assets/header-20261116/header.js",
+    "bytes": 4009,
+    "sha256": "86db18e10a2a18580ff02b10b26342c5ceb575d89c5545b7dbca421e14e0c53f"
+  },
+  {
+    "path": "assets/header-20261116/style.css",
+    "bytes": 10374,
+    "sha256": "e0bb847037890d72f813e5b3839c0e41fb1ee3ad96e51d663f7ad6bbad79461a"
+  },
+  {
+    "path": "assets/header-20261116/telegram.svg",
+    "bytes": 1694,
+    "sha256": "85059d5e5bf7bda91ebab30664993c49867a26be6b947834aca16c846581766a"
+  },
+  {
+    "path": "assets/header-20261116/whatsapp.svg",
+    "bytes": 1174,
+    "sha256": "f7c4a1fcc93708936ad4ee6bd66997ebc1ada7aacec53884503e98d2e1dc9840"
+  },
+  {
+    "path": "templates/template3/template.htm",
+    "bytes": 15179,
+    "sha256": "7974a28b47e249faa59a621c33a1f295385c9c7476a2ad13987d0c05935728f0"
+  }
+]
