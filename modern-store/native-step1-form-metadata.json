@@ -1,0 +1,183 @@
+[
+  {
+    "action": "/search/",
+    "classes": "ks-search-form",
+    "fields": [
+      {
+        "disabled": false,
+        "id": "ks-mobile-search",
+        "label": "Поиск по товарам",
+        "name": "text",
+        "placeholder": "Поиск по товарам",
+        "required": true,
+        "tag": "INPUT",
+        "type": "search"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "label": "",
+        "name": null,
+        "placeholder": null,
+        "required": false,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "submit"
+      }
+    ],
+    "id": "",
+    "method": "get"
+  },
+  {
+    "action": "/search/",
+    "classes": "ks-search-form",
+    "fields": [
+      {
+        "disabled": false,
+        "id": "s",
+        "label": "Поиск по товарам",
+        "name": "text",
+        "placeholder": "Поиск по товарам",
+        "required": true,
+        "tag": "INPUT",
+        "type": "search"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "label": "",
+        "name": null,
+        "placeholder": null,
+        "required": false,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "submit"
+      }
+    ],
+    "id": "",
+    "method": "get"
+  },
+  {
+    "action": null,
+    "classes": "",
+    "fields": [
+      {
+        "disabled": false,
+        "id": "checkout-name",
+        "label": "Ваше имя",
+        "name": "name",
+        "placeholder": "Ваше имя",
+        "required": true,
+        "tag": "INPUT",
+        "type": "text"
+      },
+      {
+        "disabled": false,
+        "id": "checkout-tel",
+        "label": "Телефон",
+        "name": "phone",
+        "placeholder": "Телефон",
+        "required": true,
+        "tag": "INPUT",
+        "type": "tel"
+      },
+      {
+        "disabled": false,
+        "id": "checkout-address",
+        "label": "Электронная почта Комментарий Адрес доставки",
+        "name": "email",
+        "placeholder": "Электронная почта",
+        "required": true,
+        "tag": "INPUT",
+        "type": "text"
+      },
+      {
+        "disabled": false,
+        "id": "checkout-address",
+        "label": "",
+        "name": "description",
+        "placeholder": "Комментарий",
+        "required": false,
+        "tag": "INPUT",
+        "type": "text"
+      },
+      {
+        "disabled": false,
+        "id": "checkout-address",
+        "label": "",
+        "name": "address",
+        "placeholder": "Адрес доставки",
+        "required": false,
+        "tag": "INPUT",
+        "type": "text"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "label": "",
+        "name": "step",
+        "placeholder": null,
+        "required": false,
+        "tag": "INPUT",
+        "type": "hidden",
+        "value": "<redacted>"
+      },
+      {
+        "disabled": false,
+        "id": "options-checkout-1",
+        "label": "Курьерская служба\n        \n        300 Рубль",
+        "name": "shop_delivery_condition_id",
+        "placeholder": null,
+        "required": false,
+        "tag": "INPUT",
+        "type": "radio",
+        "value": "1"
+      },
+      {
+        "disabled": false,
+        "id": "options-checkout-2",
+        "label": "Самовывоз\n        \n        \n\t\t\t\t\t\t\tБесплатно",
+        "name": "shop_delivery_condition_id",
+        "placeholder": null,
+        "required": false,
+        "tag": "INPUT",
+        "type": "radio",
+        "value": "2"
+      },
+      {
+        "disabled": false,
+        "id": "options-checkout-payment-1",
+        "label": "Оплата наличными",
+        "name": "shop_payment_system_id",
+        "placeholder": null,
+        "required": false,
+        "tag": "INPUT",
+        "type": "radio"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "label": "",
+        "name": "step",
+        "placeholder": null,
+        "required": false,
+        "tag": "INPUT",
+        "type": "hidden",
+        "value": "<redacted>"
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "label": "",
+        "name": null,
+        "placeholder": null,
+        "required": false,
+        "tag": "BUTTON",
+        "text": "Отправить заказ",
+        "type": "submit"
+      }
+    ],
+    "id": "",
+    "method": "POST"
+  }
+]

@@ -1,0 +1,39 @@
+--- a/structure-source.php
++++ b/structure-source.php
+@@ -60,6 +60,15 @@
+     $cardPropertyIds = array();
+     $usedFields = array();
+     $defs = Core_Entity::factory('Shop_Item_Property_List', (int) $shop->id)->Properties->findAll();
++    $ksFacetValues = null;
++    $ksFacetRoot = realpath(defined('CMS_FOLDER') ? CMS_FOLDER : $_SERVER['DOCUMENT_ROOT']);
++    if ($ksFacetRoot) {
++        $ksFacetHelper = $ksFacetRoot . '/hostcmsfiles/.klimat-facets-20261117/hostcms-facet-cache-adapter.php';
++        if (is_file($ksFacetHelper) && !is_link($ksFacetHelper) && realpath($ksFacetHelper) === $ksFacetHelper) {
++            require_once $ksFacetHelper;
++            $ksFacetValues = klimat_public_facet_values_20261117($shop, $defs, dirname($ksFacetHelper));
++        }
++    }
+     foreach ($defs as $definition) {
+         $definitionName = trim($definition->name);
+         if (!in_array((int) $definition->type, array(1, 3), TRUE) || !isset($fieldDefinitions[$definitionName])) continue;
+@@ -73,11 +82,15 @@
+             foreach ($options as $option) $allowed[(int) $option->id] = $option->value;
+         } else {
+             // Only public, allowlisted technical property values; no full item scan.
+-            $options = Core_QueryBuilder::select('value')->from('property_value_strings')
+-                ->where('property_id', '=', (int) $definition->id)->where('value', '!=', '')
+-                ->groupBy('value')->orderBy('value', 'ASC')->limit(200)->execute()->asAssoc()->result();
+-            foreach ($options as $option) {
+-                if (mb_strlen($option['value'], 'UTF-8') <= 80) $allowed[$option['value']] = $option['value'];
++            if (is_array($ksFacetValues) && array_key_exists((int) $definition->id, $ksFacetValues)) {
++                foreach ($ksFacetValues[(int) $definition->id] as $value) $allowed[$value] = $value;
++            } else {
++                $options = Core_QueryBuilder::select('value')->from('property_value_strings')
++                    ->where('property_id', '=', (int) $definition->id)->where('value', '!=', '')
++                    ->groupBy('value')->orderBy('value', 'ASC')->limit(200)->execute()->asAssoc()->result();
++                foreach ($options as $option) {
++                    if (mb_strlen($option['value'], 'UTF-8') <= 80) $allowed[$option['value']] = $option['value'];
++                }
+             }
+         }
+         if ($key === 'capacity') {

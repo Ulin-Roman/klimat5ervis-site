@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-17",
+  "kind": "Isolated static checkout preview; not a native order flow",
+  "observedNative": {
+    "namePhoneEmailRequired": true,
+    "addressAndCommentOptional": true,
+    "courierRub": 300,
+    "pickupRub": 0,
+    "paymentLabel": "Оплата наличными",
+    "duplicateCheckoutAddressIds": 3,
+    "autoPaymentFragmentStep3": true
+  },
+  "checks": {
+    "emptyFieldsErrors": 4,
+    "pickupWithoutAddressTotalRub": 39990,
+    "courierMissingAddressErrors": 1,
+    "courierWithAddressTotalRub": 40290,
+    "invalidEmailRejected": true,
+    "enterDidNotNavigate": true,
+    "formElements": 0,
+    "userMarkupShownAsText": true,
+    "reviewDidNotCreateHtmlTags": true,
+    "messengerExpanded": true,
+    "documentMode": "CSS1Compat",
+    "standaloneValidationErrors": 4,
+    "standaloneInlineCspHashesVerified": true
+  },
+  "productionQa": {
+    "sampleAddedAndRemoved": true,
+    "cartRestoredEmpty": true,
+    "contactsSubmitted": false,
+    "orderSubmitted": false,
+    "paymentSubmitted": false,
+    "messageSent": false
+  },
+  "limitations": [
+    "Static fixed cart fixture, not bound to HostCMS checkout.",
+    "Courier-address and 10..15 digit phone validation are proposed UI rules.",
+    "Native checkout source lib80/XSL334 and full order flow not yet verified.",
+    "CMS editor tab read was blocked by the cloud-browser URL policy; it was not bypassed."
+  ]
+}

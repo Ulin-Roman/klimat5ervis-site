@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https://klimat5ervis.ru data:; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
+  <title>Оформление заказа — макет Климат-Сервис</title>
+  <link rel="stylesheet" href="checkout.css">
+  <script src="checkout.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <div class="preview-notice"><span class="preview-dot" aria-hidden="true"></span>Макет оформления · заказ не создаётся, данные не отправляются</div>
+  <header class="header"><div class="wrap header-inner">
+    <a class="brand" href="https://klimat5ervis.ru/modern-home/">КЛИМАТ-СЕРВИС<small>Оборудование · монтаж · сервис</small></a>
+    <nav aria-label="Главная навигация"><a href="https://klimat5ervis.ru/modern-catalog/">Каталог</a><a href="https://klimat5ervis.ru/modern-delivery/">Доставка и оплата</a><a href="https://klimat5ervis.ru/modern-contacts/">Контакты</a></nav>
+    <a class="header-phone" href="tel:+79054113948" aria-label="Позвонить: +7 (905) 411-39-48"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h3l2 5-2 2c1 2 2 3 4 4l2-2 5 2v3c0 2-2 4-4 3C9 19 5 15 3 7 2 5 5 3 7 3Z"/></svg><span>+7 (905) 411-39-48</span></a>
+    <a class="header-cart" href="https://klimat5ervis.ru/modern-cart/">Корзина</a>
+  </div></header>
+
+  <main id="main" class="wrap checkout">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки"><a href="https://klimat5ervis.ru/modern-cart/">Корзина</a><span aria-hidden="true">/</span><span aria-current="page">Оформление заказа</span></nav>
+    <div class="page-heading"><div><h1>Оформление заказа</h1><p>Укажите контакты, выберите доставку и проверьте данные.</p></div><span class="draft-label">Тест интерфейса</span></div>
+    <div class="checkout-layout">
+      <section class="checkout-fields" role="form" aria-label="Контакты, доставка и оплата" aria-describedby="preview-help">
+        <div id="error-summary" class="error-summary" role="alert" hidden></div>
+        <section class="card" aria-labelledby="contacts-title">
+          <div class="section-heading"><span class="step-number" aria-hidden="true">1</span><div><h2 id="contacts-title">Ваши контакты</h2><p>Поля со звёздочкой обязательны.</p></div></div>
+          <div class="field-grid">
+            <div class="field field-wide"><label for="checkout-name">Ваше имя <span aria-hidden="true">*</span></label><input id="checkout-name" data-native-field="name" type="text" autocomplete="name" maxlength="120" required aria-describedby="checkout-name-error" placeholder="Как к вам обращаться"><span class="field-error" id="checkout-name-error" hidden></span></div>
+            <div class="field"><label for="checkout-phone">Телефон <span aria-hidden="true">*</span></label><input id="checkout-phone" data-native-field="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="32" required aria-describedby="checkout-phone-help checkout-phone-error" placeholder="+7 (___) ___-__-__"><small id="checkout-phone-help">Для связи по заказу</small><span class="field-error" id="checkout-phone-error" hidden></span></div>
+            <div class="field"><label for="checkout-email">Электронная почта <span aria-hidden="true">*</span></label><input id="checkout-email" data-native-field="email" type="email" inputmode="email" autocomplete="email" maxlength="254" required aria-describedby="checkout-email-help checkout-email-error" placeholder="name@example.ru"><small id="checkout-email-help">Укажите действующий адрес</small><span class="field-error" id="checkout-email-error" hidden></span></div>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="delivery-title">
+          <div class="section-heading"><span class="step-number" aria-hidden="true">2</span><div><h2 id="delivery-title">Способ доставки</h2><p>Выберите удобный вариант получения.</p></div></div>
+          <fieldset class="delivery-options"><legend class="visually-hidden">Выберите способ доставки</legend>
+            <label class="option"><input type="radio" name="preview_delivery" data-native-field="shop_delivery_condition_id" value="courier" checked><span class="option-body"><span class="option-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 6h11v11H3zM14 10h4l3 4v3h-7M5 17a2 2 0 1 0 4 0M16 17a2 2 0 1 0 4 0"/></svg></span><span class="option-copy"><strong>Курьерская служба</strong><small>По указанному адресу</small></span><span class="option-price">300 ₽</span></span></label>
+            <label class="option"><input type="radio" name="preview_delivery" data-native-field="shop_delivery_condition_id" value="pickup"><span class="option-body"><span class="option-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span class="option-copy"><strong>Самовывоз</strong><small>Забрать самостоятельно</small></span><span class="option-price">Бесплатно</span></span></label>
+          </fieldset>
+          <div id="address-field" class="field address-field"><label for="checkout-address">Адрес доставки <span aria-hidden="true">*</span></label><input id="checkout-address" data-native-field="address" type="text" autocomplete="street-address" maxlength="300" required aria-describedby="checkout-address-help checkout-address-error" placeholder="Город, улица, дом, квартира или офис"><small id="checkout-address-help">Укажите улицу, дом, квартиру или офис.</small><span class="field-error" id="checkout-address-error" hidden></span></div>
+          <p id="pickup-help" class="pickup-help" hidden>Для самовывоза адрес доставки заполнять не нужно.</p>
+          <div class="field comment-field"><label for="checkout-comment">Комментарий <span class="optional">необязательно</span></label><textarea id="checkout-comment" data-native-field="description" rows="3" maxlength="1000" placeholder="Что важно учесть при получении"></textarea></div>
+        </section>
+
+        <section class="card" aria-labelledby="payment-title">
+          <div class="section-heading"><span class="step-number" aria-hidden="true">3</span><div><h2 id="payment-title">Способ оплаты</h2><p>Выберите способ оплаты.</p></div></div>
+          <label class="payment-option"><input type="radio" name="preview_payment" data-native-field="shop_payment_system_id" value="cash-preview" checked><span><strong>Оплата наличными</strong></span></label>
+        </section>
+      </section>
+
+      <aside class="order-summary" aria-labelledby="order-title">
+        <div class="summary-title"><h2 id="order-title">Ваш заказ</h2><span>1 товар</span></div>
+        <div class="summary-product"><div class="product-image"><img src="https://klimat5ervis.ru/assets/catalog-images-20261117/82208eb5d5887c78eed0368a15c85c2357a1b42ec3261c527c0b502025ecfa63.webp" alt="Ballu BSO-12HN8_22Y Olympio Edge" width="180" height="120" loading="eager"></div><div><strong>Сплит-система Ballu BSO-12HN8_22Y Olympio Edge</strong><p>Пример корзины · 1 шт.</p><span>39 990 ₽</span></div></div>
+        <dl class="summary-lines"><div><dt>Товар</dt><dd>39 990 ₽</dd></div><div><dt>Доставка</dt><dd id="summary-delivery">300 ₽</dd></div></dl>
+        <div class="summary-total" aria-live="polite" aria-atomic="true"><span>Итого</span><strong id="summary-total">40 290 ₽</strong></div>
+        <button id="review-button" class="primary-button" type="button">Проверить данные <span aria-hidden="true">→</span></button>
+        <p id="preview-help" class="preview-help">Откроется только проверка данных. Заказ не создаётся и оплата не выполняется.</p>
+        <p class="fixture-note">Товар и суммы — демонстрационный снимок. Этот макет не связан с корзиной магазина.</p>
+        <div class="summary-contact"><span>Нужна помощь?</span><a href="tel:+79054113948">+7 (905) 411-39-48</a></div>
+      </aside>
+    </div>
+    <noscript><p class="no-script">Для проверки полей этого макета нужен JavaScript. Отправка заказа в любом случае отключена.</p></noscript>
+  </main>
+
+  <footer class="footer"><div class="wrap"><div><strong>КЛИМАТ-СЕРВИС</strong><p>Климатические решения для дома и бизнеса.<br>Москва и Московская область.</p></div><div><strong><a href="tel:+79054113948">+7 (905) 411-39-48</a></strong><p>Москва, ул. Перовская, 20<br><a href="https://klimat5ervis.ru/modern-delivery/">Доставка и оплата</a> · <a href="https://klimat5ervis.ru/modern-contacts/">Контакты</a></p></div></div></footer>
+
+  <dialog id="review-dialog" aria-labelledby="review-title" aria-describedby="review-note"><div class="review-inner"><button class="dialog-close" type="button" data-close-review aria-label="Закрыть проверку данных">×</button><p class="review-eyebrow">Проверка данных</p><h2 id="review-title">Всё указано верно?</h2><p id="review-note">Это просмотр макета. Заказ не создан, данные никуда не отправлены.</p><dl id="review-details" class="review-details"></dl><div class="review-amount"><span>Итого в примере</span><strong id="review-total"></strong></div><button class="primary-button" type="button" data-close-review>Вернуться к форме</button></div></dialog>
+  <!-- Approved messenger launcher is appended here; no contact messages are sent by this page. -->
+  <div id="ks-messenger-widget">
+					<button type="button" class="ks-chat-toggle" aria-label="Открыть мессенджеры" title="Написать нам" aria-expanded="false" aria-controls="ks-chat-panel">
+						<svg viewBox="0 0 64 60" aria-hidden="true" focusable="false"><g class="ks-chat-bubble"><path d="M32 4C17.1 4 5 14.1 5 26.5C5 33.1 8.5 39 14.4 43.1L10 55L24.3 48.1C26.8 48.7 29.4 49 32 49C46.9 49 59 38.9 59 26.5C59 14.1 46.9 4 32 4Z" fill="white"></path><g fill="#0089c9"><circle cx="23" cy="26.5" r="3"></circle><circle cx="32" cy="26.5" r="3"></circle><circle cx="41" cy="26.5" r="3"></circle></g></g><path class="ks-chat-close" d="m21 19 22 22m0-22L21 41" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"></path></svg>
+					</button>
+					<div id="ks-chat-panel" class="ks-chat-panel" role="group" aria-label="Написать в мессенджере" hidden="hidden">
+						<a class="ks-chat-link" href="https://t.me/klimat5servis" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram"><span class="ks-chat-logo"><img src="https://klimat5ervis.ru/assets/header-20261116/telegram.svg" width="38" height="38" alt=""></span></a>
+						<a class="ks-chat-link" href="https://max.ru/u/f9LHodD0cOLjX0SKaPjyc-__Xtd96IrNpMNkx4pqxmQmNL8yuBC4ysq5LRg" target="_blank" rel="noopener noreferrer" aria-label="Написать в MAX"><span class="ks-chat-logo"><img src="https://klimat5ervis.ru/assets/footer-20261116/max.webp" width="38" height="38" alt=""></span></a>
+						<a class="ks-chat-link" href="https://wa.me/79054113948" target="_blank" rel="noopener noreferrer" aria-label="Написать в WhatsApp"><span class="ks-chat-logo"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="16" fill="#25d366"></circle><path d="M23.3 8.7a10.2 10.2 0 0 0-16 12.2L6 26l5.2-1.4A10.2 10.2 0 0 0 23.3 8.7ZM16 24a8.4 8.4 0 0 1-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.3 8.3 0 1 1 16 24Z" fill="#fff"></path><path d="M12.4 10.8c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.6.1-.8.4-.3.3-1.1 1-1.1 2.4s1.1 2.8 1.3 3c.1.2 2.1 3.2 5.2 4.4 2.6 1 3.1.8 3.6.7.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4l-2.1-1c-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6l-.8-1.8Z" fill="#fff"></path></svg></span></a>
+					</div>
+				</div>
+				
+</body>
+</html>

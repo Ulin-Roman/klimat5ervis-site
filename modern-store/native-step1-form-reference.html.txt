@@ -1,0 +1,89 @@
+<form method="POST">
+
+<h1>Оформление заказа</h1>
+<ul class="checkout__fields-list">
+  <li class="checkout__fields-item">
+    <label class="visually-hidden" for="checkout-name">Ваше имя</label>
+    <input class="checkout__field" id="checkout-name" type="text" name="name" value="[omitted]" required="" placeholder="Ваше имя">
+  </li>
+  <li class="checkout__fields-item">
+    <label class="visually-hidden" for="checkout-tel">Телефон</label>
+    <input class="checkout__field" id="checkout-tel" type="tel" name="phone" required="" placeholder="Телефон">
+  </li>
+  <li class="checkout__fields-item">
+    <label class="visually-hidden" for="checkout-address">Электронная почта</label>
+    <input class="checkout__field" id="checkout-address" type="text" name="email" required="" placeholder="Электронная почта">
+  </li>
+  <li class="checkout__fields-item">
+    <label class="visually-hidden" for="checkout-address">Комментарий</label>
+    <input class="checkout__field" id="checkout-address" type="text" name="description" placeholder="Комментарий">
+  </li>
+  <li class="checkout__fields-item">
+    <label class="visually-hidden" for="checkout-address">Адрес доставки</label>
+    <input class="checkout__field" id="checkout-address" type="text" name="address" value="[omitted]" placeholder="Адрес доставки">
+  </li>
+</ul>
+<input name="step" type="hidden">
+
+
+<div class="checkout__options options-checkout">
+  <br>
+  <h2>Способ доставки</h2>
+  <ul class="options-checkout__list">
+    <li class="options-checkout__item">
+      <input class="options-checkout__field visually-hidden shop_delivery" id="options-checkout-1" type="radio" value="[omitted]" name="shop_delivery_condition_id" checked="checked">
+      <label class="options-checkout__label" for="options-checkout-1">
+        <span class="options-checkout__icon">
+          <img src="/upload/shop_1/types_of_delivery/shop_type_of_delivery_image1.png" alt="" decoding="async" loading="lazy">
+        </span>
+        <span class="options-checkout__text">Курьерская служба</span>
+        <br>
+        <span class="options-checkout__price">300 Рубль</span>
+      </label>
+      <script>
+					$(document).ready(function() {
+					$.loadingScreen('show');
+					$('.formpayment').load('/category/cart/', { shop_delivery_condition_id: '1', step: '3' });
+					});
+				</script>
+    </li>
+    <li class="options-checkout__item">
+      <input class="options-checkout__field visually-hidden shop_delivery" id="options-checkout-2" type="radio" value="[omitted]" name="shop_delivery_condition_id">
+      <label class="options-checkout__label" for="options-checkout-2">
+        <span class="options-checkout__icon">
+          <img src="/upload/shop_1/types_of_delivery/shop_type_of_delivery_image2.png" alt="" decoding="async" loading="lazy">
+        </span>
+        <span class="options-checkout__text">Самовывоз</span>
+        <br>
+        <span class="options-checkout__price">
+							Бесплатно
+						</span>
+      </label>
+    </li>
+  </ul>
+  <div class="formpayment">
+
+<div class="checkout__options options-checkout">
+  <script>
+				$.loadingScreen('hide');
+			</script>
+  <br>
+  <br>
+  <h2>Выбор способа оплаты</h2>
+  <ul class="options-checkout__list">
+    <li class="options-checkout__item">
+      <input class="options-checkout__field visually-hidden" id="options-checkout-payment-1" type="radio" name="shop_payment_system_id" value="[omitted]" checked="checked">
+      <label class="options-checkout__label" for="options-checkout-payment-1">
+        <span class="options-checkout__icon">
+          <img src="/upload/shop_1/payments/shop_payment1.png" alt="">
+        </span>
+        <span class="options-checkout__text">Оплата наличными</span>
+      </label>
+    </li>
+  </ul>
+  <input name="step" type="hidden">
+</div>
+<button class="checkout__button button" type="submit" value="[omitted]">Отправить заказ</button>
+</div>
+</div>
+</form>

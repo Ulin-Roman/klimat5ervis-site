@@ -1,0 +1,21 @@
+{
+  "static_checks": {
+    "max_128KiB": true,
+    "ttl_max300": true,
+    "no_request_or_session_input": true,
+    "no_native_cache_driver": true,
+    "adapter_no_orm_state_mutation": true,
+    "site_constant_guard": true,
+    "fixed_temp_guard_before_json": true,
+    "nonblocking_lock": true,
+    "native_fallback_preserved": true,
+    "no_xsl_patch": true,
+    "flat_test_require_supported": true
+  },
+  "patch_dry_run": "passed against exact fresh baseline",
+  "php_cli": "unavailable",
+  "php_lint": "pending",
+  "php_unit_tests": "not executed",
+  "deployment": "not deployed",
+  "baseline_sha256": "8119325993f6e36423824377b6e3d27e7423af5016345e61674930d836cf30ea"
+}
