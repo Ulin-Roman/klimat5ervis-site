@@ -1,0 +1,456 @@
+{
+  "checked_at": "2026-11-18",
+  "baseline_commit": "9480df0acd2eca8479c8feddcca0673f50b16936",
+  "items": [
+    {
+      "catalog_id": 9250,
+      "article": "253",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9250/",
+      "info_slides": 1,
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9250/white-4d7f8824d678a3837d.webp",
+          "thumb": "/assets/product-cards-20261117/images/9250/white-4d7f8824d678a3837d-thumb.webp",
+          "width": 1920,
+          "height": 784,
+          "alt": "MDV MDSAL-09HRFN8 — внутренний блок спереди",
+          "source_model": "MDSAL-09HRFN8",
+          "catalog_model": "MDSAL-09HRFN8/MDOAG-09HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/iblock/91f/750_300_1619711fa078991f0a23d032687646b21/3udvueqhn2y45j3ikpb1qfegdhw8enmw.png",
+          "original_filename": "3udvueqhn2y45j3ikpb1qfegdhw8enmw.png",
+          "source_sha256": "4d7f8824d678a3837d20a37334be64e4e97353ae0ecb86fda6c064c300ec40f0",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9250/white-5dfc944bc832537534.webp",
+          "thumb": "/assets/product-cards-20261117/images/9250/white-5dfc944bc832537534-thumb.webp",
+          "width": 1518,
+          "height": 784,
+          "alt": "MDV MDSAL-09HRFN8 — внутренний блок под углом со стороны торца",
+          "source_model": "MDSAL-09HRFN8",
+          "catalog_model": "MDSAL-09HRFN8/MDOAG-09HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/16e/750_300_1619711fa078991f0a23d032687646b21/uevj8p1qej6ifvaf254tv274hmhru7v0.png",
+          "original_filename": "uevj8p1qej6ifvaf254tv274hmhru7v0.png",
+          "source_sha256": "5dfc944bc832537534cdfb753779aeca026829e1fa974d76cd50a0d18cacfe01",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9250/white-8b4f9ada1dba75eab0.webp",
+          "thumb": "/assets/product-cards-20261117/images/9250/white-8b4f9ada1dba75eab0-thumb.webp",
+          "width": 1565,
+          "height": 1080,
+          "alt": "MDV MDOAG-09HFN8 — наружный блок спереди",
+          "source_model": "MDOAG-09HFN8",
+          "catalog_model": "MDSAL-09HRFN8/MDOAG-09HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/b37/750_300_1619711fa078991f0a23d032687646b21/8ved4vumggucpqy2bzgacrxe0rw22krq.png",
+          "original_filename": "8ved4vumggucpqy2bzgacrxe0rw22krq.png",
+          "source_sha256": "8b4f9ada1dba75eab02133a645376b85ceb7753ff1bded9870567791636bbde3",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9250/white-099510f138a5e0cc91.webp",
+          "thumb": "/assets/product-cards-20261117/images/9250/white-099510f138a5e0cc91-thumb.webp",
+          "width": 1619,
+          "height": 1080,
+          "alt": "MDV MDOAG-09HFN8 — наружный блок под углом со стороны подключений",
+          "source_model": "MDOAG-09HFN8",
+          "catalog_model": "MDSAL-09HRFN8/MDOAG-09HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/917/750_300_1619711fa078991f0a23d032687646b21/sz44go57lfyi237or48mp1wop0chuwlp.png",
+          "original_filename": "sz44go57lfyi237or48mp1wop0chuwlp.png",
+          "source_sha256": "099510f138a5e0cc9196160c092ee2de57edbbc0209dc06964b3ce7f3c004a85",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9250/white-11c9cf66b267089a0a.webp",
+          "thumb": "/assets/product-cards-20261117/images/9250/white-11c9cf66b267089a0a-thumb.webp",
+          "width": 1618,
+          "height": 1080,
+          "alt": "MDV MDOAG-09HFN8 — наружный блок под углом со стороны теплообменника",
+          "source_model": "MDOAG-09HFN8",
+          "catalog_model": "MDSAL-09HRFN8/MDOAG-09HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/db2/750_300_1619711fa078991f0a23d032687646b21/jmtztwn29hctll4bpuwyq6po09qcavmd.png",
+          "original_filename": "jmtztwn29hctll4bpuwyq6po09qcavmd.png",
+          "source_sha256": "11c9cf66b267089a0aafa4116429cc921e730959867d2e5b5c73186b0c0aa67d",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9250/white-c944d55e2dee193d55.webp",
+          "thumb": "/assets/product-cards-20261117/images/9250/white-c944d55e2dee193d55-thumb.webp",
+          "width": 1895,
+          "height": 784,
+          "alt": "MDV MDSAL-09HRFN8 — внутренний блок спереди с открытой заслонкой",
+          "source_model": "MDSAL-09HRFN8",
+          "catalog_model": "MDSAL-09HRFN8/MDOAG-09HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/0a6/750_300_1619711fa078991f0a23d032687646b21/b1b211zyfwisfnnlf8yxqxbf7r7daeeu.png",
+          "original_filename": "b1b211zyfwisfnnlf8yxqxbf7r7daeeu.png",
+          "source_sha256": "c944d55e2dee193d558cf937897cd70966e996980726278c29fc551d1612ab0a",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9250/white-83a27fcd424d191775.webp",
+          "thumb": "/assets/product-cards-20261117/images/9250/white-83a27fcd424d191775-thumb.webp",
+          "width": 1863,
+          "height": 784,
+          "alt": "MDV MDSAL-09HRFN8 — внутренний блок под углом с открытой заслонкой",
+          "source_model": "MDSAL-09HRFN8",
+          "catalog_model": "MDSAL-09HRFN8/MDOAG-09HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_09HRFN8_MDOAG_09HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/4cf/750_300_1619711fa078991f0a23d032687646b21/vkdg0gao55mjci0m65o6cqwyful58pir.png",
+          "original_filename": "vkdg0gao55mjci0m65o6cqwyful58pir.png",
+          "source_sha256": "83a27fcd424d191775adfd16c07c65bc6a3827d8a36e2e3cb7c338a6d67f5616",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "gallery_loaded": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-4d7f8824d678a3837d.webp",
+          "width": 1920,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-5dfc944bc832537534.webp",
+          "width": 1518,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-8b4f9ada1dba75eab0.webp",
+          "width": 1565,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-099510f138a5e0cc91.webp",
+          "width": 1619,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-11c9cf66b267089a0a.webp",
+          "width": 1618,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-c944d55e2dee193d55.webp",
+          "width": 1895,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-83a27fcd424d191775.webp",
+          "width": 1863,
+          "height": 784,
+          "match": true
+        }
+      ],
+      "originals_opened": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-4d7f8824d678a3837d.webp",
+          "width": 1920,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-5dfc944bc832537534.webp",
+          "width": 1518,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-8b4f9ada1dba75eab0.webp",
+          "width": 1565,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-099510f138a5e0cc91.webp",
+          "width": 1619,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-11c9cf66b267089a0a.webp",
+          "width": 1618,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-c944d55e2dee193d55.webp",
+          "width": 1895,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9250/white-83a27fcd424d191775.webp",
+          "width": 1863,
+          "height": 784,
+          "match": true
+        }
+      ],
+      "hover": {
+        "scale": 2.15,
+        "tracked": true,
+        "uses_original": true,
+        "positions": [
+          "-187px 92.896px",
+          "-371px 35.396px"
+        ]
+      },
+      "pending": "В заводской галерее отсутствуют кадры внутреннего блока с противоположного торца и наружного блока строго с тыла."
+    },
+    {
+      "catalog_id": 9251,
+      "article": "528",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9251/",
+      "info_slides": 1,
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9251/white-4d7f8824d678a3837d.webp",
+          "thumb": "/assets/product-cards-20261117/images/9251/white-4d7f8824d678a3837d-thumb.webp",
+          "width": 1920,
+          "height": 784,
+          "alt": "MDV MDSAL-12HRFN8 — внутренний блок спереди",
+          "source_model": "MDSAL-12HRFN8",
+          "catalog_model": "MDSAL-12HRFN8/MDOAG-12HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/iblock/91f/750_300_1619711fa078991f0a23d032687646b21/3udvueqhn2y45j3ikpb1qfegdhw8enmw.png",
+          "original_filename": "3udvueqhn2y45j3ikpb1qfegdhw8enmw.png",
+          "source_sha256": "4d7f8824d678a3837d20a37334be64e4e97353ae0ecb86fda6c064c300ec40f0",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9251/white-5dfc944bc832537534.webp",
+          "thumb": "/assets/product-cards-20261117/images/9251/white-5dfc944bc832537534-thumb.webp",
+          "width": 1518,
+          "height": 784,
+          "alt": "MDV MDSAL-12HRFN8 — внутренний блок под углом со стороны торца",
+          "source_model": "MDSAL-12HRFN8",
+          "catalog_model": "MDSAL-12HRFN8/MDOAG-12HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/16e/750_300_1619711fa078991f0a23d032687646b21/uevj8p1qej6ifvaf254tv274hmhru7v0.png",
+          "original_filename": "uevj8p1qej6ifvaf254tv274hmhru7v0.png",
+          "source_sha256": "5dfc944bc832537534cdfb753779aeca026829e1fa974d76cd50a0d18cacfe01",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9251/white-8b4f9ada1dba75eab0.webp",
+          "thumb": "/assets/product-cards-20261117/images/9251/white-8b4f9ada1dba75eab0-thumb.webp",
+          "width": 1565,
+          "height": 1080,
+          "alt": "MDV MDOAG-12HFN8 — наружный блок спереди",
+          "source_model": "MDOAG-12HFN8",
+          "catalog_model": "MDSAL-12HRFN8/MDOAG-12HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/b37/750_300_1619711fa078991f0a23d032687646b21/8ved4vumggucpqy2bzgacrxe0rw22krq.png",
+          "original_filename": "8ved4vumggucpqy2bzgacrxe0rw22krq.png",
+          "source_sha256": "8b4f9ada1dba75eab02133a645376b85ceb7753ff1bded9870567791636bbde3",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9251/white-099510f138a5e0cc91.webp",
+          "thumb": "/assets/product-cards-20261117/images/9251/white-099510f138a5e0cc91-thumb.webp",
+          "width": 1619,
+          "height": 1080,
+          "alt": "MDV MDOAG-12HFN8 — наружный блок под углом со стороны подключений",
+          "source_model": "MDOAG-12HFN8",
+          "catalog_model": "MDSAL-12HRFN8/MDOAG-12HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/917/750_300_1619711fa078991f0a23d032687646b21/sz44go57lfyi237or48mp1wop0chuwlp.png",
+          "original_filename": "sz44go57lfyi237or48mp1wop0chuwlp.png",
+          "source_sha256": "099510f138a5e0cc9196160c092ee2de57edbbc0209dc06964b3ce7f3c004a85",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9251/white-11c9cf66b267089a0a.webp",
+          "thumb": "/assets/product-cards-20261117/images/9251/white-11c9cf66b267089a0a-thumb.webp",
+          "width": 1618,
+          "height": 1080,
+          "alt": "MDV MDOAG-12HFN8 — наружный блок под углом со стороны теплообменника",
+          "source_model": "MDOAG-12HFN8",
+          "catalog_model": "MDSAL-12HRFN8/MDOAG-12HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/db2/750_300_1619711fa078991f0a23d032687646b21/jmtztwn29hctll4bpuwyq6po09qcavmd.png",
+          "original_filename": "jmtztwn29hctll4bpuwyq6po09qcavmd.png",
+          "source_sha256": "11c9cf66b267089a0aafa4116429cc921e730959867d2e5b5c73186b0c0aa67d",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9251/white-c944d55e2dee193d55.webp",
+          "thumb": "/assets/product-cards-20261117/images/9251/white-c944d55e2dee193d55-thumb.webp",
+          "width": 1895,
+          "height": 784,
+          "alt": "MDV MDSAL-12HRFN8 — внутренний блок спереди с открытой заслонкой",
+          "source_model": "MDSAL-12HRFN8",
+          "catalog_model": "MDSAL-12HRFN8/MDOAG-12HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/0a6/750_300_1619711fa078991f0a23d032687646b21/b1b211zyfwisfnnlf8yxqxbf7r7daeeu.png",
+          "original_filename": "b1b211zyfwisfnnlf8yxqxbf7r7daeeu.png",
+          "source_sha256": "c944d55e2dee193d558cf937897cd70966e996980726278c29fc551d1612ab0a",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9251/white-83a27fcd424d191775.webp",
+          "thumb": "/assets/product-cards-20261117/images/9251/white-83a27fcd424d191775-thumb.webp",
+          "width": 1863,
+          "height": 784,
+          "alt": "MDV MDSAL-12HRFN8 — внутренний блок под углом с открытой заслонкой",
+          "source_model": "MDSAL-12HRFN8",
+          "catalog_model": "MDSAL-12HRFN8/MDOAG-12HFN8",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-uvpro-inverter/INFINI_UVpro_Inverter_MDSAL_12HRFN8_MDOAG_12HFN8/",
+          "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+          "image_url": "https://mdv-aircond.ru/upload/resize_cache/uf/4cf/750_300_1619711fa078991f0a23d032687646b21/vkdg0gao55mjci0m65o6cqwyful58pir.png",
+          "original_filename": "vkdg0gao55mjci0m65o6cqwyful58pir.png",
+          "source_sha256": "83a27fcd424d191775adfd16c07c65bc6a3827d8a36e2e3cb7c338a6d67f5616",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "gallery_loaded": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-4d7f8824d678a3837d.webp",
+          "width": 1920,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-5dfc944bc832537534.webp",
+          "width": 1518,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-8b4f9ada1dba75eab0.webp",
+          "width": 1565,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-099510f138a5e0cc91.webp",
+          "width": 1619,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-11c9cf66b267089a0a.webp",
+          "width": 1618,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-c944d55e2dee193d55.webp",
+          "width": 1895,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-83a27fcd424d191775.webp",
+          "width": 1863,
+          "height": 784,
+          "match": true
+        }
+      ],
+      "originals_opened": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-4d7f8824d678a3837d.webp",
+          "width": 1920,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-5dfc944bc832537534.webp",
+          "width": 1518,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-8b4f9ada1dba75eab0.webp",
+          "width": 1565,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-099510f138a5e0cc91.webp",
+          "width": 1619,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-11c9cf66b267089a0a.webp",
+          "width": 1618,
+          "height": 1080,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-c944d55e2dee193d55.webp",
+          "width": 1895,
+          "height": 784,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9251/white-83a27fcd424d191775.webp",
+          "width": 1863,
+          "height": 784,
+          "match": true
+        }
+      ],
+      "hover": {
+        "scale": 2.15,
+        "tracked": true,
+        "uses_original": true,
+        "positions": [
+          "-187px 92.896px",
+          "-371px 35.396px"
+        ]
+      },
+      "pending": "В заводской галерее отсутствуют кадры внутреннего блока с противоположного торца и наружного блока строго с тыла."
+    }
+  ]
+}
