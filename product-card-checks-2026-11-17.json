@@ -1,0 +1,118 @@
+{
+  "products": [
+    {
+      "broken": 0,
+      "callibri": 1,
+      "id": "7701",
+      "info": 1,
+      "merchantRating": 0,
+      "photos": 3,
+      "price": "38990.00",
+      "ratings": [
+        "Оценка на площадке: 5 из 5 · Отзывов: 10"
+      ],
+      "reviews": 1
+    },
+    {
+      "broken": 0,
+      "callibri": 1,
+      "id": "7725",
+      "info": 1,
+      "merchantRating": 0,
+      "photos": 9,
+      "price": "58990.00",
+      "ratings": [
+        "Оценка на площадке: 4,6 из 5 · Оценок: 32 · Отзывов: 9"
+      ],
+      "reviews": 1
+    },
+    {
+      "broken": 0,
+      "callibri": 1,
+      "id": "7741",
+      "info": 1,
+      "merchantRating": 0,
+      "photos": 7,
+      "price": "43990.00",
+      "ratings": [],
+      "reviews": 1
+    },
+    {
+      "broken": 0,
+      "callibri": 1,
+      "id": "11751",
+      "info": 1,
+      "merchantRating": 0,
+      "photos": 5,
+      "price": "102100.00",
+      "ratings": [],
+      "reviews": 0
+    },
+    {
+      "broken": 0,
+      "callibri": 1,
+      "id": "7715",
+      "info": 1,
+      "merchantRating": 0,
+      "photos": 4,
+      "price": "39990.00",
+      "ratings": [],
+      "reviews": 1
+    }
+  ],
+  "responsiveOlympioEdge": [
+    {
+      "frame": 320,
+      "card": 273,
+      "gallery": 273,
+      "page": 305,
+      "width": 305
+    },
+    {
+      "frame": 390,
+      "card": 343,
+      "gallery": 343,
+      "page": 375,
+      "width": 375
+    },
+    {
+      "frame": 768,
+      "card": 689,
+      "gallery": 587,
+      "page": 753,
+      "width": 753
+    },
+    {
+      "frame": 1024,
+      "card": 945,
+      "gallery": 443,
+      "page": 1009,
+      "width": 1009
+    },
+    {
+      "frame": 1440,
+      "card": 1328,
+      "gallery": 443,
+      "page": 1425,
+      "width": 1425
+    },
+    {
+      "frame": 2560,
+      "card": 1328,
+      "gallery": 443,
+      "page": 2545,
+      "width": 2545
+    }
+  ],
+  "keyboardGallery": {
+    "active": 4,
+    "count": "5 / 5",
+    "scrollTop": 0
+  },
+  "serverPreflight": {
+    "passed": 99,
+    "imageFiles": 56
+  },
+  "photoZoom": true,
+  "specSearch": true
+}
