@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-11-17",
+  "viewport_checks": 42,
+  "viewport_overflow": 0,
+  "viewport_header_overlap": 0,
+  "server_tests": {
+    "base": 24,
+    "native": 12,
+    "isolation": 4,
+    "seo_regression": 22
+  },
+  "yandex_brand_http": {
+    "before": 404,
+    "after": 200,
+    "after_response_ms": 525
+  },
+  "resources": {
+    "cart": {
+      "checkoutScripts": 1,
+      "header": "0\n  \n  Корзина",
+      "heading": "Корзина пуста"
+    },
+    "home": {
+      "broken": 0,
+      "canonical": "https://klimat5ervis.ru/",
+      "checkoutScripts": 0,
+      "headerControllers": 1,
+      "optimized": 16,
+      "styles": [
+        "https://klimat5ervis.ru/assets/unified-shell-20261117/storefront.css?v=tech1",
+        "https://klimat5ervis.ru/assets/production-front-20261117/production-extras.css"
+      ]
+    }
+  },
+  "native_metadata": [
+    {
+      "url": "https://klimat5ervis.ru/category/biryusa/",
+      "canonical": "https://klimat5ervis.ru/category/biryusa/",
+      "description": "Бирюса: модели, цены и характеристики в интернет-магазине «Климат-Сервис». Доставка и установка в Москве и Московской области.",
+      "h1": "Бирюса",
+      "title": "Бирюса — Климат-Сервис"
+    },
+    {
+      "url": "https://klimat5ervis.ru/category/nastennye-split-sistemy/biryusa/",
+      "canonical": "https://klimat5ervis.ru/category/nastennye-split-sistemy/biryusa/",
+      "description": "Бытовые сплит-системы Бирюса: модели, цены и характеристики в интернет-магазине «Климат-Сервис». Доставка и установка в Москве и Московской области.",
+      "h1": "Бытовые сплит-системы Бирюса",
+      "title": "Бытовые сплит-системы Бирюса — Климат-Сервис"
+    },
+    {
+      "url": "https://klimat5ervis.ru/category/kassetnye-split-sistemy/biryusa/",
+      "canonical": "https://klimat5ervis.ru/category/kassetnye-split-sistemy/biryusa/",
+      "description": "Кассетные Бирюса: модели, цены и характеристики в интернет-магазине «Климат-Сервис». Доставка и установка в Москве и Московской области.",
+      "h1": "Кассетные Бирюса",
+      "title": "Кассетные Бирюса — Климат-Сервис"
+    },
+    {
+      "url": "https://klimat5ervis.ru/category/?shop_form=2&sorting=1",
+      "canonical": "https://klimat5ervis.ru/category/?shop_form=2&sorting=1",
+      "description": "Сплит-системы с установкой в Московской области — монтаж  под ключ — характеристики, фотографии и цена в интернет-магазине «Климат-Сервис». Доставка и установка в Москве и Московской области.",
+      "h1": "Климат-Сервис",
+      "robots": "noindex,follow",
+      "title": "Сплит-системы с установкой в Московской области — монтаж под ключ"
+    }
+  ],
+  "pagespeed_baseline": {
+    "mobile": 94,
+    "desktop": 99,
+    "seo": 100,
+    "mobile_lcp_seconds": 2.3,
+    "mobile_cls": 0.116,
+    "mobile_tbt_ms": 0
+  },
+  "pagespeed_after": null,
+  "pagespeed_after_reason": "Unable to resolve in two attempts",
+  "search_console": {
+    "verified_owner": true,
+    "sitemap_urls_discovered": 4649,
+    "https_urls": 108,
+    "non_https_urls": 0,
+    "product_valid": 2,
+    "product_errors": 0
+  },
+  "yandex_sitemap_submission": "read-only service; disabled",
+  "images": {
+    "examined_sources": 38,
+    "mapped_sources": 32,
+    "skipped_existing_optimized": 6,
+    "new_files": 45,
+    "new_files_bytes": 377680,
+    "mapped_original_bytes": 809847,
+    "mapped_largest_variants_bytes": 369052,
+    "mapped_card_360_bytes": 213244,
+    "home_8_original_bytes": 275895,
+    "home_8_360_bytes": 43284,
+    "home_8_largest_bytes": 79194,
+    "home_8_360_saving_bytes": 232611
+  }
+}
