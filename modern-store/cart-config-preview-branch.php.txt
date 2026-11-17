@@ -1,0 +1,26 @@
+// INSERT immediately after the opening <?php, BEFORE any existing config code.
+// Every explicit view request bypasses all canonical cart handlers and is checked by the source branch.
+if (array_key_exists('view', $_GET)) {
+    Core_Page::instance()->staticCache(FALSE);
+    // Native frontend sends Core_Response after PHP headers; update both.
+    $ksCheckoutRespond = static function ($status = NULL, array $headers = array()) {
+        $response = Core_Page::instance()->response;
+        if ($status !== NULL) {
+            $response->status($status);
+            http_response_code($status);
+        }
+        foreach ($headers as $name=>$value) {
+            $response->header($name, $value);
+            header($name . ': ' . $value);
+        }
+    };
+    $ksCheckoutRespond(NULL, array(
+        'X-Robots-Tag'=>'noindex, nofollow, noarchive',
+        'Cache-Control'=>'private, no-store, max-age=0',
+        'Pragma'=>'no-cache',
+        'Referrer-Policy'=>'no-referrer',
+        'X-Content-Type-Options'=>'nosniff',
+        'Content-Security-Policy'=>"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; form-action 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'self'"
+    ));
+    return;
+}

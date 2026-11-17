@@ -1,0 +1,78 @@
+{
+  "created_at_utc": "2026-11-17T11:58:42.114594+00:00",
+  "github_directory": "modern-store/",
+  "existing_files_intended_replacement": [
+    "cart-structure-source.php",
+    "cart-structure-config.php",
+    "current-source-checksums.json",
+    "README.md"
+  ],
+  "main_README_change": "exact baseline content preserved; appended new deployed-checkout stage",
+  "current_source_checksums": "19 entries; only two modern-cart PHP hashes updated; other17 unchanged",
+  "files": {
+    "CHECKOUT-NATIVE-2026-11-17.md": {
+      "sha256": "2e7823b2a247b74e6643cf6610bf16cbc711c6d57556eacf9be3574d83e3e99a",
+      "bytes": 6480
+    },
+    "README.md": {
+      "sha256": "5bd147b4198ed12f6efa593d80696ac0de895efabe0f82d5e40784e3048dc874",
+      "bytes": 5319
+    },
+    "cart-config-preview-branch.php.txt": {
+      "sha256": "4cfb4b5ee2fd8e702baa7af261b277aa305755e58b754ede7d5e1e1a1749cf83",
+      "bytes": 1263
+    },
+    "cart-source-preview-branch.php.txt": {
+      "sha256": "dd011289b87a6090914cf37bdfbf39a954e020ccd3991738e50d444e599d15b6",
+      "bytes": 2923
+    },
+    "cart-structure-config.php": {
+      "sha256": "2de9c2e2f2446cae807e5aba8edb33c2829ab18014f79cfdb804d3118011c3ce",
+      "bytes": 4768
+    },
+    "cart-structure-source.php": {
+      "sha256": "acbad13a7c8ad54e0f69380b220525fb8a29d65d7a3bb12c969f64142c5b167a",
+      "bytes": 4446
+    },
+    "checkout-native-live-desktop.jpg": {
+      "sha256": "2ed4685d3964466975cb1d6626b4b828cb332b1b2f069998499bba2048bcf541",
+      "bytes": 126534
+    },
+    "checkout-native-live-qa.json": {
+      "sha256": "f990606654ad97a1d9ac2bb0a6927e320ac097865ca1a67f48058cb01faf2646",
+      "bytes": 2034
+    },
+    "checkout-native.css": {
+      "sha256": "cef5b3ad39dfb84dc5654977332a22265bc40c79a1f7dfba1843857e2d545346",
+      "bytes": 15391
+    },
+    "checkout-native.js": {
+      "sha256": "cd7790f8dbfaa9805cced8d858deff6fdc6736324a4f462cbaf63f08ff3108bf",
+      "bytes": 1942
+    },
+    "checkout-preview-controller.php": {
+      "sha256": "531d94c4ff93ebc20004604abd6ced82ff37e3b117bdeb91493a6db7b1e21b4a",
+      "bytes": 6390
+    },
+    "checkout-public-data.php": {
+      "sha256": "6bf243c8c9f60aba8e31dd86d41629b18676671ff3fa26b3ecd2988a773d1bf9",
+      "bytes": 8650
+    },
+    "checkout-shell-fragments.php": {
+      "sha256": "0ef05c13b82cedd1534beb16ba1329d972dac0eebf8cfff93b9e66fb5459da4e",
+      "bytes": 3998
+    },
+    "checkout-view.php": {
+      "sha256": "da87c6800bdad27009901730a39752085366a78e47ebcf83279c5a9ce0be7e83",
+      "bytes": 9795
+    },
+    "current-source-checksums.json": {
+      "sha256": "edd804f13e24b91030ca5d1743592a22f52d2f8ac2a357ada544c89d5c4fa609",
+      "bytes": 2262
+    },
+    "private-htaccess.txt": {
+      "sha256": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934",
+      "bytes": 19
+    }
+  }
+}
