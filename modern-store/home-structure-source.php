@@ -32,5 +32,13 @@ $quantity = 0;
 foreach (Shop_Cart_Controller::instance()->getAll($shop) as $row) { if (!$row->postpone) $quantity += $row->quantity; }
 $c->addEntity(Core::factory('Core_Xml_Entity')->name('modern_cart_count')->value($quantity));
 echo '<!doctype html>';
+ob_start();
 $c->xsl(Core_Entity::factory('Xsl')->getByName('ModernHome2026'))->show();
+$ksImageHtml = ob_get_clean();
+
+// Optional responsive photographs: guarded CMS manifest; native source remains the fallback.
+$ksImageHelper = realpath(defined('CMS_FOLDER') ? CMS_FOLDER : $_SERVER['DOCUMENT_ROOT']) . '/hostcmsfiles/.klimat-image-build-20261117/images-render.php';
+if (is_file($ksImageHelper) && !is_link($ksImageHelper)) require_once $ksImageHelper;
+echo function_exists('klimat_modern_image_html') ? klimat_modern_image_html($ksImageHtml) : $ksImageHtml;
+
 ?>

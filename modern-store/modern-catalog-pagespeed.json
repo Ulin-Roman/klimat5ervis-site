@@ -1,0 +1,18 @@
+{
+  "reportUrl": "https://pagespeed.web.dev/analysis/https-klimat5ervis-ru-modern-catalog/3ifsyg9vrz?form_factor=mobile",
+  "page": "https://klimat5ervis.ru/modern-catalog/",
+  "device": "mobile",
+  "kind": "Lighthouse laboratory test, slow 4G",
+  "captured": "2026-11-17T01:50:44Z",
+  "performance": 100,
+  "accessibility": 100,
+  "bestPractices": 100,
+  "seo": 66,
+  "seoNote": "Test storefront intentionally noindex",
+  "fcpSeconds": 1,
+  "lcpSeconds": 1,
+  "tbtMs": 0,
+  "cls": 0.004,
+  "speedIndexSeconds": 1.9,
+  "fix": "Early ks-js class and mobile filter CSS prevent collapse after first paint; previously CLS 0.091."
+}

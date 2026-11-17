@@ -1,4 +1,5 @@
 <?php
+Core_Page::instance()->staticCache(FALSE);
 // Cart preview uses the existing cart controller, never order/payment handlers.
 header('X-Robots-Tag: noindex, nofollow');
 header('Cache-Control: private, no-store');

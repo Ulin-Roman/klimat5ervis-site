@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-17",
+  "result": {
+    "status": "done",
+    "phase": "build",
+    "processed": 11849,
+    "total": 11849,
+    "ready": 11849,
+    "skipped": 0,
+    "directories_scanned": null,
+    "directories_found": null,
+    "output_mb": 395.08,
+    "cpu_seconds": 1798.73,
+    "accounting_version": 1,
+    "accounting_dirty": false,
+    "accounting_full_scan": false,
+    "reasons": [],
+    "output_unit": "MiB"
+  },
+  "sample": {
+    "original": "/upload/shop_1/7/7/1/item_7715/item_image7715.png",
+    "originalBytes": 102405,
+    "webpBytes": 18986,
+    "width": 600,
+    "height": 449,
+    "reductionPercent": 81.46,
+    "servedMime": "image/webp",
+    "riffHeader": true,
+    "webpHeader": true,
+    "browserDecoded": true
+  },
+  "gallery": {
+    "secondThumbChangesSrcset": true,
+    "zoomKeepsOriginal": true
+  },
+  "cart": {
+    "price": 39990,
+    "quantity": 2,
+    "total": 79980,
+    "quantityZeroReturnsEmpty": true,
+    "userCartRestoredEmpty": true,
+    "orderCreated": false,
+    "paymentSubmitted": false,
+    "messageSent": false
+  },
+  "privateGet": [
+    {
+      "file": "state.php",
+      "title": "403 Forbidden",
+      "payloadExposed": false
+    },
+    {
+      "file": "manifest.php",
+      "title": "403 Forbidden",
+      "payloadExposed": false
+    },
+    {
+      "file": "images-render.php",
+      "title": "403 Forbidden",
+      "payloadExposed": false
+    },
+    {
+      "file": "worker.lock.php",
+      "title": "403 Forbidden",
+      "payloadExposed": false
+    },
+    {
+      "file": "queue.php",
+      "title": "403 Forbidden",
+      "payloadExposed": false
+    },
+    {
+      "file": "map-0b.php",
+      "title": "403 Forbidden",
+      "payloadExposed": false
+    }
+  ],
+  "runtime": {
+    "php": "7.4.33",
+    "gdWebp": true,
+    "exif": true,
+    "opcacheAlreadyEnabled": true
+  },
+  "limits": {
+    "workerCpuSeconds": 2400,
+    "outputMiB": 600,
+    "memoryCapMiB": 256,
+    "burstCpuSeconds": 2,
+    "burstWallSeconds": 4,
+    "maxGroupsPerBatch": 20,
+    "pauseMs": 1000
+  },
+  "limitations": [
+    "CPU counters measure this worker, not the whole hosting account.",
+    "Burst limits are checked between images.",
+    "No independent anonymous/non-superuser session was created.",
+    "EXIF/alpha edge cases reviewed statically; no synthetic files added to production.",
+    "New uploads are not generated automatically.",
+    "Freshness uses mtime and byte size."
+  ]
+}

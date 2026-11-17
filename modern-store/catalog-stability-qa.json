@@ -1,0 +1,17 @@
+{
+  "mobileWidth": 390,
+  "before": {
+    "compat": "CSS1Compat",
+    "expanded": "false",
+    "form": "none",
+    "js": true,
+    "scroll": 375,
+    "width": 375
+  },
+  "opened": {
+    "expanded": "true",
+    "form": "grid"
+  },
+  "headMarkerBeforeFirstPaint": true,
+  "cssOnlyFallbackKeepsFormVisibleWithoutJs": true
+}

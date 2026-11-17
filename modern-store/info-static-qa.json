@@ -1,0 +1,124 @@
+{
+  "checked_artifacts": "current on-disk files after parent fixes; hashes identify reviewed versions",
+  "xsl_compile_count": 4,
+  "xsl_files": [
+    {
+      "path": "/workspace/shared/modern-home-20261117/ModernHome2026.xsl",
+      "sha256": "4a392a23b6c5dbf20d42f56c066110fdf93607ff69064f6506d7b323c5057a7d",
+      "compile": "passed",
+      "base_blue": "#006b89",
+      "literal_css_child_combinator_count": 0,
+      "legacy_mh_blue_reference_count": 0
+    },
+    {
+      "path": "/workspace/shared/catalog-ux-20261117/ModernCatalog2026.xsl",
+      "sha256": "e7844aded18f982b6fa6d0561df14e9114a24d54f9f614dff33057afb16bf394",
+      "compile": "passed",
+      "base_blue": "#006b89",
+      "literal_css_child_combinator_count": 0,
+      "legacy_mh_blue_reference_count": 0
+    },
+    {
+      "path": "/workspace/shared/modern-cart-20261117/ModernCart2026.xsl",
+      "sha256": "1d6038a1de95d15e35b58a8739780716b20f4ae2beb4c50a9c0a75bb512c764c",
+      "compile": "passed",
+      "base_blue": "#006b89",
+      "literal_css_child_combinator_count": 0,
+      "legacy_mh_blue_reference_count": 0
+    },
+    {
+      "path": "/workspace/shared/modern-info-20261117/ModernInfo2026.xsl",
+      "sha256": "7f47289d2a7f25095c7c7542cfcd2b254ecfef837fe97fa502a3c1e85f373beb",
+      "compile": "passed",
+      "base_blue": "#006b89",
+      "literal_css_child_combinator_count": 0,
+      "legacy_mh_blue_reference_count": 0
+    }
+  ],
+  "info_render_cases": [
+    "company:no_native_heading",
+    "company:native_heading",
+    "company:heading_with_script",
+    "delivery:no_native_heading",
+    "delivery:native_heading",
+    "delivery:heading_with_script",
+    "contacts:no_native_heading",
+    "contacts:native_heading",
+    "contacts:heading_with_script",
+    "contacts:captured_native_portion_and_current_cta"
+  ],
+  "info_render_case_count": 10,
+  "single_h1": "passed for supplied XSL input fixtures; PHP normalizer not executed locally",
+  "native_contact_excerpt_and_scripts": "preserved without JS execution",
+  "current_contact_cta": {
+    "selector": ".info-contact-action .info-form-button",
+    "href": "/kontakty/feedback/",
+    "present_only_on_contacts": true
+  },
+  "shared_widget_script": "identical to current ModernHome2026",
+  "source_checks": [
+    {
+      "path": "/workspace/shared/modern-info-20261117/company-structure-source.php",
+      "sha256": "1a7b7363dafadcb1e06d9a79af8e89a9fcfa503c1835041dd91f0e7bf5b03015",
+      "site_id": 2,
+      "shop_id": 1,
+      "source_structure_id": 14,
+      "document_id": 32,
+      "explicit_find_before_loaded": "passed static check"
+    },
+    {
+      "path": "/workspace/shared/modern-info-20261117/delivery-structure-source.php",
+      "sha256": "b880f34527545a9e57560152e084d70ced4f59fb74de370262a6b2ea40fb162b",
+      "site_id": 2,
+      "shop_id": 1,
+      "source_structure_id": 11,
+      "document_id": 9,
+      "explicit_find_before_loaded": "passed static check"
+    },
+    {
+      "path": "/workspace/shared/modern-info-20261117/contacts-structure-source.php",
+      "sha256": "f77d6e03754df3005e1da633bd1c441620b4d3321d18590b8dc1c2cc2455335d",
+      "site_id": 2,
+      "shop_id": 1,
+      "source_structure_id": 10,
+      "document_id": 8,
+      "explicit_find_before_loaded": "passed static check"
+    }
+  ],
+  "base_blue_contrast_against_surfaces": {
+    "#ffffff": 6.062,
+    "#f0f7f8": 5.59,
+    "#f5f7f8": 5.641
+  },
+  "contrast_scope": "base color against named surfaces only; all four reviewed XSL files now contain zero #007d9f references. No complete contrast/accessibility pass claimed; actual updated PSI remains a parent runtime check.",
+  "php_runtime": "not executed locally: PHP CLI unavailable; no php-lint pass claimed",
+  "parent_reported_live_observations": {
+    "three_info_pages_render": true,
+    "h1_count_each": 1,
+    "desktop_page_overflow": false,
+    "independent_verification_by_this_agent": false,
+    "mobile_info_width_checks": 27,
+    "feedback_form_opened_without_submission": true,
+    "dynamic_map_controls_rendered": true,
+    "map_frame_accessible_title": true
+  },
+  "pending_live_checks": [
+    "PHP error log; Timeweb automatic logging was disabled"
+  ],
+  "captured_contacts_sha256": "6b1a769818d055fdb7b9ca0006cb6b64724db9d6ab7951144e0477e0e936fad0",
+  "reviewed_at_utc": "2026-11-17T01:13:34.225154+00:00",
+  "widget_javascript_syntax": "Node --check passed; script unchanged from the previously checked current storefront widget",
+  "final_artifact_recheck_at_utc": "2026-11-17T02:25:22.794996+00:00",
+  "final_fixture_cases": [
+    "company:empty-heading",
+    "company:native-heading",
+    "company:script",
+    "delivery:empty-heading",
+    "delivery:native-heading",
+    "delivery:script",
+    "contacts:empty-heading",
+    "contacts:native-heading",
+    "contacts:script",
+    "contacts:native-excerpt"
+  ]
+}

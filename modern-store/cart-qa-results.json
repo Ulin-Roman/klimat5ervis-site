@@ -97,5 +97,13 @@
     "Same real cart session as canonical shop.",
     "Order/payment/notification creation not tested.",
     "Coupon field delegates to native controller; no valid coupon supplied for discount QA."
-  ]
+  ],
+  "current_image_integration_validation": {
+    "date": "2026-11-17",
+    "webp_image_loaded": true,
+    "quantity_two_total": 79980,
+    "quantity_zero_empty": true,
+    "cart_restored_empty": true,
+    "reference": "image-qa-results.json"
+  }
 }

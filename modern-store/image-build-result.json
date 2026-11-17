@@ -1,0 +1,17 @@
+{
+  "status": "done",
+  "phase": "build",
+  "processed": 11849,
+  "total": 11849,
+  "ready": 11849,
+  "skipped": 0,
+  "directories_scanned": null,
+  "directories_found": null,
+  "output_mb": 395.08,
+  "cpu_seconds": 1798.73,
+  "accounting_version": 1,
+  "accounting_dirty": false,
+  "accounting_full_scan": false,
+  "reasons": [],
+  "output_unit": "MiB"
+}

@@ -14,5 +14,13 @@ $controller->xsl(Core_Entity::factory('Xsl')->getByName('ModernCart2026'))
     ->addEntity(Core::factory('Core_Xml_Entity')->name('modern_cart_message')->value($message))
     ->addEntity(Core::factory('Core_Xml_Entity')->name('minAllPrice')->value(0));
 echo '<!doctype html>';
+ob_start();
 $controller->show();
+$ksImageHtml = ob_get_clean();
+
+// Optional responsive photographs: guarded CMS manifest; native source remains the fallback.
+$ksImageHelper = realpath(defined('CMS_FOLDER') ? CMS_FOLDER : $_SERVER['DOCUMENT_ROOT']) . '/hostcmsfiles/.klimat-image-build-20261117/images-render.php';
+if (is_file($ksImageHelper) && !is_link($ksImageHelper)) require_once $ksImageHelper;
+echo function_exists('klimat_modern_image_html') ? klimat_modern_image_html($ksImageHtml) : $ksImageHtml;
+
 ?>

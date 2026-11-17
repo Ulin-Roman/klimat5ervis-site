@@ -1,0 +1,21 @@
+{
+  "catalog-ux-20261117/ModernCatalog2026.xsl": "e7844aded18f982b6fa6d0561df14e9114a24d54f9f614dff33057afb16bf394",
+  "catalog-ux-20261117/structure-source.php": "8119325993f6e36423824377b6e3d27e7423af5016345e61674930d836cf30ea",
+  "catalog-ux-20261117/structure-config.php": "ea3e813e87ee0bb49bdfcf376b8e4f12d0351267a82f483ea5fc020c28bffdce",
+  "modern-home-20261117/ModernHome2026.xsl": "4a392a23b6c5dbf20d42f56c066110fdf93607ff69064f6506d7b323c5057a7d",
+  "modern-home-20261117/home-structure-source.php": "6f49d89bf3d8a376deb6669002be438e35157eb868be58be97f0b4b2b0030894",
+  "modern-home-20261117/home-structure-config.php": "34f992cc2fb80ab4a5d107a37deaea6aab294d113eb1ab444f17e8506fff8910",
+  "modern-cart-20261117/ModernCart2026.xsl": "1d6038a1de95d15e35b58a8739780716b20f4ae2beb4c50a9c0a75bb512c764c",
+  "modern-cart-20261117/cart-structure-source.php": "7f50d38592bb811edb07883c5ab2d59427a71f7cc1474bd82a7c9423b08d38ff",
+  "modern-cart-20261117/cart-structure-config.php": "bacd13b700aac46d8b7d6fbe52713eb57bfde8fe3ad58f2414b070286e8a5f60",
+  "modern-info-20261117/ModernInfo2026.xsl": "7f47289d2a7f25095c7c7542cfcd2b254ecfef837fe97fa502a3c1e85f373beb",
+  "modern-info-20261117/company-structure-source.php": "1a7b7363dafadcb1e06d9a79af8e89a9fcfa503c1835041dd91f0e7bf5b03015",
+  "modern-info-20261117/company-structure-config.php": "2f3a266ef3c6520677ecb948525fe516582947a6eea58fa428a50386379d6cc1",
+  "modern-info-20261117/delivery-structure-source.php": "b880f34527545a9e57560152e084d70ced4f59fb74de370262a6b2ea40fb162b",
+  "modern-info-20261117/delivery-structure-config.php": "2f3a266ef3c6520677ecb948525fe516582947a6eea58fa428a50386379d6cc1",
+  "modern-info-20261117/contacts-structure-source.php": "f77d6e03754df3005e1da633bd1c441620b4d3321d18590b8dc1c2cc2455335d",
+  "modern-info-20261117/contacts-structure-config.php": "2f3a266ef3c6520677ecb948525fe516582947a6eea58fa428a50386379d6cc1",
+  "catalog-images-20261117/image-build-source.php": "6c7a61cc79e1dfafe8407a59e0005036b4df89623e4bb3143a4a2d939a9c0cd7",
+  "catalog-images-20261117/image-build-config.php": "167ba20d99020896c4a0ade7fe3f49224f8d6c66ffa92eaac57cbd4232acb73c",
+  "catalog-images-20261117/images-render.php": "08f57810de7ee9ffd15a28c59dd35541ac0c5b245c2f869a3e147d18683a3d1a"
+}

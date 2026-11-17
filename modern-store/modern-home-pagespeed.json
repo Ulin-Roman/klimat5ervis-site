@@ -1,0 +1,32 @@
+{
+  "url": "https://klimat5ervis.ru/modern-home/",
+  "date": "2026-11-17",
+  "mobile": {
+    "report": "https://pagespeed.web.dev/analysis/https-klimat5ervis-ru-modern-home/rfqtiyywrf?form_factor=mobile",
+    "performance": 100,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 66,
+    "fcpSeconds": 0.8,
+    "lcpSeconds": 0.8,
+    "tbtMs": 0,
+    "cls": 0.002,
+    "speedIndexSeconds": 1.5
+  },
+  "desktop": {
+    "report": "https://pagespeed.web.dev/analysis/https-klimat5ervis-ru-modern-home/rfqtiyywrf?form_factor=desktop",
+    "performance": 100,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 66,
+    "fcpSeconds": 0.2,
+    "lcpSeconds": 0.2,
+    "tbtMs": 0,
+    "cls": 0.001,
+    "speedIndexSeconds": 0.7
+  },
+  "notes": [
+    "Lighthouse laboratory tests, not field-user guarantees.",
+    "Test routes intentionally noindex/nofollow."
+  ]
+}

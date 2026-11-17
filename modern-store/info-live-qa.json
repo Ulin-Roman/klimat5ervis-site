@@ -1,0 +1,32 @@
+[
+  {
+    "h1": [
+      "Условия доставки и оплаты"
+    ],
+    "overflow": false,
+    "page": "delivery",
+    "robots": "noindex,nofollow",
+    "textLength": 1671,
+    "title": "Доставка и оплата — Климат-Сервис"
+  },
+  {
+    "h1": [
+      "Контактная информация"
+    ],
+    "overflow": false,
+    "page": "contacts",
+    "robots": "noindex,nofollow",
+    "textLength": 437,
+    "title": "Контакты — Климат-Сервис"
+  },
+  {
+    "h1": [
+      "О компании"
+    ],
+    "overflow": false,
+    "page": "company",
+    "robots": "noindex,nofollow",
+    "textLength": 2015,
+    "title": "О компании — Климат-Сервис"
+  }
+]
