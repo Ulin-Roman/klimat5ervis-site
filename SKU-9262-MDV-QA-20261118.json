@@ -1,0 +1,169 @@
+{
+  "checked_at": "2026-11-18",
+  "baseline_commit": "ff1bdfe4fe611cb7d98565cbc93763e83b2f7608",
+  "catalog_id": 9262,
+  "article": "533",
+  "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9262/",
+  "info_slides": 1,
+  "images": [
+    {
+      "src": "/assets/product-cards-20261117/images/9262/white-27d4176aff6a75ac1b.webp",
+      "thumb": "/assets/product-cards-20261117/images/9262/white-27d4176aff6a75ac1b-thumb.webp",
+      "width": 1600,
+      "height": 557,
+      "alt": "MDV MDSC-12HRDN8 — внутренний блок спереди",
+      "source_model": "MDSC-12HRDN8",
+      "catalog_model": "MDSC-12HRDN8/MDOC-12HDN8",
+      "source_type": "manufacturer_catalog",
+      "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "image_url": "https://mdv-aircond.ru/upload/iblock/f06/8kudkjt3ivd91u02sd2uz94ws67d7aou.png",
+      "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+      "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "model_evidence_note": "Имя оригинала совпадает с кадром в галерее точной модели. Габариты наружного блока MDOC-12HDN8 сверены с руководством MDV.",
+      "source_sha256": "27d4176aff6a75ac1b2e3e8badc5d96c779d67504c4f213f81a89a13c83a627a",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "src": "/assets/product-cards-20261117/images/9262/white-dd4fc644fc0ed25bfc.webp",
+      "thumb": "/assets/product-cards-20261117/images/9262/white-dd4fc644fc0ed25bfc-thumb.webp",
+      "width": 1600,
+      "height": 995,
+      "alt": "MDV MDSC-12HRDN8 — внутренний блок под углом со стороны торца",
+      "source_model": "MDSC-12HRDN8",
+      "catalog_model": "MDSC-12HRDN8/MDOC-12HDN8",
+      "source_type": "manufacturer_catalog",
+      "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "image_url": "https://mdv-aircond.ru/upload/uf/bc7/keh17mzq1vvjwdxv7mmojg3g4ha38v39.png",
+      "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+      "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "model_evidence_note": "Имя оригинала совпадает с кадром в галерее точной модели. Габариты наружного блока MDOC-12HDN8 сверены с руководством MDV.",
+      "source_sha256": "dd4fc644fc0ed25bfce50815b9a7aec079d82b5c59aa78857c4a68ab6809f6c8",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "src": "/assets/product-cards-20261117/images/9262/white-ae0386a3d28caa47d7.webp",
+      "thumb": "/assets/product-cards-20261117/images/9262/white-ae0386a3d28caa47d7-thumb.webp",
+      "width": 1619,
+      "height": 1080,
+      "alt": "MDV MDOC-12HDN8 — наружный блок спереди",
+      "source_model": "MDOC-12HDN8",
+      "catalog_model": "MDSC-12HRDN8/MDOC-12HDN8",
+      "source_type": "manufacturer_catalog",
+      "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "image_url": "https://mdv-aircond.ru/upload/uf/b6d/k5oqznzxo7h7zeem5pc8ese0gd1d2oz9.png",
+      "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+      "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "model_evidence_note": "Имя оригинала совпадает с кадром в галерее точной модели. Габариты наружного блока MDOC-12HDN8 сверены с руководством MDV.",
+      "source_sha256": "ae0386a3d28caa47d751c9d0b61e0bb7af83269e3e9fcf15abc1dac8ca4de5cd",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "src": "/assets/product-cards-20261117/images/9262/white-16e8b0edae51e4b3ec.webp",
+      "thumb": "/assets/product-cards-20261117/images/9262/white-16e8b0edae51e4b3ec-thumb.webp",
+      "width": 1717,
+      "height": 1080,
+      "alt": "MDV MDOC-12HDN8 — наружный блок под углом со стороны подключений",
+      "source_model": "MDOC-12HDN8",
+      "catalog_model": "MDSC-12HRDN8/MDOC-12HDN8",
+      "source_type": "manufacturer_catalog",
+      "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "image_url": "https://mdv-aircond.ru/upload/uf/41b/adssjtse51feuw9esif7a9ypohhlurj4.png",
+      "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+      "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "model_evidence_note": "Имя оригинала совпадает с кадром в галерее точной модели. Габариты наружного блока MDOC-12HDN8 сверены с руководством MDV.",
+      "source_sha256": "16e8b0edae51e4b3ec4312687db2e1641d9f3f64353b7da3a978b83f534e7cba",
+      "checked_at": "2026-11-18"
+    },
+    {
+      "src": "/assets/product-cards-20261117/images/9262/white-d2ea398cb041fcd70f.webp",
+      "thumb": "/assets/product-cards-20261117/images/9262/white-d2ea398cb041fcd70f-thumb.webp",
+      "width": 1619,
+      "height": 1080,
+      "alt": "MDV MDOC-12HDN8 — наружный блок под углом со стороны теплообменника",
+      "source_model": "MDOC-12HDN8",
+      "catalog_model": "MDSC-12HRDN8/MDOC-12HDN8",
+      "source_type": "manufacturer_catalog",
+      "source_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "image_url": "https://mdv-aircond.ru/upload/uf/65d/py9j9bfw6qcujsyuq2u4et0rv0o7skzf.png",
+      "source_export": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+      "model_evidence_url": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/classic-inverter/invertornaja_split-sistema_classic_inverter_mdsc-12hrdn8_mdoc-12hdn8/",
+      "model_evidence_note": "Имя оригинала совпадает с кадром в галерее точной модели. Габариты наружного блока MDOC-12HDN8 сверены с руководством MDV.",
+      "source_sha256": "d2ea398cb041fcd70f72ab5ff3c524d0aeae23e9e20b175f22bbe2fa70ee7c6b",
+      "checked_at": "2026-11-18"
+    }
+  ],
+  "gallery_loaded": [
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-27d4176aff6a75ac1b.webp",
+      "width": 1600,
+      "height": 557,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-dd4fc644fc0ed25bfc.webp",
+      "width": 1600,
+      "height": 995,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-ae0386a3d28caa47d7.webp",
+      "width": 1619,
+      "height": 1080,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-16e8b0edae51e4b3ec.webp",
+      "width": 1717,
+      "height": 1080,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-d2ea398cb041fcd70f.webp",
+      "width": 1619,
+      "height": 1080,
+      "match": true
+    }
+  ],
+  "originals_opened": [
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-27d4176aff6a75ac1b.webp",
+      "width": 1600,
+      "height": 557,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-dd4fc644fc0ed25bfc.webp",
+      "width": 1600,
+      "height": 995,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-ae0386a3d28caa47d7.webp",
+      "width": 1619,
+      "height": 1080,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-16e8b0edae51e4b3ec.webp",
+      "width": 1717,
+      "height": 1080,
+      "match": true
+    },
+    {
+      "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9262/white-d2ea398cb041fcd70f.webp",
+      "width": 1619,
+      "height": 1080,
+      "match": true
+    }
+  ],
+  "hover": {
+    "scale": 2.15,
+    "tracked": true,
+    "uses_original": true,
+    "positions": [
+      "-187px 124.87px",
+      "-352.6px 73.1196px"
+    ]
+  },
+  "pending": "Не найдены качественные фото внутреннего блока со второго торца и наружного блока строго с тыла."
+}
