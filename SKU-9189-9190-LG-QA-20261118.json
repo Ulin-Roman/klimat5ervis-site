@@ -1,0 +1,330 @@
+{
+  "checked_at": "2026-11-18",
+  "baseline_commit": "352542a53f05a866cc94d11a487967f57addd910",
+  "items": [
+    {
+      "catalog_id": 9189,
+      "article": "1229",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9189/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9189/white-2da7acc89cfbb93426.webp",
+          "thumb": "/assets/product-cards-20261117/images/9189/white-2da7acc89cfbb93426-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B09TS — внутренний блок анфас",
+          "source_model": "B09TS.NSJ",
+          "catalog_model": "B09TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085518/gallery/large01.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "2da7acc89cfbb93426ace53386a8838c1eb45446249fda961c5d73a1d00d869b",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9189/white-c93468a29f117cec47.webp",
+          "thumb": "/assets/product-cards-20261117/images/9189/white-c93468a29f117cec47-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B09TS — внутренний блок под углом справа",
+          "source_model": "B09TS.NSJ",
+          "catalog_model": "B09TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085518/gallery/large03.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "c93468a29f117cec47e00dc4e87f87e2a82ac4c983ac3a45b18e374a31508140",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9189/white-ebf0736905ae227e53.webp",
+          "thumb": "/assets/product-cards-20261117/images/9189/white-ebf0736905ae227e53-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B09TS — внутренний блок под углом слева",
+          "source_model": "B09TS.NSJ",
+          "catalog_model": "B09TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085518/gallery/large06.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "ebf0736905ae227e53368934240ba1ccf4691fe5f821d30ff289a0b90c0d5ee6",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9189/white-41f028744d8fa5a582.webp",
+          "thumb": "/assets/product-cards-20261117/images/9189/white-41f028744d8fa5a582-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B09TS — внутренний блок снизу с открытой заслонкой",
+          "source_model": "B09TS.NSJ",
+          "catalog_model": "B09TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085518/gallery/large08.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "41f028744d8fa5a58276a03a6699875bbaa5f1ca046a5534dc0f1d8f59eb2f71",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9189/white-63a78a83b04d07e684.webp",
+          "thumb": "/assets/product-cards-20261117/images/9189/white-63a78a83b04d07e684-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B09TS — внутренний блок сверху со стороны воздухозабора",
+          "source_model": "B09TS.NSJ",
+          "catalog_model": "B09TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085518/gallery/large09.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B09TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "63a78a83b04d07e68435ad1a22d1dab1a596f75f1a41727ec24c2a40320047df",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "info_slides": 1,
+      "gallery_loaded": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-2da7acc89cfbb93426.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-c93468a29f117cec47.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-ebf0736905ae227e53.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-41f028744d8fa5a582.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-63a78a83b04d07e684.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        }
+      ],
+      "originals_opened": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-2da7acc89cfbb93426.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-c93468a29f117cec47.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-ebf0736905ae227e53.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-41f028744d8fa5a582.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9189/white-63a78a83b04d07e684.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        }
+      ],
+      "hover": {
+        "scale": 2.15,
+        "tracked": true,
+        "uses_original": true,
+        "positions": [
+          "-187px -42.743px",
+          "-352.6px -94.493px"
+        ]
+      },
+      "pending": "В официальной галерее LG подтверждены пять разных видов внутреннего блока. Нужны студийные фотографии наружного блока B09TS.UA3 на белом фоне."
+    },
+    {
+      "catalog_id": 9190,
+      "article": "1231",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9190/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9190/white-2da7acc89cfbb93426.webp",
+          "thumb": "/assets/product-cards-20261117/images/9190/white-2da7acc89cfbb93426-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B12TS — внутренний блок анфас",
+          "source_model": "B12TS.NSJ",
+          "catalog_model": "B12TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085376/gallery/large01.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "2da7acc89cfbb93426ace53386a8838c1eb45446249fda961c5d73a1d00d869b",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9190/white-362d2b12682268cced.webp",
+          "thumb": "/assets/product-cards-20261117/images/9190/white-362d2b12682268cced-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B12TS — внутренний блок под углом справа",
+          "source_model": "B12TS.NSJ",
+          "catalog_model": "B12TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085376/gallery/large03.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "362d2b12682268ccedc646d1d93e9ddefbc6827cf88422cd2b1736caadddb4c7",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9190/white-ebf0736905ae227e53.webp",
+          "thumb": "/assets/product-cards-20261117/images/9190/white-ebf0736905ae227e53-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B12TS — внутренний блок под углом слева",
+          "source_model": "B12TS.NSJ",
+          "catalog_model": "B12TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085376/gallery/large06.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "ebf0736905ae227e53368934240ba1ccf4691fe5f821d30ff289a0b90c0d5ee6",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9190/white-41f028744d8fa5a582.webp",
+          "thumb": "/assets/product-cards-20261117/images/9190/white-41f028744d8fa5a582-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B12TS — внутренний блок снизу с открытой заслонкой",
+          "source_model": "B12TS.NSJ",
+          "catalog_model": "B12TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085376/gallery/large08.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "41f028744d8fa5a58276a03a6699875bbaa5f1ca046a5534dc0f1d8f59eb2f71",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9190/white-63a78a83b04d07e684.webp",
+          "thumb": "/assets/product-cards-20261117/images/9190/white-63a78a83b04d07e684-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG B12TS — внутренний блок сверху со стороны воздухозабора",
+          "source_model": "B12TS.NSJ",
+          "catalog_model": "B12TS",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md06085376/gallery/large09.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-B12TS",
+          "model_evidence_note": "Крупный файл из галереи точной модели на российском сайте LG. Фото показывает внутренний блок.",
+          "source_sha256": "63a78a83b04d07e68435ad1a22d1dab1a596f75f1a41727ec24c2a40320047df",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "info_slides": 1,
+      "gallery_loaded": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-2da7acc89cfbb93426.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-362d2b12682268cced.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-ebf0736905ae227e53.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-41f028744d8fa5a582.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-63a78a83b04d07e684.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        }
+      ],
+      "originals_opened": [
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-2da7acc89cfbb93426.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-362d2b12682268cced.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-ebf0736905ae227e53.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-41f028744d8fa5a582.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        },
+        {
+          "src": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9190/white-63a78a83b04d07e684.webp",
+          "width": 1600,
+          "height": 1062,
+          "match": true
+        }
+      ],
+      "hover": {
+        "scale": 2.15,
+        "tracked": true,
+        "uses_original": true,
+        "positions": [
+          "-187px -42.743px",
+          "-371px -100.243px"
+        ]
+      },
+      "pending": "В официальной галерее LG подтверждены пять разных видов внутреннего блока. Нужны студийные фотографии наружного блока B12TS.UA3 на белом фоне."
+    }
+  ]
+}
