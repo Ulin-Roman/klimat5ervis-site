@@ -1,0 +1,430 @@
+{
+  "checked_at": "2026-11-18",
+  "baseline_commit": "5ea9246cd8b1aea96ffb9864a0f34357188e0190",
+  "items": [
+    {
+      "catalog_id": 9182,
+      "article": "1246",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9182/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9182/white-de0ba540cfe8f9eafa.webp",
+          "thumb": "/assets/product-cards-20261117/images/9182/white-de0ba540cfe8f9eafa-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC09BQ — внутренний блок спереди",
+          "source_model": "AC09BQ.NSJR",
+          "catalog_model": "AC09BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC09BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081796/gallery/large01.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC09BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "de0ba540cfe8f9eafa1219f8f1f330136a3d7a165fba0cdb69289e22a3b8492b",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9182/white-1fae3e88411d5beed4.webp",
+          "thumb": "/assets/product-cards-20261117/images/9182/white-1fae3e88411d5beed4-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC09BQ — внутренний блок под углом справа",
+          "source_model": "AC09BQ.NSJR",
+          "catalog_model": "AC09BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC09BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081796/gallery/large04.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC09BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "1fae3e88411d5beed47c96bb52503c5faf4c8c1831e00cd8245b905b81f46427",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9182/white-4daa3e53f22aa8669f.webp",
+          "thumb": "/assets/product-cards-20261117/images/9182/white-4daa3e53f22aa8669f-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC09BQ — внутренний блок под углом слева с открытой воздушной заслонкой",
+          "source_model": "AC09BQ.NSJR",
+          "catalog_model": "AC09BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC09BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081796/gallery/large09.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC09BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "4daa3e53f22aa8669fcd99e6b49a6e13f6d7b082f3f7318142164db65a70aab2",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9182/white-bbbe61f19325746a45.webp",
+          "thumb": "/assets/product-cards-20261117/images/9182/white-bbbe61f19325746a45-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC09BQ — внутренний блок крупным планом с правого торца",
+          "source_model": "AC09BQ.NSJR",
+          "catalog_model": "AC09BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC09BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081796/gallery/large13.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC09BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "bbbe61f19325746a456ce10e8b3095538187939c67efbf43188ba46bd3f360b3",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9182/white-87f9c48b8e4392becd.webp",
+          "thumb": "/assets/product-cards-20261117/images/9182/white-87f9c48b8e4392becd-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC09BQ — внутренний блок сверху под углом",
+          "source_model": "AC09BQ.NSJR",
+          "catalog_model": "AC09BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC09BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081796/gallery/large14.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC09BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "87f9c48b8e4392becd31153de225888ccbdb3571c97ae8b14a08f34dcb1b1d0d",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "direct_images": [
+        {
+          "id": 9182,
+          "index": 1,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-de0ba540cfe8f9eafa.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 2,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-1fae3e88411d5beed4.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 3,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-4daa3e53f22aa8669f.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 4,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-bbbe61f19325746a45.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 5,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-87f9c48b8e4392becd.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        }
+      ],
+      "lightbox": [
+        {
+          "id": 9182,
+          "index": 1,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-de0ba540cfe8f9eafa.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 2,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-1fae3e88411d5beed4.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 3,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-4daa3e53f22aa8669f.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 4,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-bbbe61f19325746a45.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9182,
+          "index": 5,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-87f9c48b8e4392becd.webp",
+              1600,
+              1062
+            ]
+          ]
+        }
+      ],
+      "hover": {
+        "id": 9182,
+        "url": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9182/",
+        "first": {
+          "position": "-205.4px -46.193px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-de0ba540cfe8f9eafa.webp\")"
+        },
+        "second": {
+          "position": "-348px -89.893px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9182/white-de0ba540cfe8f9eafa.webp\")"
+        }
+      },
+      "counts": {
+        "info": 1,
+        "photo": 5
+      },
+      "missing": "Для полной галереи нужны подтверждённые студийные кадры наружного блока AC09BQ.UA3R. В старой галерее был общий кадр 328 × 240 без подтверждённой маркировки.",
+      "manufacturer_source_note": "Пять разных заводских ракурсов внутреннего блока NSJR на белом фоне. У LG Russia одна и та же серия исходников опубликована в карточках обеих точных моделей.",
+      "outdoor_model_evidence_url": "https://lg-b2b.ru/upload/iblock/7fb/Rac_2022.pdf"
+    },
+    {
+      "catalog_id": 9184,
+      "article": "1240",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9184/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9184/white-de0ba540cfe8f9eafa.webp",
+          "thumb": "/assets/product-cards-20261117/images/9184/white-de0ba540cfe8f9eafa-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC12BQ — внутренний блок спереди",
+          "source_model": "AC12BQ.NSJR",
+          "catalog_model": "AC12BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC12BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081776/gallery/large01.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC12BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "de0ba540cfe8f9eafa1219f8f1f330136a3d7a165fba0cdb69289e22a3b8492b",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9184/white-1fae3e88411d5beed4.webp",
+          "thumb": "/assets/product-cards-20261117/images/9184/white-1fae3e88411d5beed4-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC12BQ — внутренний блок под углом справа",
+          "source_model": "AC12BQ.NSJR",
+          "catalog_model": "AC12BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC12BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081776/gallery/large04.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC12BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "1fae3e88411d5beed47c96bb52503c5faf4c8c1831e00cd8245b905b81f46427",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9184/white-4daa3e53f22aa8669f.webp",
+          "thumb": "/assets/product-cards-20261117/images/9184/white-4daa3e53f22aa8669f-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC12BQ — внутренний блок под углом слева с открытой воздушной заслонкой",
+          "source_model": "AC12BQ.NSJR",
+          "catalog_model": "AC12BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC12BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081776/gallery/large09.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC12BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "4daa3e53f22aa8669fcd99e6b49a6e13f6d7b082f3f7318142164db65a70aab2",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9184/white-bbbe61f19325746a45.webp",
+          "thumb": "/assets/product-cards-20261117/images/9184/white-bbbe61f19325746a45-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC12BQ — внутренний блок крупным планом с правого торца",
+          "source_model": "AC12BQ.NSJR",
+          "catalog_model": "AC12BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC12BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081776/gallery/large13.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC12BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "bbbe61f19325746a456ce10e8b3095538187939c67efbf43188ba46bd3f360b3",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9184/white-87f9c48b8e4392becd.webp",
+          "thumb": "/assets/product-cards-20261117/images/9184/white-87f9c48b8e4392becd-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AC12BQ — внутренний блок сверху под углом",
+          "source_model": "AC12BQ.NSJR",
+          "catalog_model": "AC12BQ",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-AC12BQ",
+          "image_url": "https://www.lg.com/ru/images/airconditioners-split-systems/md06081776/gallery/large14.jpg",
+          "model_evidence_url": "https://www.lg.com/ru/support/product/lg-AC12BQ.NSJR",
+          "model_evidence_note": "Российская карточка LG связывает эту галерею с внутренним блоком NSJR. Наружный блок UA3R требует подтверждённых оригиналов.",
+          "source_sha256": "87f9c48b8e4392becd31153de225888ccbdb3571c97ae8b14a08f34dcb1b1d0d",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "direct_images": [
+        {
+          "id": 9184,
+          "index": 1,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-de0ba540cfe8f9eafa.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 2,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-1fae3e88411d5beed4.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 3,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-4daa3e53f22aa8669f.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 4,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-bbbe61f19325746a45.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 5,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-87f9c48b8e4392becd.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        }
+      ],
+      "lightbox": [
+        {
+          "id": 9184,
+          "index": 1,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-de0ba540cfe8f9eafa.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 2,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-1fae3e88411d5beed4.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 3,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-4daa3e53f22aa8669f.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 4,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-bbbe61f19325746a45.webp",
+              1600,
+              1062
+            ]
+          ]
+        },
+        {
+          "id": 9184,
+          "index": 5,
+          "photos": [
+            [
+              "https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-87f9c48b8e4392becd.webp",
+              1600,
+              1062
+            ]
+          ]
+        }
+      ],
+      "hover": {
+        "id": 9184,
+        "url": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9184/",
+        "first": {
+          "position": "-187px -40.443px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-de0ba540cfe8f9eafa.webp\")"
+        },
+        "second": {
+          "position": "-365.25px -95.643px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9184/white-de0ba540cfe8f9eafa.webp\")"
+        }
+      },
+      "counts": {
+        "info": 1,
+        "photo": 5
+      },
+      "missing": "Для полной галереи нужны подтверждённые студийные кадры наружного блока AC12BQ.UA3R. В старой галерее был общий кадр 328 × 240 без подтверждённой маркировки.",
+      "manufacturer_source_note": "Пять разных заводских ракурсов внутреннего блока NSJR на белом фоне. У LG Russia одна и та же серия исходников опубликована в карточках обеих точных моделей.",
+      "outdoor_model_evidence_url": "https://lg-b2b.ru/upload/iblock/7fb/Rac_2022.pdf"
+    }
+  ]
+}
