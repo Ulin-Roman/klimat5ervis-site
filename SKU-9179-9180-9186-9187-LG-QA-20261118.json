@@ -1,0 +1,1034 @@
+{
+  "checked_at": "2026-11-18",
+  "baseline_commit": "b54ec8f5a677e786f44f12430082f879a078f442",
+  "items": [
+    {
+      "catalog_id": 9179,
+      "article": "311",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9179/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9179/white-e0f8fcf7f7d61dfcc8.webp",
+          "thumb": "/assets/product-cards-20261117/images/9179/white-e0f8fcf7f7d61dfcc8-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB09BK — внутренний блок спереди",
+          "source_model": "AB09BK.NSJR",
+          "catalog_model": "AB09BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ab09bk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07593919/gallery/large01.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB09BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "e0f8fcf7f7d61dfcc8ac8ff522728ac7f6d2b9968eef7b7f3a1b71a8405f52c7",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9179/white-45ca519368d9b738a0.webp",
+          "thumb": "/assets/product-cards-20261117/images/9179/white-45ca519368d9b738a0-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB09BK — внутренний блок слева снизу с открытой заслонкой",
+          "source_model": "AB09BK.NSJR",
+          "catalog_model": "AB09BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ab09bk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07593919/gallery/large06.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB09BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "45ca519368d9b738a019443239005303c6a7ad0bcc970526d621be0cfb96b0e6",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9179/white-37da77c276a4af4c89.webp",
+          "thumb": "/assets/product-cards-20261117/images/9179/white-37da77c276a4af4c89-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB09BK — внутренний блок сверху слева",
+          "source_model": "AB09BK.NSJR",
+          "catalog_model": "AB09BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ab09bk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07593919/gallery/large07.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB09BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "37da77c276a4af4c894e1b6427265543d60cc9f70c6ea687e48923e846497082",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9179/white-86adc1587ff46f28ca.webp",
+          "thumb": "/assets/product-cards-20261117/images/9179/white-86adc1587ff46f28ca-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB09BK — внутренний блок справа снизу с открытой заслонкой",
+          "source_model": "AB09BK.NSJR",
+          "catalog_model": "AB09BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ab09bk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07593919/gallery/large14.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB09BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "86adc1587ff46f28caa49fb75cec111e779e34a481b84dea3a5a56ee5be43e51",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9179/white-2c8f8de38b3339543a.webp",
+          "thumb": "/assets/product-cards-20261117/images/9179/white-2c8f8de38b3339543a-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB09BK — внутренний блок сверху справа",
+          "source_model": "AB09BK.NSJR",
+          "catalog_model": "AB09BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ab09bk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07593919/gallery/large15.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB09BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "2c8f8de38b3339543a462ec5421083f234b96ac048fb71093d67bd7bf600e6f2",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "old_images": [
+        "/assets/catalog-images-20261117/cd7da763f9ecccea4dcaa889ab7a2f30f298fda35557bebc1c93a7218f33685e.webp",
+        "/assets/catalog-images-20261117/cea833ef35640067d21beb06facc7e0c385df594d18e30f81f4e2c56967d8319.webp",
+        "/assets/catalog-images-20261117/88577cec5aa2961e0845344cd7667aa8f5887f3487cd48a3ccbe39bc266a1250.webp"
+      ],
+      "direct": [
+        {
+          "sku": 9179,
+          "index": 1,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-e0f8fcf7f7d61dfcc8.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 2,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-45ca519368d9b738a0.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 3,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-37da77c276a4af4c89.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 4,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-86adc1587ff46f28ca.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 5,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-2c8f8de38b3339543a.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        }
+      ],
+      "lightbox": [
+        {
+          "sku": 9179,
+          "index": 1,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-e0f8fcf7f7d61dfcc8.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 2,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-45ca519368d9b738a0.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 3,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-37da77c276a4af4c89.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 4,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-86adc1587ff46f28ca.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9179,
+          "index": 5,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-2c8f8de38b3339543a.webp",
+            1600,
+            1062
+          ]
+        }
+      ],
+      "hover": {
+        "sku": 9179,
+        "url": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9179/",
+        "before": {
+          "position": "-199.65px -64.593px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-e0f8fcf7f7d61dfcc8.webp\")"
+        },
+        "after": {
+          "position": "-346.85px -105.993px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9179/white-e0f8fcf7f7d61dfcc8.webp\")"
+        }
+      },
+      "counts": {
+        "photo": 5,
+        "info": 1,
+        "diagram": 0
+      },
+      "missing": "Для полного комплекта требуются подтверждённые студийные фото наружного блока AB09BK.UA3R. В прежней галерее были только три кадра внутреннего блока."
+    },
+    {
+      "catalog_id": 9180,
+      "article": "295",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9180/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9180/white-be19075779abd4a3c6.webp",
+          "thumb": "/assets/product-cards-20261117/images/9180/white-be19075779abd4a3c6-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB12BK — внутренний блок спереди",
+          "source_model": "AB12BK.NSJR",
+          "catalog_model": "AB12BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/kz/air-conditioner/ab12bk/",
+          "image_url": "https://www.lg.com/content/dam/channel/wcms/kz/images/domestic-air-conditioning/ab12bk_nsjr_erok_kz_c/gallery/Z01_large01.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB12BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "be19075779abd4a3c6426dd4b2dc4d4d346dfb1a6f2ceb55f5c4a5dbc9d9723e",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9180/white-ba1ff18a034ee68029.webp",
+          "thumb": "/assets/product-cards-20261117/images/9180/white-ba1ff18a034ee68029-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB12BK — внутренний блок слева с открытой заслонкой",
+          "source_model": "AB12BK.NSJR",
+          "catalog_model": "AB12BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/kz/air-conditioner/ab12bk/",
+          "image_url": "https://www.lg.com/content/dam/channel/wcms/kz/images/domestic-air-conditioning/ab12bk_nsjr_erok_kz_c/gallery/Z06_large06.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB12BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "ba1ff18a034ee68029278bf0a77ea1e4c160011979e6b97973dbadda6bed73bf",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9180/white-f97d9d2103039ca0fa.webp",
+          "thumb": "/assets/product-cards-20261117/images/9180/white-f97d9d2103039ca0fa-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB12BK — внутренний блок сверху слева",
+          "source_model": "AB12BK.NSJR",
+          "catalog_model": "AB12BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/kz/air-conditioner/ab12bk/",
+          "image_url": "https://www.lg.com/content/dam/channel/wcms/kz/images/domestic-air-conditioning/ab12bk_nsjr_erok_kz_c/gallery/Z09_large09.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB12BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "f97d9d2103039ca0fadb81bc909ea2860ab4e155ded5315ef28cfb74b05e5246",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9180/white-a44748c58e88c7bb67.webp",
+          "thumb": "/assets/product-cards-20261117/images/9180/white-a44748c58e88c7bb67-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB12BK — внутренний блок справа снизу с открытой заслонкой",
+          "source_model": "AB12BK.NSJR",
+          "catalog_model": "AB12BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/kz/air-conditioner/ab12bk/",
+          "image_url": "https://www.lg.com/content/dam/channel/wcms/kz/images/domestic-air-conditioning/ab12bk_nsjr_erok_kz_c/gallery/Z15_large015.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB12BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "a44748c58e88c7bb67a0ada8ff50e433ad9ca0045551d3c8b7291d1ecf3caf16",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9180/white-5c7680092c10aa1f57.webp",
+          "thumb": "/assets/product-cards-20261117/images/9180/white-5c7680092c10aa1f57-thumb.webp",
+          "width": 1600,
+          "height": 1062,
+          "alt": "LG AB12BK — внутренний блок сверху справа",
+          "source_model": "AB12BK.NSJR",
+          "catalog_model": "AB12BK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/kz/air-conditioner/ab12bk/",
+          "image_url": "https://www.lg.com/content/dam/channel/wcms/kz/images/domestic-air-conditioning/ab12bk_nsjr_erok_kz_c/gallery/Z11_large011.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AB12BK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "5c7680092c10aa1f57dea492ece26b3bf3573b71de38ccca01d30224189b8cec",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "old_images": [
+        "/assets/catalog-images-20261117/52f10d5b06ee36cbb68eaa619ae2e1ebd0c1fb586d131770d1c90331ed6e7f28.webp",
+        "/assets/catalog-images-20261117/7c6f6d0620c15158c3c73eb8f3639f86168bf6183921dfde03e0b327761fd266.webp",
+        "/assets/catalog-images-20261117/da1b7cd339d346a4addd99a9ab5880b238ad78c4e6cb75e50dd75d4fd0466ef7.webp"
+      ],
+      "direct": [
+        {
+          "sku": 9180,
+          "index": 1,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-be19075779abd4a3c6.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 2,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-ba1ff18a034ee68029.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 3,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-f97d9d2103039ca0fa.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 4,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-a44748c58e88c7bb67.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 5,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-5c7680092c10aa1f57.webp",
+          "size": [
+            1600,
+            1062
+          ]
+        }
+      ],
+      "lightbox": [
+        {
+          "sku": 9180,
+          "index": 1,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-be19075779abd4a3c6.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 2,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-ba1ff18a034ee68029.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 3,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-f97d9d2103039ca0fa.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 4,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-a44748c58e88c7bb67.webp",
+            1600,
+            1062
+          ]
+        },
+        {
+          "sku": 9180,
+          "index": 5,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-5c7680092c10aa1f57.webp",
+            1600,
+            1062
+          ]
+        }
+      ],
+      "hover": {
+        "sku": 9180,
+        "url": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9180/",
+        "before": {
+          "position": "-181.25px -61.143px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-be19075779abd4a3c6.webp\")"
+        },
+        "after": {
+          "position": "-346.85px -105.993px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9180/white-be19075779abd4a3c6.webp\")"
+        }
+      },
+      "counts": {
+        "photo": 5,
+        "info": 1,
+        "diagram": 0
+      },
+      "missing": "Для полного комплекта требуются подтверждённые студийные фото наружного блока AB12BK.UA3R. В прежней галерее были только три кадра внутреннего блока."
+    },
+    {
+      "catalog_id": 9186,
+      "article": "1082",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9186/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9186/white-535749cbf91313e460.webp",
+          "thumb": "/assets/product-cards-20261117/images/9186/white-535749cbf91313e460-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP09RK — внутренний блок спереди",
+          "source_model": "AP09RK.NSJR",
+          "catalog_model": "AP09RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap09rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599040/gallery/N01_D01.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP09RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "535749cbf91313e4602f861a29ef1a7391b43affbb3810f6365a46d01f1ca255",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9186/white-b704b3ad38155f3acf.webp",
+          "thumb": "/assets/product-cards-20261117/images/9186/white-b704b3ad38155f3acf-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP09RK — внутренний блок справа с открытой заслонкой",
+          "source_model": "AP09RK.NSJR",
+          "catalog_model": "AP09RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap09rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599040/gallery/N04_D04.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP09RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "b704b3ad38155f3acfca75013c0773b40ee1800a12f68eefef34a04e87df9bb5",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9186/white-39ad20839b686f6c46.webp",
+          "thumb": "/assets/product-cards-20261117/images/9186/white-39ad20839b686f6c46-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP09RK — внутренний блок слева снизу с открытой заслонкой",
+          "source_model": "AP09RK.NSJR",
+          "catalog_model": "AP09RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap09rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599040/gallery/N07_D07.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP09RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "39ad20839b686f6c469cf7d0efdc067ec39aeaa49d4d4dd79bfa2e86ec34f1af",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9186/white-e8b806f2b5d5e50003.webp",
+          "thumb": "/assets/product-cards-20261117/images/9186/white-e8b806f2b5d5e50003-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP09RK — внутренний блок сверху под углом",
+          "source_model": "AP09RK.NSJR",
+          "catalog_model": "AP09RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap09rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599040/gallery/N08_D08.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP09RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "e8b806f2b5d5e50003b42aecd1a1430a2fbbb123a999ea3474a28e600acf9f01",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9186/white-ec3888a718b27ec49b.webp",
+          "thumb": "/assets/product-cards-20261117/images/9186/white-ec3888a718b27ec49b-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP09RK — внутренний блок с правого торца с датчиком качества воздуха",
+          "source_model": "AP09RK.NSJR",
+          "catalog_model": "AP09RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap09rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599040/gallery/N09_D09.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP09RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "ec3888a718b27ec49bf94ae9f51086765c7754dae1ebf38100ac95c847450ec5",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "old_images": [
+        "/assets/catalog-images-20261117/d0c769ec69daa8a349250045ace59863e66435aee5f611c6afc4435a59e4e632.webp",
+        "/assets/catalog-images-20261117/7ec96a6a367c20282aa42f066bf1f0a50c1be357bbaa5162bada3b9ef0c5b647.webp",
+        "/assets/catalog-images-20261117/7081e5578d8c8679873f35ba7fa7f17917c86f1b6ad5ad8047e171b62b074e95.webp"
+      ],
+      "direct": [
+        {
+          "sku": 9186,
+          "index": 1,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-535749cbf91313e460.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 2,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-b704b3ad38155f3acf.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 3,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-39ad20839b686f6c46.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 4,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-e8b806f2b5d5e50003.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 5,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-ec3888a718b27ec49b.webp",
+          "size": [
+            1100,
+            730
+          ]
+        }
+      ],
+      "lightbox": [
+        {
+          "sku": 9186,
+          "index": 1,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-535749cbf91313e460.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 2,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-b704b3ad38155f3acf.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 3,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-39ad20839b686f6c46.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 4,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-e8b806f2b5d5e50003.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9186,
+          "index": 5,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-ec3888a718b27ec49b.webp",
+            1100,
+            730
+          ]
+        }
+      ],
+      "hover": {
+        "sku": 9186,
+        "url": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9186/",
+        "before": {
+          "position": "-199.65px -65.6827px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-535749cbf91313e460.webp\")"
+        },
+        "after": {
+          "position": "-346.85px -105.933px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9186/white-535749cbf91313e460.webp\")"
+        }
+      },
+      "counts": {
+        "photo": 5,
+        "info": 1,
+        "diagram": 0
+      },
+      "missing": "Для полного комплекта требуются подтверждённые студийные фото наружного блока AP09RK.UA3R. В прежней галерее были только три кадра внутреннего блока."
+    },
+    {
+      "catalog_id": 9187,
+      "article": "1217",
+      "page": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9187/",
+      "images": [
+        {
+          "src": "/assets/product-cards-20261117/images/9187/white-535749cbf91313e460.webp",
+          "thumb": "/assets/product-cards-20261117/images/9187/white-535749cbf91313e460-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP12RK — внутренний блок спереди",
+          "source_model": "AP12RK.NSJR",
+          "catalog_model": "AP12RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap12rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599051/gallery/N01_D01.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP12RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "535749cbf91313e4602f861a29ef1a7391b43affbb3810f6365a46d01f1ca255",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9187/white-b704b3ad38155f3acf.webp",
+          "thumb": "/assets/product-cards-20261117/images/9187/white-b704b3ad38155f3acf-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP12RK — внутренний блок справа с открытой заслонкой",
+          "source_model": "AP12RK.NSJR",
+          "catalog_model": "AP12RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap12rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599051/gallery/N04_D04.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP12RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "b704b3ad38155f3acfca75013c0773b40ee1800a12f68eefef34a04e87df9bb5",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9187/white-624af10856766de1ff.webp",
+          "thumb": "/assets/product-cards-20261117/images/9187/white-624af10856766de1ff-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP12RK — внутренний блок слева снизу с открытой заслонкой",
+          "source_model": "AP12RK.NSJR",
+          "catalog_model": "AP12RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap12rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599051/gallery/N07_D07.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP12RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "624af10856766de1ffe972d084b37903f48b1269eabe589df527c8600315c04d",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9187/white-56dc89bf6f63647acf.webp",
+          "thumb": "/assets/product-cards-20261117/images/9187/white-56dc89bf6f63647acf-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP12RK — внутренний блок сверху под углом",
+          "source_model": "AP12RK.NSJR",
+          "catalog_model": "AP12RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap12rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599051/gallery/N08_D08.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP12RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "56dc89bf6f63647acf69b2b1f1e020e7ae5edec29163c85ab4f6eb6a0e355545",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "src": "/assets/product-cards-20261117/images/9187/white-ec3888a718b27ec49b.webp",
+          "thumb": "/assets/product-cards-20261117/images/9187/white-ec3888a718b27ec49b-thumb.webp",
+          "width": 1100,
+          "height": 730,
+          "alt": "LG AP12RK — внутренний блок с правого торца с датчиком качества воздуха",
+          "source_model": "AP12RK.NSJR",
+          "catalog_model": "AP12RK",
+          "source_type": "manufacturer_catalog",
+          "source_url": "https://www.lg.com/ru/air-conditioners-split-systems/lg-ap12rk",
+          "image_url": "https://www.lg.com/ru/images/air-conditioners-split-systems/md07599051/gallery/N09_D09.jpg",
+          "model_evidence_url": "https://lg-b2b.ru/upload/iblock/a1a/m85kzc9d6oeamz4aggkuz7qmgex2xs3f/Rac_2024_low-03.09.24.pdf",
+          "model_evidence_note": "Пять ракурсов из официальной галереи AP12RK. Уточнение по российскому комплекту: фотографии подтверждают внутренний блок; студийные исходники наружного блока требуются отдельно.",
+          "source_sha256": "ec3888a718b27ec49bf94ae9f51086765c7754dae1ebf38100ac95c847450ec5",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "old_images": [
+        "/assets/catalog-images-20261117/e35aad47ef9aa208aa5bc95ad79e2f8a3d83d8670ba396b91c6ee9e0d170b7c8.webp",
+        "/assets/catalog-images-20261117/9a73423153444b0be7d1ae4c346cc7c84b365def0c20acc56c07c46cb3ceadba.webp",
+        "/assets/catalog-images-20261117/c0e12f662c86354eeb6e55c1b6849315b32e114de58c8d0fc661ce04ef08af20.webp"
+      ],
+      "direct": [
+        {
+          "sku": 9187,
+          "index": 1,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-535749cbf91313e460.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 2,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-b704b3ad38155f3acf.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 3,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-624af10856766de1ff.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 4,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-56dc89bf6f63647acf.webp",
+          "size": [
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 5,
+          "url": "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-ec3888a718b27ec49b.webp",
+          "size": [
+            1100,
+            730
+          ]
+        }
+      ],
+      "lightbox": [
+        {
+          "sku": 9187,
+          "index": 1,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-535749cbf91313e460.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 2,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-b704b3ad38155f3acf.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 3,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-624af10856766de1ff.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 4,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-56dc89bf6f63647acf.webp",
+            1100,
+            730
+          ]
+        },
+        {
+          "sku": 9187,
+          "index": 5,
+          "photo": [
+            "https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-ec3888a718b27ec49b.webp",
+            1100,
+            730
+          ]
+        }
+      ],
+      "hover": {
+        "sku": 9187,
+        "url": "https://klimat5ervis.ru/category/nastennye-split-sistemy/9187/",
+        "before": {
+          "position": "-181.25px -61.0827px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-535749cbf91313e460.webp\")"
+        },
+        "after": {
+          "position": "-365.25px -110.533px",
+          "scale": "2.150",
+          "source": "url(\"https://klimat5ervis.ru/assets/product-cards-20261117/images/9187/white-535749cbf91313e460.webp\")"
+        }
+      },
+      "counts": {
+        "photo": 5,
+        "info": 1,
+        "diagram": 0
+      },
+      "missing": "Для полного комплекта требуются подтверждённые студийные фото наружного блока AP12RK.UA3R. В прежней галерее были только три кадра внутреннего блока."
+    }
+  ],
+  "source_gaps": [
+    {
+      "catalog_id": 9256,
+      "source": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/infini-nordic-heat-pump/invertornaja_split-sistema_infini_nordic_heat_pump_mdsan-09hrfn8_mdoan-09hfn8/",
+      "reason": "В выгрузке MDV все три кадра наружного блока совпадают по SHA-256 у MDOAN-09HFN8 и MDOOPS-09HFN8, хотя паспортные габариты различаются (765 × 555 × 303 и 805 × 554 × 330 мм). Нужны подтверждённые фото наружного блока точной версии и недостающие ракурсы внутреннего.",
+      "archive": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+      "ambiguous_outdoor_asset_pairs": [
+        {
+          "files": [
+            "a3co88by1hs4a6uxy47touyyd5ywf0k5.png",
+            "hii2y5zklweo6sw3zk5knpwlfvoar0ax.png"
+          ],
+          "sha256": "8b4f9ada1dba75eab02133a645376b85ceb7753ff1bded9870567791636bbde3"
+        },
+        {
+          "files": [
+            "q6cwcnx8jx9u21i161lgewxet998a3xx.png",
+            "9vipuudwm9w17qol300s1vwylcxsy9sf.png"
+          ],
+          "sha256": "099510f138a5e0cc9196160c092ee2de57edbbc0209dc06964b3ce7f3c004a85"
+        },
+        {
+          "files": [
+            "fyu07gqnqdcz15uo4kmt0f2zihcg4kj2.png",
+            "w4b4youdtwh60vye3895wh5vzkziemnc.png"
+          ],
+          "sha256": "11c9cf66b267089a0aafa4116429cc921e730959867d2e5b5c73186b0c0aa67d"
+        }
+      ]
+    },
+    {
+      "catalog_id": 9264,
+      "source": "https://mdv-aircond.ru/catalog/bytovye-split-sistemy/invertornye-split-sistemy/op-smart-heat-pump/invertornaja_split-sistema_op_smart_heat_pump_mdsops-09hrfn8_mdoops-09hfn8/",
+      "reason": "В выгрузке MDV все три кадра наружного блока совпадают по SHA-256 у MDOAN-09HFN8 и MDOOPS-09HFN8, хотя паспортные габариты различаются (765 × 555 × 303 и 805 × 554 × 330 мм). Нужны подтверждённые фото наружного блока точной версии и недостающие ракурсы внутреннего.",
+      "archive": "https://mdv-aircond.ru/upload/export/bytovye-split-sistemy_export.tar.gz",
+      "ambiguous_outdoor_asset_pairs": [
+        {
+          "files": [
+            "a3co88by1hs4a6uxy47touyyd5ywf0k5.png",
+            "hii2y5zklweo6sw3zk5knpwlfvoar0ax.png"
+          ],
+          "sha256": "8b4f9ada1dba75eab02133a645376b85ceb7753ff1bded9870567791636bbde3"
+        },
+        {
+          "files": [
+            "q6cwcnx8jx9u21i161lgewxet998a3xx.png",
+            "9vipuudwm9w17qol300s1vwylcxsy9sf.png"
+          ],
+          "sha256": "099510f138a5e0cc9196160c092ee2de57edbbc0209dc06964b3ce7f3c004a85"
+        },
+        {
+          "files": [
+            "fyu07gqnqdcz15uo4kmt0f2zihcg4kj2.png",
+            "w4b4youdtwh60vye3895wh5vzkziemnc.png"
+          ],
+          "sha256": "11c9cf66b267089a0aafa4116429cc921e730959867d2e5b5c73186b0c0aa67d"
+        }
+      ]
+    },
+    {
+      "catalog_id": 7224,
+      "source": "https://dantex.ru/products/home/split-rk-09smi/",
+      "reason": "Официальная карточка Dantex Moon содержит пять файлов, включая два кадра пульта. Размеры оригиналов блоков 664 × 511 и 600 × 449. Для галереи требуются дополнительные ракурсы блоков в более высоком разрешении. Скачивание заводского архива 115,1 МБ в текущем сеансе не завершилось.",
+      "archive_index": "https://dantex.ru/partners/lib/photo/",
+      "public_originals": [
+        {
+          "id": 7224,
+          "url": "https://dantex.ru/upload/iblock/1ba/ttoonrsayrqsv0m2qijc0t1bq3dhy6bb/moon_smi.jpg",
+          "size": [
+            600,
+            449
+          ]
+        },
+        {
+          "id": 7224,
+          "url": "https://dantex.ru/upload/iblock/6c4/moon_pult2.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7224,
+          "url": "https://dantex.ru/upload/iblock/76e/v4yi4dzkqmgib6twgr57xbzy816gdlj4/moon.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7224,
+          "url": "https://dantex.ru/upload/iblock/ddb/moon_vnesh.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7224,
+          "url": "https://dantex.ru/upload/iblock/ee0/moon_pult.jpg",
+          "size": [
+            664,
+            511
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_id": 7225,
+      "source": "https://dantex.ru/products/home/split-rk-12smi/",
+      "reason": "Официальная карточка Dantex Moon содержит пять файлов, включая два кадра пульта. Размеры оригиналов блоков 664 × 511 и 600 × 449. Для галереи требуются дополнительные ракурсы блоков в более высоком разрешении. Скачивание заводского архива 115,1 МБ в текущем сеансе не завершилось.",
+      "archive_index": "https://dantex.ru/partners/lib/photo/",
+      "public_originals": [
+        {
+          "id": 7225,
+          "url": "https://dantex.ru/upload/iblock/023/moon_pult2.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7225,
+          "url": "https://dantex.ru/upload/iblock/2d3/moon_vnesh.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7225,
+          "url": "https://dantex.ru/upload/iblock/7a7/59b4qidh8ha40jnlhio8372x3hjb4ub2/moon.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7225,
+          "url": "https://dantex.ru/upload/iblock/8a6/op0vumbtm3klcn0nlplgl6z7u1qmnxrm/moon_smi.jpg",
+          "size": [
+            600,
+            449
+          ]
+        },
+        {
+          "id": 7225,
+          "url": "https://dantex.ru/upload/iblock/b0e/moon_pult.jpg",
+          "size": [
+            664,
+            511
+          ]
+        }
+      ]
+    },
+    {
+      "catalog_id": 7226,
+      "source": "https://dantex.ru/products/home/split-rk-18smi/",
+      "reason": "Официальная карточка Dantex Moon содержит пять файлов, включая два кадра пульта. Размеры оригиналов блоков 664 × 511 и 600 × 449. Для галереи требуются дополнительные ракурсы блоков в более высоком разрешении. Скачивание заводского архива 115,1 МБ в текущем сеансе не завершилось.",
+      "archive_index": "https://dantex.ru/partners/lib/photo/",
+      "public_originals": [
+        {
+          "id": 7226,
+          "url": "https://dantex.ru/upload/iblock/617/ulkox6ksiwlvot9py8ul61naxydv9blc/moon_smi.jpg",
+          "size": [
+            600,
+            449
+          ]
+        },
+        {
+          "id": 7226,
+          "url": "https://dantex.ru/upload/iblock/76a/moon_vnesh.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7226,
+          "url": "https://dantex.ru/upload/iblock/83f/moon_pult2.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7226,
+          "url": "https://dantex.ru/upload/iblock/b2f/8k9r5qm7bbx11iqb56bf4sopnm1029w3/moon.jpg",
+          "size": [
+            664,
+            511
+          ]
+        },
+        {
+          "id": 7226,
+          "url": "https://dantex.ru/upload/iblock/bb3/moon_pult.jpg",
+          "size": [
+            664,
+            511
+          ]
+        }
+      ]
+    }
+  ]
+}
